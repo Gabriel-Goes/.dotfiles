@@ -1,0 +1,1 @@
+/home/ggrl/.local/bin/Projeto_PreditorTerra.sh
