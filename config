@@ -4,15 +4,16 @@
 # this file and re-run i3-config-wizard(1).
 # i3 config file (v4)
 exec --no-startup-id dex -ae i3
+# screen time out
+exec --no-startup-id xset dpms 600 600 600
 floating_modifier $mod
-# Configure a Fonte SauceCodePro Nerd Font
-font pango: SauceCodePro Nerd Font 10
+font pango: hermit 10
 for_window [class="^.*"] border pixel 0
 set $mod Mod4
 set $refresh_i3status killall -SIGUSR1 i3status
 # add i3-gaps
-gaps inner 5
-gaps outer 5
+gaps inner 3
+gaps outer 3
 # smart_gaps on
 # keyboard shortcu to play and pause music in spotify
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +5% && $refresh_i3status
@@ -32,12 +33,13 @@ bindsym $mod+XF86Tools exec --no-startup-id discord
 bindsym Print exec --no-startup-id 'screenshot.sh'
 # Aciona script
 # Ambiente de trabalho - Predito Terra
-bindsym XF86Calculator exec --no-startup-id 'Projeto_PreditorTerra.sh' && bindsym $mod+2 workspace number 2; rename workspace to $ws2
-bindsym XF86Explorer exec --no-startup-id 'Zettelkasten.sh' && bindsym $mod+6 workspace number 6; rename workspace to $ws2
+bindsym $mod+XF86AudioStop exec --no-startup-id 'Projeto_PreditorTerra.sh' && bindsym $mod+2 workspace number 2; rename workspace to $ws2
+bindsym $mod+XF86AudioPrev exec --no-startup-id 'Zettelkasten.sh' && bindsym $mod+6 workspace number 6; rename workspace to $ws2
 bindsym $mod+XF86Calculator exec --no-startup-id 'Projeto_ZettelVim.sh' && bindsym $mod+2 workspace number 2; rename workspace to $ws2
 bindsym $mod+F1 exec --no-startup-id 'Postgre.sh' && bindsym $mod+1 workspace number 1; rename workspace to $ws1
-bindsym XF86Mail exec --no-startup-id 'PreditorTerra.sh'
+bindsym $mod+F5 exec --no-startup-id 'PreditorTerra.sh'
 bindsym $mod+F12 exec --no-startup-id 'rjupy.sh'
+bindsym $mod+F8 exec --no-startup-id 'Projetos.sh' && bindsym $mod+2 workspace number 2; rename workspace to $ws2
 
 bindsym $mod+Return exec alacritty -e tmux
 bindsym $mod+Shift+q kill
@@ -124,13 +126,13 @@ mode "resize" {
 }
 bindsym $mod+r mode "resize"
 bar {
-        font pango: SauceCodePro Nerd Font 10
+        font pango: hermit 10
         status_command i3status -c ~/.config/i3/i3status/primary_config
         output DVI-D-0
         tray_output none
 }
 bar {
-        font pango: SauceCodePro Nerd Font 10
+        font pango: hermit 10
         status_command i3status -c ~/.config/i3/i3status/second_config
         output DP-0
         tray_output DP-0
