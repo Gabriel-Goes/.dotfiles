@@ -1,0 +1,12 @@
+#!/bin/bash
+#
+if [[ -z $STOW_FOLDERS ]]; then
+    STOW_FOLDERS="alacritty bin i3 nvim obs-studio picom tmux"
+fi
+
+if [[ -z $DOTFILES ]]; then
+    DOTFILES=$HOME/.dotfiles
+fi
+
+STOW_FOLDERS=$STOW_FOLDERS DOTFILES=$DOTFILES $DOTFILES/install
+

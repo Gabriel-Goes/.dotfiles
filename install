@@ -1,0 +1,17 @@
+#!/bin/bash
+#
+# Gabriel Góes Rocha de Lima
+# 2013-04-27
+#
+# Baseado no .dotfiles de ThePrimeagen/.dotfiles
+# 
+pushd $DOTFILES
+for folder in $(echo $STOW_FOLDERS)
+do
+    mkdir -p $HOME/.config/$folder
+    echo "stow $folder"
+    stow -D $folder
+    stow -t $HOME/.config/$folder $folder
+done
+popd
+

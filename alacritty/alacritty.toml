@@ -1,0 +1,22 @@
+[shell]
+program='/bin/bash'
+# args=['-l']
+
+[font]
+normal = { family = "OpenDyslexicM Nerd Font Mono", style = "Mono" }
+bold = { family = "OpenDyslexicM Nerd Font Mono", style = "Mono" }
+italic = { family = "OpenDyslexicM Nerd Font Mono", style = "Mono" }
+bold_italic = { family = "OpenDyslexicM Nerd Font Mono", style = "Mono" }
+size = 7
+
+[cursor]
+style = {shape = 'Block',blinking = 'Off'}
+thickness = 1.0
+
+[mouse]
+hide_when_typing = true
+
+[window]
+opacity = 0.95
+decorations = 'Full'
+padding = { x = 0, y = 0 }
