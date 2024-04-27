@@ -1,0 +1,1 @@
+/home/ggrl/.bash_aliases
