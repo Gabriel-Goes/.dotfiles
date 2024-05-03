@@ -97,40 +97,50 @@ local plugins = {
 --    'glepnir/dashboard-nvim',
 --    'mhinz/vim-startify',
    { 'goolord/alpha-nvim',
+       dependencies = {
+           'nvim-tree/nvim-web-devicons',
+           'nvim-lua/plenary.nvim',
+       },
        config = function()
-           require'alpha'.setup(require'alpha.themes.startify'.config)
+           require'alpha'.setup(require'alpha.themes.dashboard'.config)
        end
     },
 -- UML plugin
     'javiorfo/nvim-soil',
     'javiorfo/nvim-nyctophilia',
     'aklt/plantuml-syntax',
+-- ZettelVim
+   -- 'Gabriel-Goes/ZettelVim',
 --  File Explorer
-   {'nvim-neo-tree/neo-tree.nvim',
+    -- 'nvim-tree/nvim-tree.lua',
+    -- 'nvim-tree/nvim-web-devicons',
+   {
+   'nvim-neo-tree/neo-tree.nvim',
     branch = "v3.x",
     dependencies= {
       "nvim-lua/plenary.nvim",
       "nvim-tree/nvim-web-devicons", -- not strictly required, but recommended
       "MunifTanjim/nui.nvim",
-      "3rd/image.nvim", -- Optional image support in preview window: See `# Preview Mode` for more information
-      {'s1n7ax/nvim-window-picker',
-          version = '2.*',
-          config = function()
-              require 'window-picker'.setup({
-                  filter_rules = {
-                      include_current_win = false,
-                      autoselect_one = true,
-                      -- filter using buffer options
-                      bo = {
-                          -- if the file type is one of following, the window will be ignored
-                          filetype = { 'neo-tree', "neo-tree-popup", "notify" },
-                          -- if the buffer type is one of following, the window will be ignored
-                          buftype = { 'terminal', "quickfix" },
-                      },
-                  },
-              })
-          end,
-        },
+      -- "3rd/image.nvim", -- Optional image support in preview window: See `# Preview Mode` for more information
+      {
+        's1n7ax/nvim-window-picker',
+        version = '2.*',
+        config = function()
+            require 'window-picker'.setup({
+                filter_rules = {
+                    include_current_win = false,
+                    autoselect_one = true,
+                    -- filter using buffer options
+                    bo = {
+                        -- if the file type is one of following, the window will be ignored
+                        filetype = { 'neo-tree', "neo-tree-popup", "notify" },
+                        -- if the buffer type is one of following, the window will be ignored
+                        buftype = { 'terminal', "quickfix" },
+                    },
+            },
+        })
+        end,
+      },
     },
     config = function ()
       -- If you want icons for diagnostic errors, you'll need to define them somewhere:
@@ -243,6 +253,16 @@ local plugins = {
             nowait = true,
           },
           mappings = {
+            -- Execute tar -xvf on the current buffer file if its a .tar.gz
+            ['F5'] = function(state)
+              local node = state.tree:get_node()
+              if node then
+                local path = node.absolute_path
+                if path:match("%.tar%.gz$") then
+                  vim.cmd("silent !tar -xvf " .. path)
+                end
+              end
+            end,
             ["<space>"] = {
                 "toggle_node",
                 nowait = false, -- disable `nowait` if you have existing combos starting with this char that you want to use 
@@ -336,6 +356,7 @@ local plugins = {
                                           -- instead of relying on nvim autocmd events.
           window = {
             mappings = {
+              ['O'] = 'system_open',
               ["<bs>"] = "navigate_up",
               ["."] = "set_root",
               ["H"] = "toggle_hidden",
@@ -366,7 +387,13 @@ local plugins = {
             },
           },
 
-          commands = {} -- Add a custom command or override a global one using the same function name
+          commands = {
+            system_open = function(state)
+                local node = state.tree:get_node()
+                local path = node:get_id()
+                vim.fn.jobstart({ 'xdg-open', path}, {detach = true})
+            end,
+                    } -- Add a custom command or override a global one using the same function name
         },
         buffers = {
           follow_current_file = {
@@ -425,7 +452,8 @@ local plugins = {
         build = function() vim.fn["mkdp#util#install"]() end,
    },
 -- Github Copilot
-   'github/copilot.vim',
+    'github/copilot.vim',
+
 }
 
 require('lazy').setup(plugins, opts)

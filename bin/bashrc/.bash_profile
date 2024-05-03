@@ -1,1 +1,0 @@
-/home/ggrl/.bash_profile

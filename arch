@@ -1,5 +1,8 @@
 #!/bin/bash
 #
+# Descrição : Script de instalação dos dotfiles
+#
+
 if [[ -z $STOW_FOLDERS ]]; then
     STOW_FOLDERS="alacritty bin i3 nvim obs-studio picom tmux"
 fi

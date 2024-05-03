@@ -7,7 +7,7 @@ vim.opt.hidden = false
 vim.opt.encoding = 'utf-8'
 vim.opt.fileencoding = 'utf-8'
 vim.opt.guicursor = ""
-vim.opt.guifont = 'Hermit:h12'
+vim.opt.guifont = 'opendyslexyc:h12'
 vim.o.cursorline = true
 vim.opt.nu = true
 vim.opt.relativenumber = true
@@ -37,6 +37,7 @@ vim.opt.shell = 'bash'
 vim.opt.shellcmdflag = '-c'
 vim.opt.shellredir = '>%s 2>&1'
 vim.opt.shellpipe = '2>&1| tee'
+
 -- Python-Mode Configurations
 vim.g.pymode_lint = 0
 vim.g.pymode_rope = 0

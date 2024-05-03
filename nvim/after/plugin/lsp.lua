@@ -84,8 +84,6 @@ for type, icon in pairs(signs) do
 end
 
 -- LSP CLIENTS
-local home_user = os.getenv('HOME')
-
 -------------- Lua_lsp
 require('lspconfig').lua_ls.setup{
     on_attach = on_attach,
@@ -157,6 +155,16 @@ require'lspconfig'.marksman.setup{
     filetypes = {"markdown"},
     settings = {
         marksman = {
+            enabled = true,
+        }
+    }
+}
+
+-------------- XML
+require'lspconfig'.lenminx.setup{
+    on_attach = on_attach,
+    settings = {
+        xml = {
             enabled = true,
         }
     }

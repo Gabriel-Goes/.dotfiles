@@ -1,5 +1,8 @@
 require('modicator').setup({
-    show_warnings = false,
+    showmode = {
+        enable = true,
+        hl = 'Comment',
+    },
     highlights = {
         defaults ={
             bold = false,
