@@ -1,0 +1,62 @@
+#!/bin/bash
+#
+# Este script removerá a extensão .sh de um arquivo caso o tenha.
+
+# O primeiro argumento é o path do diretório onde os arquvios estarão
+# Caso não seja passado, informa que o diretório atual será utilizado e pede 
+# confirmação para prosseguir.
+
+if [ -z $1 ]; then
+    echo "Nenhum diretório foi passado como argumento."
+    echo "O diretório atual será utilizado."
+    # Print o diretório atual
+    echo "Diretório atual: $(pwd)"
+    echo "Deseja prosseguir? (s/n)"
+    read resposta
+    if [ $resposta != "s" ]; then
+        echo "Operação cancelada."
+        exit 1
+    fi
+    diretorio=$(pwd)
+else
+    diretorio=$1
+fi
+
+# Verifica se o diretório passado como argumento existe
+if [ ! -d $diretorio ]; then
+    echo "O diretório $diretorio não existe."
+    exit 1
+fi
+
+# Verifica se o diretório passado como argumento é um diretório
+if [ ! -d $diretorio ]; then
+    echo "$diretorio não é um diretório."
+    exit 1
+else
+    echo "Diretório $diretorio encontrado."
+    echo "Deseja prosseguir? (s/n)"
+    read resposta
+    if [ $resposta != "s" ]; then
+        echo "Operação cancelada."
+        exit 1
+    fi
+fi
+
+# Lista os arquivos do diretório passado como argumento
+arquivos=$(ls $diretorio)
+
+# Itera sobre os arquivos do diretório
+for arquivo in $arquivos; do
+    # Verifica se o arquivo possui a extensão .sh
+    if [[ $arquivo == *?email=gabrielgoes@usp.br ]]; then
+        # Remove a extensão .sh do arquivo
+        novo_nome=$(echo $arquivo | sed 's/?email=gabrielgoes@usp.br//')
+        # Renomeia o arquivo
+        mv $diretorio/$arquivo $diretorio/$novo_nome
+        echo "Arquivo $arquivo renomeado para $novo_nome"
+    fi
+done
+
+exit 0
+
+# Fim

@@ -1,0 +1,3 @@
+#/bin/bash
+
+exec xwallpaper --focus ~/rice/wallpapers/shenzen-shi-google-earth-view-14402.jpg

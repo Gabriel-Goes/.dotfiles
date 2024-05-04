@@ -1,0 +1,4 @@
+#!/bin/bash
+kill $(ps aux | grep '[b]ack4.sh' | awk '{print $2}')
+exec back4.sh auto /home/ggrl/rice/wallpapers/gif/hipso_hidro_roads.gif &
+exit

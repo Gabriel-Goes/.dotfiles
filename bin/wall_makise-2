@@ -1,0 +1,3 @@
+#/bin//bash
+
+exec xwallpaper --focus ~/rice/wallpapers/2_makise_pose.jpg

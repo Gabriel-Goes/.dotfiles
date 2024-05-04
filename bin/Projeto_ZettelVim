@@ -1,0 +1,36 @@
+#!/bin/bash
+# create a bash script to navigate to project directory
+# open alacritty with tmux and execute geo alias
+# Then, open nvim at the project directory
+#
+# Usage: ./Projeto-Z.sh
+# Author: Gabriel Góes Rocha de Lima
+# Date: 2024-01-31
+# Version: 0.1.1
+# Description: This script will open alacritty with tmux and execute geo alias
+# Options: None
+
+SESSIONNAME="Projeto-Z"
+WINDOWNAME="Pojeto-Z"
+COMANDOS="cd ~/projetos/ZettelVim && vim ."
+
+# Checa se existe sessão chamada $SESSIONNAME
+if tmux has-session -t $SESSIONNAME 2>/dev/null; then
+    # Se existir, verifica se está attached
+    if ! tmux list-sessions -F "#{session_name}:#{session_attached}" | grep -q "^$SESSIONNAME:1$"; then
+        # Se não estiver attached, attach à sessão
+        alacritty -T $WINDOWNAME -e bash -c "tmux attach-session -t $SESSIONNAME"
+    else
+        # Se estiver attached, foca na janela com i3-wm
+        # Pega o workspace da janela $WINDOWNAME
+        WORKSPACE=$(i3-msg -t get_workspaces | jq '.[] | select(.name == "'$WINDOWNAME'") | .num')
+        # Foca no workspace e na janela
+        i3-msg workspace $WORKSPACE && i3-msg [title="$WINDOWNAME"] focus
+    fi
+else
+    # Se não existir, cria uma nova sessão
+    # Abre terminal com $WINDOWNAME com tmux $SESSIONNAME, executa $COMANDOS e attach à sessão
+    alacritty -T $WINDOWNAME -e bash -c "tmux new-session -s $SESSIONNAME -d &&
+        tmux send-keys -t $SESSIONNAME '$COMANDOS' C-m &&
+        tmux attach-session -t $SESSIONNAME"
+fi

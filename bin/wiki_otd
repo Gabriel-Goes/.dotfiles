@@ -1,0 +1,25 @@
+#!/bin/bash
+
+# On This Day, Wikipedia
+# Bash function to get the "On this day" section from Wikipedia main page with wget and awk
+# Obtém a seção "On this day" da Wikipedia
+wiki_otd() {
+    wget -qO- https://en.wikipedia.org/wiki/Main_Page | \
+    awk '
+        # Ativa a flag para começar a captura quando encontra o início da seção "On this day"
+        /<h2 id="mp-otd-h2"/ {flag=1; next}
+        # Desativa a flag após encontrar o fim da lista </ul>
+        flag && /<\/ul>/ {flag=0; print; next}
+        # Imprime as linhas enquanto a flag estiver ativa
+        flag {print}
+    ' | \
+    # Filtra fora linhas associadas a imagens
+    grep -v '<span typeof="mw:File">' | \
+    # Remove as tags HTML, deixando apenas o texto
+    sed -e 's/<[^>]*>//g' \
+        -e 's/^[ \t]*//' \
+        -e '/^$/d'
+}
+
+# Salva o conteúdo de wiki_otd em um arquivo
+wiki_otd > /tmp/wiki_otd.txt

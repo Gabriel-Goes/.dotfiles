@@ -1,0 +1,37 @@
+#!/bin/bash
+# create a bash script to navigate to project directory
+# open urxvt with tmux and execute geo alias
+# Then, open nvim at the project directory
+#
+# Usage: ./Projetos.sh
+# Author: Gabriel Góes Rocha de Lima
+# Date: 2024-03-29
+# Version: 0.1
+
+SESSION_NAME="Spotify_P"
+WINDOWNAME="Spotify_P"
+COMANDOS='spotify_player'
+
+# Entra no diretório do Projeto
+# cd $HOME/softwares/spotify-player
+
+# Checa se existe sessão chamada $SESSION_NAME
+if tmux has-session -t $SESSION_NAME 2>/dev/null; then
+    # Se existir, verifica se está attached
+    if ! tmux list-sessions -F "#{session_name}:#{session_attached}" | grep -q "^$SESSION_NAME:1$"; then
+        # Se não estiver attached, attach à sessão
+        alacritty --class $WINDOWNAME -e bash -c "tmux attach-session -t $SESSION_NAME"
+    else
+        # Se estiver attached, foca na janela com i3-wm
+        # Pega o workspace da janela $WINDOWNAME
+        WORKSPACE=$(i3-msg -t get_workspaces | jq '.[] | select(.name == "'$WINDOWNAME'") | .num')
+        # Foca no workspace e na janela
+        i3-msg workspace $WORKSPACE && i3-msg [class="$WINDOWNAME"] focus
+    fi
+else
+    # Se não existir, cria uma nova sessão
+    # Abre terminal com $WINDOWNAME com tmux $SESSION_NAME, executa $COMANDOS e attach à sessão
+    alacritty -T $WINDOWNAME -e bash -c "tmux new-session -s $SESSION_NAME -d &&
+        tmux send-keys -t $SESSION_NAME '$COMANDOS' C-m &&
+        tmux attach-session -t $SESSION_NAME"
+fi

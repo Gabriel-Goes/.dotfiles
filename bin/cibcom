@@ -1,0 +1,17 @@
+#!/bin/bash
+
+# Caminho para o ambiente virtual
+ENV_PATH=/home/ggrl/.config/geoenv
+
+# Ativa o ambiente virtual
+source $ENV_PATH/bin/activate
+
+# Caminho para o script
+SCRIPT=interface.py
+
+cd /home/ggrl/wip/Revolução/cibernetica_socialista
+
+python3 $SCRIPT
+
+# Desativa o ambiente virtual
+deactivate

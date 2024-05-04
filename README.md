@@ -6,5 +6,5 @@ de scripts para instalação e configuração do ambiente com git e stow.
 
 ## Uso
 ```bash
-./install.sh
+./arch
 ```

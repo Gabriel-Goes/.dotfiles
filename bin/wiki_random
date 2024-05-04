@@ -1,0 +1,46 @@
+#!/bin/bash
+# Function to get random article from Wikipedia
+# Obtém um artigo aleatório da Wikipedia
+# paragraph example:
+#<p><b>Anthonie de Lorme</b>
+#<sup id="cite_ref-1" class="reference"><a href="#cite_note-1">[1]</a></sup> (<a href="/wiki/Tournai" title="Tournai">Tournai</a> 1610 or between 1600 and 1605 – <a href="/wiki/Rotterdam" title="Rotterdam">Rotterdam</a>, 1673)<sup id="cite_ref-rkd_2-0" class="reference"><a href="#cite_note-rkd-2">[2]</a></sup> was a painter known for his depictions of interiors of existing or imaginary churches.<sup id="cite_ref-lied_3-0" class="reference"><a href="#cite_note-lied-3">[3]</a></sup>  Born in the <a href="/wiki/Spanish_Netherlands" title="Spanish Netherlands">Spanish Netherlands</a>, he spent his entire career in the <a href="/wiki/Dutch_Republic" title="Dutch Republic">Dutch Republic</a>.  He regularly collaborated with <a href="/wiki/Anthonie_Palamedesz." title="Anthonie Palamedesz.">Anthonie Palamedesz.</a> and <a href="/wiki/Ludolf_de_Jongh" title="Ludolf de Jongh">Ludolf de Jongh</a> who painted the staffage in his interior scenes.<sup id="cite_ref-rkd_2-1" class="reference"><a href="#cite_note-rkd-2">[2]</a></sup>
+# </p>
+#
+wiki_random() {
+    content=$(wget -qO- https://en.wikipedia.org/wiki/Special:Random)
+    # Extract title
+    title=$(echo "$content" | \
+        grep -oP '<title>.*</title>' | \
+        sed -e 's/<title>//' -e 's/ - Wikipedia<\/title>//'
+    )
+    # Extract the url of the article
+    url_title=$(echo "$title" | sed -e 's/ /_/g')
+    article_url="https://en.wikipedia.org/wiki/$url_title"
+
+    paragraph=$(echo "$content" | \
+                awk '{
+                    if ($0 ~ /<p>/ && $0 !~ /<p>\s*<\/p>/ && $0 !~ /<p class="mw-empty-elt">/) {
+                        sub(/.*<p>/, "<p>"); 
+                        print; 
+                        exit
+                    }
+                }' | \
+                sed -e 's/<sup.*<\/sup>//g' \
+                    -e 's/<[^>]*>//g' \
+                    -e 's/^[ \t]*//' \
+                    -e '/^$/d')
+    # Decodifica entidades HTML comuns
+    paragraph=$(echo "$paragraph" | \
+                sed -e 's/&amp;/\&/g' \
+                    -e 's/&#39;/'"'"'/g')
+    # Imprime o title em negrito
+    echo -e "\n\e[1m$title\e[0m"
+    echo -e "$paragraph\n"
+    echo -e "$article_url\n"
+}
+
+# Executa a função a cada 10 minutos
+while true; do
+    wiki_random > /tmp/wiki_random.txt 
+    sleep 600
+done

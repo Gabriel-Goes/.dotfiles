@@ -1,0 +1,4 @@
+#!/bin/bash
+exec xrandr --output DP-0 --mode 1024x768 --right-of DVI-D-0 &
+exit
+

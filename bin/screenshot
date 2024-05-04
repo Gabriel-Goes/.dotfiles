@@ -1,0 +1,4 @@
+#!/bin/bash
+DATE=$(date +%Y-%m-%d_%H-%M-%S)
+FILE="/home/ggrl/img/screenshots/${DATE}_screenshot.png"
+xfce4-screenshooter -r -s "$FILE" && xclip -selection clipboard -t image/png -i "$FILE"

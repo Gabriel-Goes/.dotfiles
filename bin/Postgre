@@ -1,0 +1,24 @@
+#!/bin/bash
+# Autor: Gabriel Góes Rocha de Lima
+# Script para acessar o PostgreSQL com tmux no terminal alacritty
+# Nome da sessão tmux
+SESSION_NAME="󰇧_Postgre"
+TERM_TITLE="󰇧_Postgre"
+COMANDO="if ! systemctl is-active --quiet postgresql; then sudo systemctl start postgresql; fi && sudo -u postgres psql"
+
+if ! tmux has-session -t $SESSION_NAME 2>/dev/null; then
+    # Se não existir a sessão, cria a nova sessão com o alacritty e executa o comando
+    alacritty -T $TERM_TITLE -e bash -c "tmux new-session -s $SESSION_NAME -d &&
+        tmux send-keys -t $SESSION_NAME '$COMANDO' C-m &&
+        tmux send-keys -t $SESSION_NAME '\c geodatabase "admin-ggrl"' C-m &&
+        tmux attach-session -t $SESSION_NAME"
+else
+    # Se a sessão existir, verifica se está attached
+    if ! tmux list-sessions -F '#{session_name}:#{session_attached}' | grep -q "^${SESSION_NAME}:1$"; then
+        # Se não estiver attached, attach à sessão e executa o comando
+        alacritty -T $TERM_TITLE -e tmux attach-session -t $SESSION_NAME
+    else
+        # Se estiver attached, apenas executa o comando na sessão
+        tmux send-keys -t $SESSION_NAME \; send-keys "$COMANDO" C-m
+    fi
+fi

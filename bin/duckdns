@@ -1,0 +1,1 @@
+echo url="https://www.duckdns.org/update?domains=geodatabase.duckdns.org&token=72d2746c-6976-4bb1-b730-de250d3a8172&ip=" | curl -k -o ~/.config/duckdns/duck.log -K -

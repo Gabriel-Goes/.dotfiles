@@ -1,0 +1,29 @@
+#!/bin/bash
+
+# Defina o horário de alarme
+ALARM_HOUR=06
+ALARM_MINUTE=00
+
+# Função para tocar o alarme
+function play_alarm {
+    /home/ggrl/.local/bin/portal.sh
+}
+
+# Loop infinito que verifica a hora atual
+while true; do
+    # Obtém a hora e minuto atual
+    CURRENT_HOUR=$(date +"%H")
+    CURRENT_MINUTE=$(date +"%M")
+
+    # Verifica se é a hora do alarme
+    if [ "$CURRENT_HOUR" -eq "$ALARM_HOUR" ] && [ "$CURRENT_MINUTE" -eq "$ALARM_MINUTE" ]; then
+        echo "Tocando o alarme..."
+        play_alarm
+        # Espera 60 segundos após tocar o alarme para evitar repetição dentro do mesmo minuto
+        sleep 60
+    fi
+
+    # Espera por 10 segundos antes de verificar novamente
+    sleep 30
+done
+

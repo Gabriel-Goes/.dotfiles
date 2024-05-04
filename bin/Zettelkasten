@@ -1,0 +1,28 @@
+#!/bin/bash
+# create a bash script to navigate to project directory
+# open urxvt with tmux and execute geo alias
+# Then, open nvim at the project directory
+#
+# Usage: ./test.sh
+# Author: Gabriel Góes Rocha de Lima
+# Date: 2024-01-31
+# Version: 0.1
+# Description: This script will open urxvt with tmux and execute geo alias
+# Options: None
+
+SESSION_NAME="Zettelkasten"
+TERM_TITLE="Zettelkasten"
+
+# Entra no diretório do Projeto Predito Terra
+cd /home/ggrl/docs/TempestadeCerebral/
+# Checa se existe sessão chamada $SESSION_NAME
+if tmux has-session -t $SESSION_NAME 2>/dev/null; then
+    # Se existir, anexa a sessão
+    alacritty -T $TERM_TITLE -e bash -c "tmux attach-session -t $SESSION_NAME"
+else
+    # Se não existir, cria uma nova sessão
+    # Open urxvt with tmux and execute geo alias and open neovim at /home/ggrl/projetos/geologist/
+    alacritty -T $TERM_TITLE -e bash -c "tmux new-session -s $SESSION_NAME -d &&
+        tmux send-keys -t $SESSION_NAME 'nvim \"tempestade cerebral\" ' C-m &&
+        tmux attach-session -t $SESSION_NAME"
+fi

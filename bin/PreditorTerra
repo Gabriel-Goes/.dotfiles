@@ -1,0 +1,24 @@
+#!/bin/bash
+# Script para executar a interface do Projeto Preditor Terra com python3 e tmux no terminal alacritty com o pyenv geo
+# Entra no diretório do Projeto Preditor Terra
+cd $HOME/projetos/PreditorTerra/source
+# Nome da sessão tmux
+SESSION_NAME="󰇧Test"
+TERM_TITLE="󰇧Test"
+# Checa se existe uma sessão do tmux chamada Test
+if tmux has-session -t $SESSION_NAME 2>/dev/null; then
+    # Se a sessão TestPredTerra existir, verifica se está attached
+    if ! tmux list-sessions -F '#{session_name}:#{session_attached}' | grep -q "^${SESSION_NAME}:1$"; then
+        # Se TestPreditorTerra não estiver attached, attach à sessão e executa o script Python
+        alacritty -T $TERM_TITLE -e tmux attach-session -t $SESSION_NAME \; send-keys "python3 interface/Interface.py" C-m
+    else
+        # Se TestPreditorTerra estiver attached, apenas executa o script Python na sessão
+        tmux send-keys -t $SESSION_NAME \; send-keys "python3 interface/Interface.py" C-m
+    fi
+else
+    # Se a sessão TestPreditorTerra não existir, cria a nova sessão com o alacritty, executa geo e o script Python
+    alacritty -T $TERM_TITLE -e bash -c "tmux new-session -s $SESSION_NAME -d &&
+        tmux send-keys -t $SESSION_NAME 'geo' C-m &&
+        tmux send-keys -t $SESSION_NAME 'python3 interface/Interface.py' C-m &&
+        tmux attach-session -t $SESSION_NAME"
+fi

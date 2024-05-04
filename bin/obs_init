@@ -1,0 +1,20 @@
+#!/bin/bash
+
+# check if obs is running
+if ! pgrep -x "obs" > /dev/null; then
+    exec obs &
+    exec firefox https://studio.youtube.com/video/NmFy29lychA/livestreaming &
+    
+    # check if /dev/sdb is mounted at /home/ggrl/vidia
+    if [ ! -d /home/ggrl/vidia ]; then
+        sudo mount /dev/sdb /home/ggrl/vidia
+    fi
+
+    # check if helvum is running
+    if ! pgrep -x "helvum" > /dev/null
+    then
+        exec helvum &
+    fi
+fi
+
+exit

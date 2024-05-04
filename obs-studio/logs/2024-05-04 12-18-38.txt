@@ -1,0 +1,1094 @@
+12:18:38.403: Using EGL/X11
+12:18:38.403: CPU Name: AMD Ryzen 5 3600X 6-Core Processor
+12:18:38.403: CPU Speed: 4183.316MHz
+12:18:38.404: Physical Cores: 6, Logical Cores: 12
+12:18:38.404: Physical Memory: 23975MB Total, 21958MB Free
+12:18:38.404: Kernel Version: Linux 6.8.9-arch1-1
+12:18:38.404: Distribution: "Arch Linux" Unknown
+12:18:38.404: Session Type: tty
+12:18:38.404: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.21.1
+12:18:38.407: Qt Version: 6.7.0 (runtime), 6.7.0 (compiled)
+12:18:38.407: Portable mode: false
+12:18:38.457: OBS 30.1.2-1 (linux)
+12:18:38.457: ---------------------------------
+12:18:38.458: ---------------------------------
+12:18:38.458: audio settings reset:
+12:18:38.458: 	samples per sec: 48000
+12:18:38.458: 	speakers:        2
+12:18:38.458: 	max buffering:   960 milliseconds
+12:18:38.458: 	buffering type:  dynamically increasing
+12:18:38.462: ---------------------------------
+12:18:38.462: Initializing OpenGL...
+12:18:38.533: Loading up OpenGL on adapter NVIDIA Corporation NVIDIA GeForce GTX 1650 SUPER/PCIe/SSE2
+12:18:38.533: OpenGL loaded successfully, version 3.3.0 NVIDIA 550.78, shading language 3.30 NVIDIA via Cg compiler
+12:18:38.689: ---------------------------------
+12:18:38.689: video settings reset:
+12:18:38.689: 	base resolution:   1440x900
+12:18:38.689: 	output resolution: 1152x720
+12:18:38.689: 	downscale filter:  Bicubic
+12:18:38.689: 	fps:               60/1
+12:18:38.689: 	format:            NV12
+12:18:38.689: 	YUV mode:          Rec. 709/Partial
+12:18:38.689: NV12 texture support enabled
+12:18:38.689: P010 texture support not available
+12:18:38.705: Audio monitoring device:
+12:18:38.705: 	name: Padrão
+12:18:38.705: 	id: default
+12:18:38.705: ---------------------------------
+12:18:38.714: Failed to load 'en-US' text for module: 'decklink-captions.so'
+12:18:38.725: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+12:18:38.734: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+12:18:38.734: Failed to initialize module 'decklink.so'
+12:18:38.885: [pipewire] No captures available
+12:18:38.985: NVENC supported
+12:18:38.986: VAAPI: Failed to initialize display in vaapi_device_h264_supported
+12:18:38.986: FFmpeg VAAPI H264 encoding not supported
+12:18:38.986: VAAPI: Failed to initialize display in vaapi_device_av1_supported
+12:18:38.986: FFmpeg VAAPI AV1 encoding not supported
+12:18:38.986: VAAPI: Failed to initialize display in vaapi_device_hevc_supported
+12:18:38.986: FFmpeg VAAPI HEVC encoding not supported
+12:18:39.097: ---------------------------------
+12:18:39.097:   Loaded Modules:
+12:18:39.097:     text-freetype2.so
+12:18:39.097:     rtmp-services.so
+12:18:39.097:     obs-x264.so
+12:18:39.097:     obs-webrtc.so
+12:18:39.097:     obs-vst.so
+12:18:39.097:     obs-transitions.so
+12:18:39.097:     obs-qsv11.so
+12:18:39.097:     obs-outputs.so
+12:18:39.097:     obs-libfdk.so
+12:18:39.097:     obs-filters.so
+12:18:39.097:     obs-ffmpeg.so
+12:18:39.097:     linux-v4l2.so
+12:18:39.097:     linux-pulseaudio.so
+12:18:39.097:     linux-pipewire.so
+12:18:39.097:     linux-jack.so
+12:18:39.097:     linux-capture.so
+12:18:39.097:     linux-alsa.so
+12:18:39.097:     image-source.so
+12:18:39.097:     frontend-tools.so
+12:18:39.097:     decklink-output-ui.so
+12:18:39.097:     decklink-captions.so
+12:18:39.097: ---------------------------------
+12:18:39.097: QWidget::setTabOrder: 'first' and 'second' must be in the same window
+12:18:39.099: ==== Startup complete ===============================================
+12:18:39.162: All scene data cleared
+12:18:39.162: ------------------------------------------------
+12:18:39.174: xshm-input: Geometry 1440x900 @ 1024,0
+12:18:39.177: pulse-input: Server name: 'PulseAudio (on PipeWire 1.0.5) 15.0.0'
+12:18:39.178: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+12:18:39.178: pulse-input: Started recording from 'alsa_output.pci-0000_09_00.4.analog-stereo.2.monitor'
+12:18:39.179: pulse-input: Server name: 'PulseAudio (on PipeWire 1.0.5) 15.0.0'
+12:18:39.179: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+12:18:39.179: pulse-input: Started recording from 'alsa_output.pci-0000_09_00.4.analog-stereo.2.monitor' (default)
+12:18:39.180: pulse-input: Server name: 'PulseAudio (on PipeWire 1.0.5) 15.0.0'
+12:18:39.180: pulse-input: Audio format: float32le, 48000 Hz, 2 channels
+12:18:39.180: pulse-input: Started recording from 'easyeffects_sink.monitor'
+12:18:39.180: xshm-input: Geometry 1024x768 @ 0,0
+12:18:39.259: v4l2-input: Start capture from /dev/video0
+12:18:39.259: v4l2-input: Unable to open device
+12:18:39.259: v4l2-input: Initialization failed, errno: Arquivo ou diretório inexistente
+12:18:39.269: Switched to scene 'Stream'
+12:18:39.269: ------------------------------------------------
+12:18:39.269: Loaded scenes:
+12:18:39.269: - scene 'Stream':
+12:18:39.269:     - source: 'Gianini' (pulse_output_capture)
+12:18:39.269:     - source: 'Microfone' (pulse_input_capture)
+12:18:39.269:         - filter: 'Supressão de ruídos' (noise_suppress_filter_v2)
+12:18:39.269:         - filter: 'Compressor' (compressor_filter)
+12:18:39.269:         - filter: 'Equalizador de 3 Bandas' (basic_eq_filter)
+12:18:39.269:         - filter: 'Filtro de ruídos' (noise_gate_filter)
+12:18:39.269:     - source: 'EE_Sink' (pulse_output_capture)
+12:18:39.269:     - source: 'AOC_LIXO' (xshm_input)
+12:18:39.269:     - source: 'Captura de Tela (XSHM)' (xshm_input)
+12:18:39.269:     - source: 'Imagem' (image_source)
+12:18:39.269:     - source: 'WebCam2' (v4l2_input)
+12:18:39.269:         - filter: 'Chroma Key' (chroma_key_filter_v2)
+12:18:39.269:     - filter: 'Chroma Key' (chroma_key_filter_v2)
+12:18:39.269: - scene 'Settings':
+12:18:39.269:     - source: 'AOC_LIXO' (xshm_input)
+12:18:39.269:     - source: 'Captura de Tela (XSHM)' (xshm_input)
+12:18:39.269:     - source: 'Gianini' (pulse_output_capture)
+12:18:39.269:     - source: 'Microfone' (pulse_input_capture)
+12:18:39.269:         - filter: 'Supressão de ruídos' (noise_suppress_filter_v2)
+12:18:39.269:         - filter: 'Compressor' (compressor_filter)
+12:18:39.269:         - filter: 'Equalizador de 3 Bandas' (basic_eq_filter)
+12:18:39.269:         - filter: 'Filtro de ruídos' (noise_gate_filter)
+12:18:39.269:     - source: 'EE_Sink' (pulse_output_capture)
+12:18:39.269: - scene 'wbcam':
+12:18:39.269:     - source: 'Imagem' (image_source)
+12:18:39.269:     - source: 'WebCam2' (v4l2_input)
+12:18:39.269:         - filter: 'Chroma Key' (chroma_key_filter_v2)
+12:18:39.269:     - filter: 'Chroma Key' (chroma_key_filter_v2)
+12:18:39.269: - scene 'Marte':
+12:18:39.269:     - source: 'Imagem' (image_source)
+12:18:39.269: ------------------------------------------------
+12:18:39.738: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Gianini)
+12:18:39.738: 
+12:18:39.952: adding 21 milliseconds of audio buffering, total audio buffering is now 42 milliseconds (source: Microfone)
+12:18:39.952: 
+12:18:40.059: adding 64 milliseconds of audio buffering, total audio buffering is now 106 milliseconds (source: Microfone)
+12:18:40.059: 
+12:18:47.354: adding 85 milliseconds of audio buffering, total audio buffering is now 192 milliseconds (source: Microfone)
+12:18:47.354: 
+12:18:50.426: adding 21 milliseconds of audio buffering, total audio buffering is now 213 milliseconds (source: Microfone)
+12:18:50.426: 
+12:44:42.033: Starting stream due to hotkey
+12:44:42.035: ---------------------------------
+12:44:42.041: [FFmpeg NVENC encoder: 'simple_video_stream'] settings:
+12:44:42.041: 	encoder:      NVIDIA NVENC H.264 (FFmpeg)
+12:44:42.041: 	rate_control: CBR
+12:44:42.041: 	bitrate:      2500
+12:44:42.041: 	cqp:          0
+12:44:42.041: 	keyint:       120
+12:44:42.041: 	preset:       p4
+12:44:42.041: 	tuning:       hq
+12:44:42.041: 	multipass:    qres
+12:44:42.041: 	profile:      high
+12:44:42.041: 	width:        1152
+12:44:42.041: 	height:       720
+12:44:42.041: 	b-frames:     2
+12:44:42.041: 	psycho-aq:    1
+12:44:42.041: 	GPU:          0
+12:44:42.041: 
+12:44:42.220: libfdk_aac encoder created
+12:44:42.220: libfdk_aac bitrate: 160, channels: 2
+12:44:42.220: [rtmp stream: 'simple_stream'] Connecting to RTMP URL rtmp://a.rtmp.youtube.com/live2...
+12:44:42.851: [rtmp stream: 'simple_stream'] Connection to rtmp://a.rtmp.youtube.com/live2 (2800:3f0:4001:822::200c) successful
+12:44:42.927: ==== Streaming Start ===============================================
+12:47:06.027: Stopping stream due to hotkey
+12:47:06.310: [rtmp stream: 'simple_stream'] User stopped the stream
+12:47:06.310: Output 'simple_stream': stopping
+12:47:06.310: Output 'simple_stream': Total frames output: 8592
+12:47:06.310: Output 'simple_stream': Total drawn frames: 8641 (8646 attempted)
+12:47:06.310: Output 'simple_stream': Number of lagged frames due to rendering lag/stalls: 5 (0.1%)
+12:47:06.311: ==== Streaming Stop ================================================
+12:47:06.457: libfdk_aac encoder destroyed
+12:47:07.211: Starting stream due to hotkey
+12:47:07.213: ---------------------------------
+12:47:07.213: [FFmpeg NVENC encoder: 'simple_video_stream'] settings:
+12:47:07.213: 	encoder:      NVIDIA NVENC H.264 (FFmpeg)
+12:47:07.213: 	rate_control: CBR
+12:47:07.213: 	bitrate:      2500
+12:47:07.213: 	cqp:          0
+12:47:07.213: 	keyint:       120
+12:47:07.213: 	preset:       p4
+12:47:07.213: 	tuning:       hq
+12:47:07.213: 	multipass:    qres
+12:47:07.213: 	profile:      high
+12:47:07.213: 	width:        1152
+12:47:07.213: 	height:       720
+12:47:07.213: 	b-frames:     2
+12:47:07.213: 	psycho-aq:    1
+12:47:07.213: 	GPU:          0
+12:47:07.213: 
+12:47:07.357: libfdk_aac encoder created
+12:47:07.357: libfdk_aac bitrate: 160, channels: 2
+12:47:07.357: [rtmp stream: 'simple_stream'] Connecting to RTMP URL rtmp://a.rtmp.youtube.com/live2...
+12:47:07.838: [rtmp stream: 'simple_stream'] Connection to rtmp://a.rtmp.youtube.com/live2 (2800:3f0:4001:822::200c) successful
+12:47:07.841: ==== Streaming Start ===============================================
+12:47:12.558: Stopping stream due to hotkey
+12:47:12.843: [rtmp stream: 'simple_stream'] User stopped the stream
+12:47:12.843: Output 'simple_stream': stopping
+12:47:12.843: Output 'simple_stream': Total frames output: 285
+12:47:12.843: Output 'simple_stream': Total drawn frames: 329
+12:47:12.844: ==== Streaming Stop ================================================
+12:47:13.093: libfdk_aac encoder destroyed
+12:47:31.002: Starting stream due to hotkey
+12:47:31.003: ---------------------------------
+12:47:31.003: [FFmpeg NVENC encoder: 'simple_video_stream'] settings:
+12:47:31.003: 	encoder:      NVIDIA NVENC H.264 (FFmpeg)
+12:47:31.003: 	rate_control: CBR
+12:47:31.003: 	bitrate:      2500
+12:47:31.003: 	cqp:          0
+12:47:31.003: 	keyint:       120
+12:47:31.003: 	preset:       p4
+12:47:31.003: 	tuning:       hq
+12:47:31.003: 	multipass:    qres
+12:47:31.003: 	profile:      high
+12:47:31.003: 	width:        1152
+12:47:31.003: 	height:       720
+12:47:31.003: 	b-frames:     2
+12:47:31.003: 	psycho-aq:    1
+12:47:31.003: 	GPU:          0
+12:47:31.003: 
+12:47:31.128: libfdk_aac encoder created
+12:47:31.128: libfdk_aac bitrate: 160, channels: 2
+12:47:31.129: [rtmp stream: 'simple_stream'] Connecting to RTMP URL rtmp://a.rtmp.youtube.com/live2...
+12:47:31.613: [rtmp stream: 'simple_stream'] Connection to rtmp://a.rtmp.youtube.com/live2 (2800:3f0:4001:821::200c) successful
+12:47:31.615: ==== Streaming Start ===============================================
+12:49:04.562: Stopping stream due to hotkey
+12:49:04.843: [rtmp stream: 'simple_stream'] User stopped the stream
+12:49:04.843: Output 'simple_stream': stopping
+12:49:04.843: Output 'simple_stream': Total frames output: 5578
+12:49:04.843: Output 'simple_stream': Total drawn frames: 5623
+12:49:04.844: ==== Streaming Stop ================================================
+12:49:05.115: libfdk_aac encoder destroyed
+12:49:16.413: Starting stream due to hotkey
+12:49:16.414: ---------------------------------
+12:49:16.415: [FFmpeg NVENC encoder: 'simple_video_stream'] settings:
+12:49:16.415: 	encoder:      NVIDIA NVENC H.264 (FFmpeg)
+12:49:16.415: 	rate_control: CBR
+12:49:16.415: 	bitrate:      2500
+12:49:16.415: 	cqp:          0
+12:49:16.415: 	keyint:       120
+12:49:16.415: 	preset:       p4
+12:49:16.415: 	tuning:       hq
+12:49:16.415: 	multipass:    qres
+12:49:16.415: 	profile:      high
+12:49:16.415: 	width:        1152
+12:49:16.415: 	height:       720
+12:49:16.415: 	b-frames:     2
+12:49:16.415: 	psycho-aq:    1
+12:49:16.415: 	GPU:          0
+12:49:16.415: 
+12:49:16.562: libfdk_aac encoder created
+12:49:16.562: libfdk_aac bitrate: 160, channels: 2
+12:49:16.563: [rtmp stream: 'simple_stream'] Connecting to RTMP URL rtmp://a.rtmp.youtube.com/live2...
+12:49:17.054: [rtmp stream: 'simple_stream'] Connection to rtmp://a.rtmp.youtube.com/live2 (2800:3f0:4001:820::200c) successful
+12:49:17.056: ==== Streaming Start ===============================================
+12:50:00.318: Stopping stream due to hotkey
+12:50:00.592: [rtmp stream: 'simple_stream'] User stopped the stream
+12:50:00.592: Output 'simple_stream': stopping
+12:50:00.592: Output 'simple_stream': Total frames output: 2597
+12:50:00.592: Output 'simple_stream': Total drawn frames: 2642
+12:50:00.594: ==== Streaming Stop ================================================
+12:50:00.799: libfdk_aac encoder destroyed
+12:50:05.545: Starting stream due to hotkey
+12:50:05.546: ---------------------------------
+12:50:05.547: [FFmpeg NVENC encoder: 'simple_video_stream'] settings:
+12:50:05.547: 	encoder:      NVIDIA NVENC H.264 (FFmpeg)
+12:50:05.547: 	rate_control: CBR
+12:50:05.547: 	bitrate:      2500
+12:50:05.547: 	cqp:          0
+12:50:05.547: 	keyint:       120
+12:50:05.547: 	preset:       p4
+12:50:05.547: 	tuning:       hq
+12:50:05.547: 	multipass:    qres
+12:50:05.547: 	profile:      high
+12:50:05.547: 	width:        1152
+12:50:05.547: 	height:       720
+12:50:05.547: 	b-frames:     2
+12:50:05.547: 	psycho-aq:    1
+12:50:05.547: 	GPU:          0
+12:50:05.547: 
+12:50:05.686: libfdk_aac encoder created
+12:50:05.686: libfdk_aac bitrate: 160, channels: 2
+12:50:05.686: [rtmp stream: 'simple_stream'] Connecting to RTMP URL rtmp://a.rtmp.youtube.com/live2...
+12:50:06.201: [rtmp stream: 'simple_stream'] Connection to rtmp://a.rtmp.youtube.com/live2 (2800:3f0:4001:83a::200c) successful
+12:50:06.203: ==== Streaming Start ===============================================
+12:50:15.029: Stopping stream due to hotkey
+12:50:15.309: [rtmp stream: 'simple_stream'] User stopped the stream
+12:50:15.309: Output 'simple_stream': stopping
+12:50:15.309: Output 'simple_stream': Total frames output: 531
+12:50:15.309: Output 'simple_stream': Total drawn frames: 578
+12:50:15.310: ==== Streaming Stop ================================================
+12:50:15.426: libfdk_aac encoder destroyed
+12:50:17.126: Starting stream due to hotkey
+12:50:17.128: ---------------------------------
+12:50:17.128: [FFmpeg NVENC encoder: 'simple_video_stream'] settings:
+12:50:17.128: 	encoder:      NVIDIA NVENC H.264 (FFmpeg)
+12:50:17.128: 	rate_control: CBR
+12:50:17.128: 	bitrate:      2500
+12:50:17.128: 	cqp:          0
+12:50:17.128: 	keyint:       120
+12:50:17.128: 	preset:       p4
+12:50:17.128: 	tuning:       hq
+12:50:17.128: 	multipass:    qres
+12:50:17.128: 	profile:      high
+12:50:17.128: 	width:        1152
+12:50:17.128: 	height:       720
+12:50:17.128: 	b-frames:     2
+12:50:17.128: 	psycho-aq:    1
+12:50:17.128: 	GPU:          0
+12:50:17.128: 
+12:50:17.269: libfdk_aac encoder created
+12:50:17.269: libfdk_aac bitrate: 160, channels: 2
+12:50:17.269: [rtmp stream: 'simple_stream'] Connecting to RTMP URL rtmp://a.rtmp.youtube.com/live2...
+12:50:18.025: [rtmp stream: 'simple_stream'] Connection to rtmp://a.rtmp.youtube.com/live2 (2800:3f0:4001:83a::200c) successful
+12:50:18.027: ==== Streaming Start ===============================================
+12:50:18.660: Stopping stream due to hotkey
+12:50:18.926: [rtmp stream: 'simple_stream'] User stopped the stream
+12:50:18.927: Output 'simple_stream': stopping
+12:50:18.927: Output 'simple_stream': Total frames output: 39
+12:50:18.927: Output 'simple_stream': Total drawn frames: 100
+12:50:18.928: ==== Streaming Stop ================================================
+12:50:19.007: libfdk_aac encoder destroyed
+12:50:19.819: Starting stream due to hotkey
+12:50:19.820: ---------------------------------
+12:50:19.821: [FFmpeg NVENC encoder: 'simple_video_stream'] settings:
+12:50:19.821: 	encoder:      NVIDIA NVENC H.264 (FFmpeg)
+12:50:19.821: 	rate_control: CBR
+12:50:19.821: 	bitrate:      2500
+12:50:19.821: 	cqp:          0
+12:50:19.821: 	keyint:       120
+12:50:19.821: 	preset:       p4
+12:50:19.821: 	tuning:       hq
+12:50:19.821: 	multipass:    qres
+12:50:19.821: 	profile:      high
+12:50:19.821: 	width:        1152
+12:50:19.821: 	height:       720
+12:50:19.821: 	b-frames:     2
+12:50:19.821: 	psycho-aq:    1
+12:50:19.821: 	GPU:          0
+12:50:19.821: 
+12:50:19.957: libfdk_aac encoder created
+12:50:19.957: libfdk_aac bitrate: 160, channels: 2
+12:50:19.957: [rtmp stream: 'simple_stream'] Connecting to RTMP URL rtmp://a.rtmp.youtube.com/live2...
+12:50:20.448: [rtmp stream: 'simple_stream'] Connection to rtmp://a.rtmp.youtube.com/live2 (2800:3f0:4001:839::200c) successful
+12:50:20.451: ==== Streaming Start ===============================================
+12:50:34.247: Stopping stream due to hotkey
+12:50:34.526: [rtmp stream: 'simple_stream'] User stopped the stream
+12:50:34.527: Output 'simple_stream': stopping
+12:50:34.527: Output 'simple_stream': Total frames output: 829
+12:50:34.527: Output 'simple_stream': Total drawn frames: 874
+12:50:34.528: ==== Streaming Stop ================================================
+12:50:34.710: libfdk_aac encoder destroyed
+12:50:43.218: Starting stream due to hotkey
+12:50:43.219: ---------------------------------
+12:50:43.219: [FFmpeg NVENC encoder: 'simple_video_stream'] settings:
+12:50:43.219: 	encoder:      NVIDIA NVENC H.264 (FFmpeg)
+12:50:43.219: 	rate_control: CBR
+12:50:43.219: 	bitrate:      2500
+12:50:43.219: 	cqp:          0
+12:50:43.219: 	keyint:       120
+12:50:43.219: 	preset:       p4
+12:50:43.219: 	tuning:       hq
+12:50:43.219: 	multipass:    qres
+12:50:43.219: 	profile:      high
+12:50:43.219: 	width:        1152
+12:50:43.219: 	height:       720
+12:50:43.219: 	b-frames:     2
+12:50:43.219: 	psycho-aq:    1
+12:50:43.219: 	GPU:          0
+12:50:43.219: 
+12:50:43.337: libfdk_aac encoder created
+12:50:43.337: libfdk_aac bitrate: 160, channels: 2
+12:50:43.337: [rtmp stream: 'simple_stream'] Connecting to RTMP URL rtmp://a.rtmp.youtube.com/live2...
+12:50:43.823: [rtmp stream: 'simple_stream'] Connection to rtmp://a.rtmp.youtube.com/live2 (2800:3f0:4001:838::200c) successful
+12:50:43.825: ==== Streaming Start ===============================================
+12:50:51.494: Stopping stream due to hotkey
+12:50:51.771: [rtmp stream: 'simple_stream'] User stopped the stream
+12:50:51.771: Output 'simple_stream': stopping
+12:50:51.771: Output 'simple_stream': Total frames output: 461
+12:50:51.771: Output 'simple_stream': Total drawn frames: 506
+12:50:51.772: ==== Streaming Stop ================================================
+12:50:51.826: libfdk_aac encoder destroyed
+12:50:51.872: Starting stream due to hotkey
+12:50:51.873: ---------------------------------
+12:50:51.874: [FFmpeg NVENC encoder: 'simple_video_stream'] settings:
+12:50:51.874: 	encoder:      NVIDIA NVENC H.264 (FFmpeg)
+12:50:51.874: 	rate_control: CBR
+12:50:51.874: 	bitrate:      2500
+12:50:51.874: 	cqp:          0
+12:50:51.874: 	keyint:       120
+12:50:51.874: 	preset:       p4
+12:50:51.874: 	tuning:       hq
+12:50:51.874: 	multipass:    qres
+12:50:51.874: 	profile:      high
+12:50:51.874: 	width:        1152
+12:50:51.874: 	height:       720
+12:50:51.874: 	b-frames:     2
+12:50:51.874: 	psycho-aq:    1
+12:50:51.874: 	GPU:          0
+12:50:51.874: 
+12:50:52.012: libfdk_aac encoder created
+12:50:52.012: libfdk_aac bitrate: 160, channels: 2
+12:50:52.012: [rtmp stream: 'simple_stream'] Connecting to RTMP URL rtmp://a.rtmp.youtube.com/live2...
+12:50:52.698: [rtmp stream: 'simple_stream'] Connection to rtmp://a.rtmp.youtube.com/live2 (2800:3f0:4001:83b::200c) successful
+12:50:52.701: ==== Streaming Start ===============================================
+12:50:53.175: Stopping stream due to hotkey
+12:50:53.443: [rtmp stream: 'simple_stream'] User stopped the stream
+12:50:53.443: Output 'simple_stream': stopping
+12:50:53.443: Output 'simple_stream': Total frames output: 30
+12:50:53.443: Output 'simple_stream': Total drawn frames: 86
+12:50:53.444: ==== Streaming Stop ================================================
+12:50:53.497: libfdk_aac encoder destroyed
+12:50:53.830: Starting stream due to hotkey
+12:50:53.832: ---------------------------------
+12:50:53.838: [FFmpeg NVENC encoder: 'simple_video_stream'] settings:
+12:50:53.838: 	encoder:      NVIDIA NVENC H.264 (FFmpeg)
+12:50:53.838: 	rate_control: CBR
+12:50:53.838: 	bitrate:      2500
+12:50:53.838: 	cqp:          0
+12:50:53.838: 	keyint:       120
+12:50:53.838: 	preset:       p4
+12:50:53.838: 	tuning:       hq
+12:50:53.838: 	multipass:    qres
+12:50:53.838: 	profile:      high
+12:50:53.838: 	width:        1152
+12:50:53.838: 	height:       720
+12:50:53.838: 	b-frames:     2
+12:50:53.838: 	psycho-aq:    1
+12:50:53.838: 	GPU:          0
+12:50:53.838: 
+12:50:53.972: libfdk_aac encoder created
+12:50:53.972: libfdk_aac bitrate: 160, channels: 2
+12:50:53.972: [rtmp stream: 'simple_stream'] Connecting to RTMP URL rtmp://a.rtmp.youtube.com/live2...
+12:50:54.471: [rtmp stream: 'simple_stream'] Connection to rtmp://a.rtmp.youtube.com/live2 (2800:3f0:4001:83a::200c) successful
+12:50:54.473: ==== Streaming Start ===============================================
+12:50:56.523: Stopping stream due to hotkey
+12:50:56.793: [rtmp stream: 'simple_stream'] User stopped the stream
+12:50:56.793: Output 'simple_stream': stopping
+12:50:56.793: Output 'simple_stream': Total frames output: 125
+12:50:56.793: Output 'simple_stream': Total drawn frames: 170
+12:50:56.795: ==== Streaming Stop ================================================
+12:50:56.960: libfdk_aac encoder destroyed
+12:50:58.946: Starting stream due to hotkey
+12:50:58.948: ---------------------------------
+12:50:58.948: [FFmpeg NVENC encoder: 'simple_video_stream'] settings:
+12:50:58.948: 	encoder:      NVIDIA NVENC H.264 (FFmpeg)
+12:50:58.948: 	rate_control: CBR
+12:50:58.948: 	bitrate:      2500
+12:50:58.948: 	cqp:          0
+12:50:58.948: 	keyint:       120
+12:50:58.948: 	preset:       p4
+12:50:58.948: 	tuning:       hq
+12:50:58.948: 	multipass:    qres
+12:50:58.948: 	profile:      high
+12:50:58.948: 	width:        1152
+12:50:58.948: 	height:       720
+12:50:58.948: 	b-frames:     2
+12:50:58.948: 	psycho-aq:    1
+12:50:58.948: 	GPU:          0
+12:50:58.948: 
+12:50:59.096: libfdk_aac encoder created
+12:50:59.096: libfdk_aac bitrate: 160, channels: 2
+12:50:59.096: [rtmp stream: 'simple_stream'] Connecting to RTMP URL rtmp://a.rtmp.youtube.com/live2...
+12:50:59.586: [rtmp stream: 'simple_stream'] Connection to rtmp://a.rtmp.youtube.com/live2 (2800:3f0:4001:839::200c) successful
+12:50:59.588: ==== Streaming Start ===============================================
+12:51:01.695: Stopping stream due to hotkey
+12:51:01.968: [rtmp stream: 'simple_stream'] User stopped the stream
+12:51:01.968: Output 'simple_stream': stopping
+12:51:01.968: Output 'simple_stream': Total frames output: 128
+12:51:01.968: Output 'simple_stream': Total drawn frames: 172
+12:51:01.969: ==== Streaming Stop ================================================
+12:51:02.097: libfdk_aac encoder destroyed
+12:51:04.597: Starting stream due to hotkey
+12:51:04.599: ---------------------------------
+12:51:04.604: [FFmpeg NVENC encoder: 'simple_video_stream'] settings:
+12:51:04.604: 	encoder:      NVIDIA NVENC H.264 (FFmpeg)
+12:51:04.604: 	rate_control: CBR
+12:51:04.604: 	bitrate:      2500
+12:51:04.604: 	cqp:          0
+12:51:04.604: 	keyint:       120
+12:51:04.604: 	preset:       p4
+12:51:04.604: 	tuning:       hq
+12:51:04.604: 	multipass:    qres
+12:51:04.604: 	profile:      high
+12:51:04.604: 	width:        1152
+12:51:04.604: 	height:       720
+12:51:04.604: 	b-frames:     2
+12:51:04.604: 	psycho-aq:    1
+12:51:04.604: 	GPU:          0
+12:51:04.604: 
+12:51:04.715: libfdk_aac encoder created
+12:51:04.715: libfdk_aac bitrate: 160, channels: 2
+12:51:04.715: [rtmp stream: 'simple_stream'] Connecting to RTMP URL rtmp://a.rtmp.youtube.com/live2...
+12:51:05.190: [rtmp stream: 'simple_stream'] Connection to rtmp://a.rtmp.youtube.com/live2 (2800:3f0:4001:838::200c) successful
+12:51:05.193: ==== Streaming Start ===============================================
+12:51:36.251: Stopping stream due to hotkey
+12:51:36.507: [rtmp stream: 'simple_stream'] User stopped the stream
+12:51:36.507: Output 'simple_stream': stopping
+12:51:36.507: Output 'simple_stream': Total frames output: 1864
+12:51:36.507: Output 'simple_stream': Total drawn frames: 1908
+12:51:36.509: ==== Streaming Stop ================================================
+12:51:36.717: libfdk_aac encoder destroyed
+12:51:38.873: Starting stream due to hotkey
+12:51:38.874: ---------------------------------
+12:51:38.875: [FFmpeg NVENC encoder: 'simple_video_stream'] settings:
+12:51:38.875: 	encoder:      NVIDIA NVENC H.264 (FFmpeg)
+12:51:38.875: 	rate_control: CBR
+12:51:38.875: 	bitrate:      2500
+12:51:38.875: 	cqp:          0
+12:51:38.875: 	keyint:       120
+12:51:38.875: 	preset:       p4
+12:51:38.875: 	tuning:       hq
+12:51:38.875: 	multipass:    qres
+12:51:38.875: 	profile:      high
+12:51:38.875: 	width:        1152
+12:51:38.875: 	height:       720
+12:51:38.875: 	b-frames:     2
+12:51:38.875: 	psycho-aq:    1
+12:51:38.875: 	GPU:          0
+12:51:38.875: 
+12:51:38.997: libfdk_aac encoder created
+12:51:38.997: libfdk_aac bitrate: 160, channels: 2
+12:51:38.997: [rtmp stream: 'simple_stream'] Connecting to RTMP URL rtmp://a.rtmp.youtube.com/live2...
+12:51:39.446: [rtmp stream: 'simple_stream'] Connection to rtmp://a.rtmp.youtube.com/live2 (2800:3f0:4001:82e::200c) successful
+12:51:39.448: ==== Streaming Start ===============================================
+12:51:39.887: Stopping stream due to hotkey
+12:51:40.155: [rtmp stream: 'simple_stream'] User stopped the stream
+12:51:40.155: Output 'simple_stream': stopping
+12:51:40.155: Output 'simple_stream': Total frames output: 27
+12:51:40.155: Output 'simple_stream': Total drawn frames: 69
+12:51:40.156: ==== Streaming Stop ================================================
+12:51:40.234: libfdk_aac encoder destroyed
+12:51:40.452: Starting stream due to hotkey
+12:51:40.454: ---------------------------------
+12:51:40.454: [FFmpeg NVENC encoder: 'simple_video_stream'] settings:
+12:51:40.454: 	encoder:      NVIDIA NVENC H.264 (FFmpeg)
+12:51:40.454: 	rate_control: CBR
+12:51:40.454: 	bitrate:      2500
+12:51:40.454: 	cqp:          0
+12:51:40.454: 	keyint:       120
+12:51:40.454: 	preset:       p4
+12:51:40.454: 	tuning:       hq
+12:51:40.454: 	multipass:    qres
+12:51:40.454: 	profile:      high
+12:51:40.454: 	width:        1152
+12:51:40.454: 	height:       720
+12:51:40.454: 	b-frames:     2
+12:51:40.454: 	psycho-aq:    1
+12:51:40.454: 	GPU:          0
+12:51:40.454: 
+12:51:40.593: libfdk_aac encoder created
+12:51:40.594: libfdk_aac bitrate: 160, channels: 2
+12:51:40.594: [rtmp stream: 'simple_stream'] Connecting to RTMP URL rtmp://a.rtmp.youtube.com/live2...
+12:51:41.081: [rtmp stream: 'simple_stream'] Connection to rtmp://a.rtmp.youtube.com/live2 (2800:3f0:4001:82e::200c) successful
+12:51:41.084: ==== Streaming Start ===============================================
+12:52:32.588: Stopping stream due to hotkey
+12:52:32.844: [rtmp stream: 'simple_stream'] User stopped the stream
+12:52:32.844: Output 'simple_stream': stopping
+12:52:32.844: Output 'simple_stream': Total frames output: 3091
+12:52:32.844: Output 'simple_stream': Total drawn frames: 3135
+12:52:32.845: ==== Streaming Stop ================================================
+12:52:33.094: libfdk_aac encoder destroyed
+12:52:35.776: Starting stream due to hotkey
+12:52:35.777: ---------------------------------
+12:52:35.777: [FFmpeg NVENC encoder: 'simple_video_stream'] settings:
+12:52:35.777: 	encoder:      NVIDIA NVENC H.264 (FFmpeg)
+12:52:35.777: 	rate_control: CBR
+12:52:35.777: 	bitrate:      2500
+12:52:35.777: 	cqp:          0
+12:52:35.777: 	keyint:       120
+12:52:35.777: 	preset:       p4
+12:52:35.777: 	tuning:       hq
+12:52:35.777: 	multipass:    qres
+12:52:35.777: 	profile:      high
+12:52:35.777: 	width:        1152
+12:52:35.777: 	height:       720
+12:52:35.777: 	b-frames:     2
+12:52:35.777: 	psycho-aq:    1
+12:52:35.777: 	GPU:          0
+12:52:35.777: 
+12:52:35.897: libfdk_aac encoder created
+12:52:35.897: libfdk_aac bitrate: 160, channels: 2
+12:52:35.897: [rtmp stream: 'simple_stream'] Connecting to RTMP URL rtmp://a.rtmp.youtube.com/live2...
+12:52:36.393: [rtmp stream: 'simple_stream'] Connection to rtmp://a.rtmp.youtube.com/live2 (2800:3f0:4001:831::200c) successful
+12:52:36.396: ==== Streaming Start ===============================================
+12:52:41.678: Stopping stream due to hotkey
+12:52:41.943: [rtmp stream: 'simple_stream'] User stopped the stream
+12:52:41.943: Output 'simple_stream': stopping
+12:52:41.943: Output 'simple_stream': Total frames output: 318
+12:52:41.943: Output 'simple_stream': Total drawn frames: 363
+12:52:41.944: ==== Streaming Stop ================================================
+12:52:42.154: libfdk_aac encoder destroyed
+12:52:59.435: Starting stream due to hotkey
+12:52:59.436: ---------------------------------
+12:52:59.437: [FFmpeg NVENC encoder: 'simple_video_stream'] settings:
+12:52:59.437: 	encoder:      NVIDIA NVENC H.264 (FFmpeg)
+12:52:59.437: 	rate_control: CBR
+12:52:59.437: 	bitrate:      2500
+12:52:59.437: 	cqp:          0
+12:52:59.437: 	keyint:       120
+12:52:59.437: 	preset:       p4
+12:52:59.437: 	tuning:       hq
+12:52:59.437: 	multipass:    qres
+12:52:59.437: 	profile:      high
+12:52:59.437: 	width:        1152
+12:52:59.437: 	height:       720
+12:52:59.437: 	b-frames:     2
+12:52:59.437: 	psycho-aq:    1
+12:52:59.437: 	GPU:          0
+12:52:59.437: 
+12:52:59.589: libfdk_aac encoder created
+12:52:59.589: libfdk_aac bitrate: 160, channels: 2
+12:52:59.589: [rtmp stream: 'simple_stream'] Connecting to RTMP URL rtmp://a.rtmp.youtube.com/live2...
+12:53:00.101: [rtmp stream: 'simple_stream'] Connection to rtmp://a.rtmp.youtube.com/live2 (2800:3f0:4001:830::200c) successful
+12:53:00.104: ==== Streaming Start ===============================================
+12:53:04.111: Stopping stream due to hotkey
+12:53:04.377: [rtmp stream: 'simple_stream'] User stopped the stream
+12:53:04.377: Output 'simple_stream': stopping
+12:53:04.377: Output 'simple_stream': Total frames output: 242
+12:53:04.377: Output 'simple_stream': Total drawn frames: 288
+12:53:04.379: ==== Streaming Stop ================================================
+12:53:04.594: libfdk_aac encoder destroyed
+12:53:04.792: Starting stream due to hotkey
+12:53:04.794: ---------------------------------
+12:53:04.794: [FFmpeg NVENC encoder: 'simple_video_stream'] settings:
+12:53:04.794: 	encoder:      NVIDIA NVENC H.264 (FFmpeg)
+12:53:04.794: 	rate_control: CBR
+12:53:04.794: 	bitrate:      2500
+12:53:04.794: 	cqp:          0
+12:53:04.794: 	keyint:       120
+12:53:04.794: 	preset:       p4
+12:53:04.794: 	tuning:       hq
+12:53:04.794: 	multipass:    qres
+12:53:04.794: 	profile:      high
+12:53:04.794: 	width:        1152
+12:53:04.794: 	height:       720
+12:53:04.794: 	b-frames:     2
+12:53:04.794: 	psycho-aq:    1
+12:53:04.794: 	GPU:          0
+12:53:04.794: 
+12:53:04.926: libfdk_aac encoder created
+12:53:04.926: libfdk_aac bitrate: 160, channels: 2
+12:53:04.926: [rtmp stream: 'simple_stream'] Connecting to RTMP URL rtmp://a.rtmp.youtube.com/live2...
+12:53:05.390: [rtmp stream: 'simple_stream'] Connection to rtmp://a.rtmp.youtube.com/live2 (2800:3f0:4001:82f::200c) successful
+12:53:05.392: ==== Streaming Start ===============================================
+12:53:17.551: Stopping stream due to hotkey
+12:53:17.819: [rtmp stream: 'simple_stream'] User stopped the stream
+12:53:17.819: Output 'simple_stream': stopping
+12:53:17.819: Output 'simple_stream': Total frames output: 730
+12:53:17.819: Output 'simple_stream': Total drawn frames: 773
+12:53:17.820: ==== Streaming Stop ================================================
+12:53:17.914: libfdk_aac encoder destroyed
+12:53:25.147: Starting stream due to hotkey
+12:53:25.148: ---------------------------------
+12:53:25.148: [FFmpeg NVENC encoder: 'simple_video_stream'] settings:
+12:53:25.148: 	encoder:      NVIDIA NVENC H.264 (FFmpeg)
+12:53:25.148: 	rate_control: CBR
+12:53:25.148: 	bitrate:      2500
+12:53:25.148: 	cqp:          0
+12:53:25.148: 	keyint:       120
+12:53:25.148: 	preset:       p4
+12:53:25.148: 	tuning:       hq
+12:53:25.148: 	multipass:    qres
+12:53:25.148: 	profile:      high
+12:53:25.148: 	width:        1152
+12:53:25.148: 	height:       720
+12:53:25.148: 	b-frames:     2
+12:53:25.148: 	psycho-aq:    1
+12:53:25.148: 	GPU:          0
+12:53:25.148: 
+12:53:25.277: libfdk_aac encoder created
+12:53:25.277: libfdk_aac bitrate: 160, channels: 2
+12:53:25.277: [rtmp stream: 'simple_stream'] Connecting to RTMP URL rtmp://a.rtmp.youtube.com/live2...
+12:53:25.779: [rtmp stream: 'simple_stream'] Connection to rtmp://a.rtmp.youtube.com/live2 (2800:3f0:4001:82e::200c) successful
+12:53:25.781: ==== Streaming Start ===============================================
+12:53:42.619: Stopping stream due to hotkey
+12:53:42.876: [rtmp stream: 'simple_stream'] User stopped the stream
+12:53:42.876: Output 'simple_stream': stopping
+12:53:42.876: Output 'simple_stream': Total frames output: 1011
+12:53:42.876: Output 'simple_stream': Total drawn frames: 1056
+12:53:42.877: ==== Streaming Stop ================================================
+12:53:43.033: libfdk_aac encoder destroyed
+12:53:43.729: Starting stream due to hotkey
+12:53:43.730: ---------------------------------
+12:53:43.730: [FFmpeg NVENC encoder: 'simple_video_stream'] settings:
+12:53:43.730: 	encoder:      NVIDIA NVENC H.264 (FFmpeg)
+12:53:43.730: 	rate_control: CBR
+12:53:43.730: 	bitrate:      2500
+12:53:43.730: 	cqp:          0
+12:53:43.730: 	keyint:       120
+12:53:43.730: 	preset:       p4
+12:53:43.730: 	tuning:       hq
+12:53:43.730: 	multipass:    qres
+12:53:43.730: 	profile:      high
+12:53:43.730: 	width:        1152
+12:53:43.730: 	height:       720
+12:53:43.730: 	b-frames:     2
+12:53:43.730: 	psycho-aq:    1
+12:53:43.730: 	GPU:          0
+12:53:43.730: 
+12:53:43.836: libfdk_aac encoder created
+12:53:43.836: libfdk_aac bitrate: 160, channels: 2
+12:53:43.836: [rtmp stream: 'simple_stream'] Connecting to RTMP URL rtmp://a.rtmp.youtube.com/live2...
+12:53:44.354: [rtmp stream: 'simple_stream'] Connection to rtmp://a.rtmp.youtube.com/live2 (2800:3f0:4001:831::200c) successful
+12:53:44.356: ==== Streaming Start ===============================================
+12:53:51.211: Stopping stream due to hotkey
+12:53:51.477: [rtmp stream: 'simple_stream'] User stopped the stream
+12:53:51.477: Output 'simple_stream': stopping
+12:53:51.477: Output 'simple_stream': Total frames output: 413
+12:53:51.477: Output 'simple_stream': Total drawn frames: 459
+12:53:51.478: ==== Streaming Stop ================================================
+12:53:51.573: libfdk_aac encoder destroyed
+12:53:53.657: Starting stream due to hotkey
+12:53:53.659: ---------------------------------
+12:53:53.659: [FFmpeg NVENC encoder: 'simple_video_stream'] settings:
+12:53:53.659: 	encoder:      NVIDIA NVENC H.264 (FFmpeg)
+12:53:53.659: 	rate_control: CBR
+12:53:53.659: 	bitrate:      2500
+12:53:53.659: 	cqp:          0
+12:53:53.659: 	keyint:       120
+12:53:53.659: 	preset:       p4
+12:53:53.659: 	tuning:       hq
+12:53:53.659: 	multipass:    qres
+12:53:53.659: 	profile:      high
+12:53:53.659: 	width:        1152
+12:53:53.659: 	height:       720
+12:53:53.659: 	b-frames:     2
+12:53:53.659: 	psycho-aq:    1
+12:53:53.659: 	GPU:          0
+12:53:53.659: 
+12:53:53.808: libfdk_aac encoder created
+12:53:53.808: libfdk_aac bitrate: 160, channels: 2
+12:53:53.809: [rtmp stream: 'simple_stream'] Connecting to RTMP URL rtmp://a.rtmp.youtube.com/live2...
+12:53:54.313: [rtmp stream: 'simple_stream'] Connection to rtmp://a.rtmp.youtube.com/live2 (2800:3f0:4001:830::200c) successful
+12:53:54.316: ==== Streaming Start ===============================================
+12:55:07.604: Stopping stream due to hotkey
+12:55:07.877: [rtmp stream: 'simple_stream'] User stopped the stream
+12:55:07.877: Output 'simple_stream': stopping
+12:55:07.877: Output 'simple_stream': Total frames output: 4398
+12:55:07.877: Output 'simple_stream': Total drawn frames: 4444
+12:55:07.878: ==== Streaming Stop ================================================
+12:55:08.046: libfdk_aac encoder destroyed
+12:55:11.974: Starting stream due to hotkey
+12:55:11.976: ---------------------------------
+12:55:11.982: [FFmpeg NVENC encoder: 'simple_video_stream'] settings:
+12:55:11.982: 	encoder:      NVIDIA NVENC H.264 (FFmpeg)
+12:55:11.982: 	rate_control: CBR
+12:55:11.982: 	bitrate:      2500
+12:55:11.982: 	cqp:          0
+12:55:11.982: 	keyint:       120
+12:55:11.982: 	preset:       p4
+12:55:11.982: 	tuning:       hq
+12:55:11.982: 	multipass:    qres
+12:55:11.982: 	profile:      high
+12:55:11.982: 	width:        1152
+12:55:11.982: 	height:       720
+12:55:11.982: 	b-frames:     2
+12:55:11.982: 	psycho-aq:    1
+12:55:11.982: 	GPU:          0
+12:55:11.982: 
+12:55:12.134: libfdk_aac encoder created
+12:55:12.134: libfdk_aac bitrate: 160, channels: 2
+12:55:12.134: [rtmp stream: 'simple_stream'] Connecting to RTMP URL rtmp://a.rtmp.youtube.com/live2...
+12:55:12.629: [rtmp stream: 'simple_stream'] Connection to rtmp://a.rtmp.youtube.com/live2 (2800:3f0:4001:81f::200c) successful
+12:55:12.631: ==== Streaming Start ===============================================
+12:56:15.302: Stopping stream due to hotkey
+12:56:15.568: [rtmp stream: 'simple_stream'] User stopped the stream
+12:56:15.568: Output 'simple_stream': stopping
+12:56:15.568: Output 'simple_stream': Total frames output: 3761
+12:56:15.568: Output 'simple_stream': Total drawn frames: 3806
+12:56:15.569: ==== Streaming Stop ================================================
+12:56:15.871: libfdk_aac encoder destroyed
+12:56:17.345: Starting stream due to hotkey
+12:56:17.347: ---------------------------------
+12:56:17.347: [FFmpeg NVENC encoder: 'simple_video_stream'] settings:
+12:56:17.347: 	encoder:      NVIDIA NVENC H.264 (FFmpeg)
+12:56:17.347: 	rate_control: CBR
+12:56:17.347: 	bitrate:      2500
+12:56:17.347: 	cqp:          0
+12:56:17.347: 	keyint:       120
+12:56:17.347: 	preset:       p4
+12:56:17.347: 	tuning:       hq
+12:56:17.347: 	multipass:    qres
+12:56:17.347: 	profile:      high
+12:56:17.347: 	width:        1152
+12:56:17.347: 	height:       720
+12:56:17.347: 	b-frames:     2
+12:56:17.347: 	psycho-aq:    1
+12:56:17.347: 	GPU:          0
+12:56:17.347: 
+12:56:17.489: libfdk_aac encoder created
+12:56:17.489: libfdk_aac bitrate: 160, channels: 2
+12:56:17.489: [rtmp stream: 'simple_stream'] Connecting to RTMP URL rtmp://a.rtmp.youtube.com/live2...
+12:56:17.995: [rtmp stream: 'simple_stream'] Connection to rtmp://a.rtmp.youtube.com/live2 (2800:3f0:4001:81f::200c) successful
+12:56:17.997: ==== Streaming Start ===============================================
+12:56:50.164: Stopping stream due to hotkey
+12:56:50.443: [rtmp stream: 'simple_stream'] User stopped the stream
+12:56:50.443: Output 'simple_stream': stopping
+12:56:50.451: Output 'simple_stream': Total frames output: 1931
+12:56:50.451: Output 'simple_stream': Total drawn frames: 1978
+12:56:50.451: [rtmp stream: 'simple_stream'] Freeing 1 remaining packets
+12:56:50.452: ==== Streaming Stop ================================================
+12:56:50.728: libfdk_aac encoder destroyed
+12:56:50.997: Starting stream due to hotkey
+12:56:50.999: ---------------------------------
+12:56:50.999: [FFmpeg NVENC encoder: 'simple_video_stream'] settings:
+12:56:50.999: 	encoder:      NVIDIA NVENC H.264 (FFmpeg)
+12:56:50.999: 	rate_control: CBR
+12:56:50.999: 	bitrate:      2500
+12:56:50.999: 	cqp:          0
+12:56:50.999: 	keyint:       120
+12:56:50.999: 	preset:       p4
+12:56:50.999: 	tuning:       hq
+12:56:50.999: 	multipass:    qres
+12:56:50.999: 	profile:      high
+12:56:50.999: 	width:        1152
+12:56:50.999: 	height:       720
+12:56:50.999: 	b-frames:     2
+12:56:50.999: 	psycho-aq:    1
+12:56:50.999: 	GPU:          0
+12:56:50.999: 
+12:56:51.141: libfdk_aac encoder created
+12:56:51.141: libfdk_aac bitrate: 160, channels: 2
+12:56:51.142: [rtmp stream: 'simple_stream'] Connecting to RTMP URL rtmp://a.rtmp.youtube.com/live2...
+12:56:51.595: [rtmp stream: 'simple_stream'] Connection to rtmp://a.rtmp.youtube.com/live2 (2800:3f0:4001:820::200c) successful
+12:56:51.598: ==== Streaming Start ===============================================
+12:57:00.457: Stopping stream due to hotkey
+12:57:00.743: [rtmp stream: 'simple_stream'] User stopped the stream
+12:57:00.743: Output 'simple_stream': stopping
+12:57:00.743: Output 'simple_stream': Total frames output: 533
+12:57:00.743: Output 'simple_stream': Total drawn frames: 576
+12:57:00.745: ==== Streaming Stop ================================================
+12:57:00.888: libfdk_aac encoder destroyed
+12:57:03.110: Starting stream due to hotkey
+12:57:03.112: ---------------------------------
+12:57:03.112: [FFmpeg NVENC encoder: 'simple_video_stream'] settings:
+12:57:03.112: 	encoder:      NVIDIA NVENC H.264 (FFmpeg)
+12:57:03.112: 	rate_control: CBR
+12:57:03.112: 	bitrate:      2500
+12:57:03.112: 	cqp:          0
+12:57:03.112: 	keyint:       120
+12:57:03.112: 	preset:       p4
+12:57:03.112: 	tuning:       hq
+12:57:03.112: 	multipass:    qres
+12:57:03.112: 	profile:      high
+12:57:03.112: 	width:        1152
+12:57:03.112: 	height:       720
+12:57:03.112: 	b-frames:     2
+12:57:03.112: 	psycho-aq:    1
+12:57:03.112: 	GPU:          0
+12:57:03.112: 
+12:57:03.263: libfdk_aac encoder created
+12:57:03.263: libfdk_aac bitrate: 160, channels: 2
+12:57:03.264: [rtmp stream: 'simple_stream'] Connecting to RTMP URL rtmp://a.rtmp.youtube.com/live2...
+12:57:03.995: [rtmp stream: 'simple_stream'] Connection to rtmp://a.rtmp.youtube.com/live2 (2800:3f0:4001:820::200c) successful
+12:57:03.998: ==== Streaming Start ===============================================
+12:57:24.170: Stopping stream due to hotkey
+12:57:24.432: [rtmp stream: 'simple_stream'] User stopped the stream
+12:57:24.432: Output 'simple_stream': stopping
+12:57:24.432: Output 'simple_stream': Total frames output: 1211
+12:57:24.432: Output 'simple_stream': Total drawn frames: 1269 (1270 attempted)
+12:57:24.432: Output 'simple_stream': Number of lagged frames due to rendering lag/stalls: 1 (0.1%)
+12:57:24.433: ==== Streaming Stop ================================================
+12:57:24.502: libfdk_aac encoder destroyed
+12:57:25.287: Starting stream due to hotkey
+12:57:25.289: ---------------------------------
+12:57:25.289: [FFmpeg NVENC encoder: 'simple_video_stream'] settings:
+12:57:25.289: 	encoder:      NVIDIA NVENC H.264 (FFmpeg)
+12:57:25.289: 	rate_control: CBR
+12:57:25.289: 	bitrate:      2500
+12:57:25.289: 	cqp:          0
+12:57:25.289: 	keyint:       120
+12:57:25.289: 	preset:       p4
+12:57:25.289: 	tuning:       hq
+12:57:25.289: 	multipass:    qres
+12:57:25.289: 	profile:      high
+12:57:25.289: 	width:        1152
+12:57:25.289: 	height:       720
+12:57:25.289: 	b-frames:     2
+12:57:25.289: 	psycho-aq:    1
+12:57:25.289: 	GPU:          0
+12:57:25.289: 
+12:57:25.430: libfdk_aac encoder created
+12:57:25.430: libfdk_aac bitrate: 160, channels: 2
+12:57:25.430: [rtmp stream: 'simple_stream'] Connecting to RTMP URL rtmp://a.rtmp.youtube.com/live2...
+12:57:25.926: [rtmp stream: 'simple_stream'] Connection to rtmp://a.rtmp.youtube.com/live2 (2800:3f0:4001:81f::200c) successful
+12:57:25.928: ==== Streaming Start ===============================================
+12:57:32.353: Stopping stream due to hotkey
+12:57:32.610: [rtmp stream: 'simple_stream'] User stopped the stream
+12:57:32.610: Output 'simple_stream': stopping
+12:57:32.610: Output 'simple_stream': Total frames output: 386
+12:57:32.610: Output 'simple_stream': Total drawn frames: 431
+12:57:32.612: ==== Streaming Stop ================================================
+12:57:32.665: libfdk_aac encoder destroyed
+12:57:33.841: Starting stream due to hotkey
+12:57:33.843: ---------------------------------
+12:57:33.843: [FFmpeg NVENC encoder: 'simple_video_stream'] settings:
+12:57:33.843: 	encoder:      NVIDIA NVENC H.264 (FFmpeg)
+12:57:33.843: 	rate_control: CBR
+12:57:33.843: 	bitrate:      2500
+12:57:33.843: 	cqp:          0
+12:57:33.843: 	keyint:       120
+12:57:33.843: 	preset:       p4
+12:57:33.843: 	tuning:       hq
+12:57:33.843: 	multipass:    qres
+12:57:33.843: 	profile:      high
+12:57:33.843: 	width:        1152
+12:57:33.843: 	height:       720
+12:57:33.843: 	b-frames:     2
+12:57:33.843: 	psycho-aq:    1
+12:57:33.843: 	GPU:          0
+12:57:33.843: 
+12:57:33.983: libfdk_aac encoder created
+12:57:33.983: libfdk_aac bitrate: 160, channels: 2
+12:57:33.983: [rtmp stream: 'simple_stream'] Connecting to RTMP URL rtmp://a.rtmp.youtube.com/live2...
+12:57:34.478: [rtmp stream: 'simple_stream'] Connection to rtmp://a.rtmp.youtube.com/live2 (2800:3f0:4001:821::200c) successful
+12:57:34.482: ==== Streaming Start ===============================================
+12:59:50.427: Stopping stream due to hotkey
+12:59:50.710: [rtmp stream: 'simple_stream'] User stopped the stream
+12:59:50.710: Output 'simple_stream': stopping
+12:59:50.710: Output 'simple_stream': Total frames output: 8158
+12:59:50.710: Output 'simple_stream': Total drawn frames: 8204
+12:59:50.711: ==== Streaming Stop ================================================
+12:59:50.975: libfdk_aac encoder destroyed
+12:59:52.721: Starting stream due to hotkey
+12:59:52.722: ---------------------------------
+12:59:52.723: [FFmpeg NVENC encoder: 'simple_video_stream'] settings:
+12:59:52.723: 	encoder:      NVIDIA NVENC H.264 (FFmpeg)
+12:59:52.723: 	rate_control: CBR
+12:59:52.723: 	bitrate:      2500
+12:59:52.723: 	cqp:          0
+12:59:52.723: 	keyint:       120
+12:59:52.723: 	preset:       p4
+12:59:52.723: 	tuning:       hq
+12:59:52.723: 	multipass:    qres
+12:59:52.723: 	profile:      high
+12:59:52.723: 	width:        1152
+12:59:52.723: 	height:       720
+12:59:52.723: 	b-frames:     2
+12:59:52.723: 	psycho-aq:    1
+12:59:52.723: 	GPU:          0
+12:59:52.723: 
+12:59:52.860: libfdk_aac encoder created
+12:59:52.860: libfdk_aac bitrate: 160, channels: 2
+12:59:52.860: [rtmp stream: 'simple_stream'] Connecting to RTMP URL rtmp://a.rtmp.youtube.com/live2...
+12:59:53.348: [rtmp stream: 'simple_stream'] Connection to rtmp://a.rtmp.youtube.com/live2 (2800:3f0:4001:822::200c) successful
+12:59:53.350: ==== Streaming Start ===============================================
+13:33:10.003: Stopping stream due to hotkey
+13:33:10.259: [rtmp stream: 'simple_stream'] User stopped the stream
+13:33:10.260: Output 'simple_stream': stopping
+13:33:10.260: Output 'simple_stream': Total frames output: 119800
+13:33:10.260: Output 'simple_stream': Total drawn frames: 119816 (119844 attempted)
+13:33:10.260: Output 'simple_stream': Number of lagged frames due to rendering lag/stalls: 28 (0.0%)
+13:33:10.261: ==== Streaming Stop ================================================
+13:33:10.363: libfdk_aac encoder destroyed
+13:33:10.507: Starting stream due to hotkey
+13:33:10.509: ---------------------------------
+13:33:10.510: [FFmpeg NVENC encoder: 'simple_video_stream'] settings:
+13:33:10.510: 	encoder:      NVIDIA NVENC H.264 (FFmpeg)
+13:33:10.510: 	rate_control: CBR
+13:33:10.510: 	bitrate:      2500
+13:33:10.510: 	cqp:          0
+13:33:10.510: 	keyint:       120
+13:33:10.510: 	preset:       p4
+13:33:10.510: 	tuning:       hq
+13:33:10.510: 	multipass:    qres
+13:33:10.510: 	profile:      high
+13:33:10.510: 	width:        1152
+13:33:10.510: 	height:       720
+13:33:10.510: 	b-frames:     2
+13:33:10.510: 	psycho-aq:    1
+13:33:10.510: 	GPU:          0
+13:33:10.510: 
+13:33:10.620: libfdk_aac encoder created
+13:33:10.620: libfdk_aac bitrate: 160, channels: 2
+13:33:10.620: [rtmp stream: 'simple_stream'] Connecting to RTMP URL rtmp://a.rtmp.youtube.com/live2...
+13:33:11.126: [rtmp stream: 'simple_stream'] Connection to rtmp://a.rtmp.youtube.com/live2 (2800:3f0:4001:83b::200c) successful
+13:33:11.129: ==== Streaming Start ===============================================
+13:34:59.642: Stopping stream due to hotkey
+13:34:59.910: [rtmp stream: 'simple_stream'] User stopped the stream
+13:34:59.910: Output 'simple_stream': stopping
+13:34:59.910: Output 'simple_stream': Total frames output: 6512
+13:34:59.910: Output 'simple_stream': Total drawn frames: 6558
+13:34:59.911: ==== Streaming Stop ================================================
+13:35:00.125: libfdk_aac encoder destroyed
+13:35:07.496: Starting stream due to hotkey
+13:35:07.497: ---------------------------------
+13:35:07.498: [FFmpeg NVENC encoder: 'simple_video_stream'] settings:
+13:35:07.498: 	encoder:      NVIDIA NVENC H.264 (FFmpeg)
+13:35:07.498: 	rate_control: CBR
+13:35:07.498: 	bitrate:      2500
+13:35:07.498: 	cqp:          0
+13:35:07.498: 	keyint:       120
+13:35:07.498: 	preset:       p4
+13:35:07.498: 	tuning:       hq
+13:35:07.498: 	multipass:    qres
+13:35:07.498: 	profile:      high
+13:35:07.498: 	width:        1152
+13:35:07.498: 	height:       720
+13:35:07.498: 	b-frames:     2
+13:35:07.498: 	psycho-aq:    1
+13:35:07.498: 	GPU:          0
+13:35:07.498: 
+13:35:07.649: libfdk_aac encoder created
+13:35:07.649: libfdk_aac bitrate: 160, channels: 2
+13:35:07.650: [rtmp stream: 'simple_stream'] Connecting to RTMP URL rtmp://a.rtmp.youtube.com/live2...
+13:35:08.152: [rtmp stream: 'simple_stream'] Connection to rtmp://a.rtmp.youtube.com/live2 (2800:3f0:4001:83b::200c) successful
+13:35:08.155: ==== Streaming Start ===============================================
+14:04:37.872: ==== Shutting down ==================================================
+14:04:37.945: pulse-input: Stopped recording from 'alsa_output.pci-0000_09_00.4.analog-stereo.2.monitor'
+14:04:37.945: pulse-input: Got 254341 packets with 305209200 frames
+14:04:37.945: pulse-input: Stopped recording from 'alsa_output.pci-0000_09_00.4.analog-stereo.2.monitor'
+14:04:37.945: pulse-input: Got 254340 packets with 305208000 frames
+14:04:37.946: pulse-input: Stopped recording from 'easyeffects_sink.monitor'
+14:04:37.946: pulse-input: Got 254342 packets with 305210400 frames
+14:04:37.968: All scene data cleared
+14:04:37.968: ------------------------------------------------
+14:04:37.988: [rtmp stream: 'simple_stream'] User stopped the stream
+14:04:37.988: Output 'simple_stream': stopping
+14:04:37.988: Output 'simple_stream': Total frames output: 106174
+14:04:37.988: Output 'simple_stream': Total drawn frames: 106003 (106220 attempted)
+14:04:37.988: Output 'simple_stream': Number of lagged frames due to rendering lag/stalls: 217 (0.2%)
+14:04:38.140: libfdk_aac encoder destroyed
+14:04:38.208: [Scripting] Total detached callbacks: 0
+14:04:38.208: Freeing OBS context data
+14:04:38.243: == Profiler Results =============================
+14:04:38.243: run_program_init: 1098.31 ms
+14:04:38.243:  ┣OBSApp::AppInit: 11.025 ms
+14:04:38.243:  ┃ ┗OBSApp::InitLocale: 5.725 ms
+14:04:38.243:  ┗OBSApp::OBSInit: 945.409 ms
+14:04:38.243:    ┣obs_startup: 4.184 ms
+14:04:38.243:    ┗OBSBasic::OBSInit: 890.546 ms
+14:04:38.243:      ┣OBSBasic::InitBasicConfig: 0.111 ms
+14:04:38.243:      ┣OBSBasic::ResetAudio: 0.27 ms
+14:04:38.243:      ┣OBSBasic::ResetVideo: 246.748 ms
+14:04:38.243:      ┃ ┗obs_init_graphics: 230.258 ms
+14:04:38.243:      ┃   ┗shader compilation: 155.308 ms
+14:04:38.243:      ┣OBSBasic::InitOBSCallbacks: 0.005 ms
+14:04:38.243:      ┣OBSBasic::InitHotkeys: 0.039 ms
+14:04:38.243:      ┣obs_load_all_modules2: 391.817 ms
+14:04:38.243:      ┃ ┣obs_init_module(decklink-captions.so): 0 ms
+14:04:38.243:      ┃ ┣obs_init_module(decklink-output-ui.so): 0.004 ms
+14:04:38.243:      ┃ ┣obs_init_module(decklink.so): 0.131 ms
+14:04:38.243:      ┃ ┣obs_init_module(frontend-tools.so): 84.295 ms
+14:04:38.243:      ┃ ┣obs_init_module(image-source.so): 0.011 ms
+14:04:38.243:      ┃ ┣obs_init_module(linux-alsa.so): 0.002 ms
+14:04:38.243:      ┃ ┣obs_init_module(linux-capture.so): 0.527 ms
+14:04:38.243:      ┃ ┣obs_init_module(linux-jack.so): 0.003 ms
+14:04:38.243:      ┃ ┣obs_init_module(linux-pipewire.so): 3.332 ms
+14:04:38.243:      ┃ ┣obs_init_module(linux-pulseaudio.so): 0.003 ms
+14:04:38.243:      ┃ ┣obs_init_module(linux-v4l2.so): 6.127 ms
+14:04:38.243:      ┃ ┣obs_init_module(obs-ffmpeg.so): 10.391 ms
+14:04:38.243:      ┃ ┃ ┗nvenc_check: 5.078 ms
+14:04:38.243:      ┃ ┣obs_init_module(obs-filters.so): 0.031 ms
+14:04:38.243:      ┃ ┣obs_init_module(obs-libfdk.so): 0.001 ms
+14:04:38.243:      ┃ ┣obs_init_module(obs-outputs.so): 0.003 ms
+14:04:38.243:      ┃ ┣obs_init_module(obs-qsv11.so): 1.19 ms
+14:04:38.243:      ┃ ┣obs_init_module(obs-transitions.so): 0.008 ms
+14:04:38.243:      ┃ ┣obs_init_module(obs-vst.so): 0.003 ms
+14:04:38.243:      ┃ ┣obs_init_module(obs-webrtc.so): 0.005 ms
+14:04:38.243:      ┃ ┣obs_init_module(obs-x264.so): 0.002 ms
+14:04:38.243:      ┃ ┣obs_init_module(rtmp-services.so): 1.624 ms
+14:04:38.243:      ┃ ┗obs_init_module(text-freetype2.so): 0.021 ms
+14:04:38.243:      ┣OBSBasic::InitService: 1.533 ms
+14:04:38.243:      ┣OBSBasic::ResetOutputs: 0.163 ms
+14:04:38.243:      ┣OBSBasic::CreateHotkeys: 0.131 ms
+14:04:38.244:      ┣OBSBasic::InitPrimitives: 39.164 ms
+14:04:38.244:      ┗OBSBasic::Load: 135.522 ms
+14:04:38.244: obs_hotkey_thread(25 ms): min=0.057 ms, median=0.131 ms, max=64.574 ms, 99th percentile=8.789 ms, 99.9911% below 25 ms
+14:04:38.244: audio_thread(Audio): min=0.003 ms, median=0.196 ms, max=60.651 ms, 99th percentile=0.904 ms
+14:04:38.244:  ┗receive_audio: min=0.001 ms, median=0.104 ms, max=7.579 ms, 99th percentile=0.223 ms, 0.73505 calls per parent call
+14:04:38.244:    ┣buffer_audio: min=0 ms, median=0.001 ms, max=0.106 ms, 99th percentile=0.003 ms
+14:04:38.244:    ┗do_encode: min=0.033 ms, median=0.102 ms, max=7.571 ms, 99th percentile=0.216 ms
+14:04:38.244:      ┣encode(simple_aac): min=0.031 ms, median=0.094 ms, max=7.563 ms, 99th percentile=0.184 ms
+14:04:38.244:      ┗send_packet: min=0.001 ms, median=0.007 ms, max=0.827 ms, 99th percentile=0.04 ms
+14:04:38.244: obs_graphics_thread(16.6667 ms): min=0.084 ms, median=3.983 ms, max=96.562 ms, 99th percentile=18.156 ms, 98.4847% below 16.667 ms
+14:04:38.244:  ┣tick_sources: min=0 ms, median=3.021 ms, max=85.858 ms, 99th percentile=12.525 ms
+14:04:38.244:  ┣output_frame: min=0.03 ms, median=0.571 ms, max=63.201 ms, 99th percentile=1.806 ms
+14:04:38.244:  ┃ ┣gs_context(video->graphics): min=0.03 ms, median=0.396 ms, max=63.042 ms, 99th percentile=1.599 ms
+14:04:38.244:  ┃ ┃ ┣render_video: min=0.017 ms, median=0.368 ms, max=62.043 ms, 99th percentile=1.34 ms
+14:04:38.244:  ┃ ┃ ┃ ┣render_main_texture: min=0.014 ms, median=0.238 ms, max=44.864 ms, 99th percentile=0.776 ms
+14:04:38.244:  ┃ ┃ ┃ ┣render_output_texture: min=0.017 ms, median=0.038 ms, max=15.122 ms, 99th percentile=0.066 ms, 0.734316 calls per parent call
+14:04:38.244:  ┃ ┃ ┃ ┣render_convert_texture: min=0.024 ms, median=0.058 ms, max=6.573 ms, 99th percentile=0.101 ms, 0.734316 calls per parent call
+14:04:38.244:  ┃ ┃ ┃ ┗stage_output_texture: min=0.016 ms, median=0.033 ms, max=61.176 ms, 99th percentile=1.198 ms, 0.734316 calls per parent call
+14:04:38.244:  ┃ ┃ ┣gs_flush: min=0.003 ms, median=0.006 ms, max=22.136 ms, 99th percentile=0.017 ms
+14:04:38.244:  ┃ ┃ ┗download_frame: min=0 ms, median=0.003 ms, max=0.167 ms, 99th percentile=0.005 ms, 0.734316 calls per parent call
+14:04:38.244:  ┃ ┗output_video_data: min=0.117 ms, median=0.181 ms, max=1.25 ms, 99th percentile=0.404 ms, 0.73424 calls per parent call
+14:04:38.244:  ┗render_displays: min=0.008 ms, median=0.312 ms, max=61.172 ms, 99th percentile=1.699 ms
+14:04:38.244: video_thread(video): min=0 ms, median=0.577 ms, max=5.295 ms, 99th percentile=1.218 ms
+14:04:38.244:  ┗receive_video: min=0.159 ms, median=0.575 ms, max=5.293 ms, 99th percentile=1.211 ms
+14:04:38.244:    ┗do_encode: min=0.159 ms, median=0.574 ms, max=5.291 ms, 99th percentile=1.21 ms
+14:04:38.244:      ┣encode(simple_video_stream): min=0.153 ms, median=0.563 ms, max=5.273 ms, 99th percentile=1.196 ms
+14:04:38.244:      ┗send_packet: min=0 ms, median=0.009 ms, max=0.329 ms, 99th percentile=0.036 ms
+14:04:38.244: =================================================
+14:04:38.244: == Profiler Time Between Calls ==================
+14:04:38.244: obs_hotkey_thread(25 ms): min=25.083 ms, median=25.197 ms, max=187.276 ms, 86.6044% within ±2% of 25 ms (0% lower, 13.3956% higher)
+14:04:38.244: obs_graphics_thread(16.6667 ms): min=2.446 ms, median=16.667 ms, max=96.569 ms, 97.3004% within ±2% of 16.667 ms (1.32044% lower, 1.37919% higher)
+14:04:38.244: =================================================
+14:04:38.340: Number of memory leaks: 0

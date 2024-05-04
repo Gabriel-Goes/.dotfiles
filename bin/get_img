@@ -1,0 +1,40 @@
+#!/bin/bash
+#
+# Author: Gabriel Góes Rocha de Lima
+# Date: 2024-04-21
+# Version: 0.1.0
+# License: GPL-3.0
+#
+# Description: This script will read each line of a .txt and download the files
+#             listed in it using aria.
+# Requires: aria2 / sudo apt install aria2 or something similar
+
+# ----------------------------------------------------------------------------- #
+# Usage:
+#
+# get_img [file.txt]
+#  file.txt: File containing the URLs of the files to be downloaded.
+# ----------------------------------------------------------------------------- #
+
+# Verifica se o arquivo de entrada existe
+if [ ! -f "$1" ]; then
+    echo "File not found!"
+    exit 1
+fi
+
+# Configurações para aria2c
+MAX_CONNECTIONS_PER_FILE=10  # Número máximo de conexões por arquivo
+MAX_CONCURRENT_DOWNLOADS=5   # Número máximo de downloads simultâneos
+MIN_SPLIT_SIZE="1M"          # Tamanho mínimo para dividir as partes do arquivo
+
+# Baixa arquivos listados no arquivo de entrada
+aria2c -i "$1" \
+       --max-concurrent-downloads=$MAX_CONCURRENT_DOWNLOADS \
+       --max-connection-per-server=$MAX_CONNECTIONS_PER_FILE \
+       --split=$MAX_CONNECTIONS_PER_FILE \
+       --min-split-size=$MIN_SPLIT_SIZE \
+       --continue=true \
+       --auto-file-renaming=false \
+       --log=aria2_download.log
+
+exit 0
