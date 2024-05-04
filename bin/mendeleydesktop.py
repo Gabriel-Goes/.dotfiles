@@ -1,1 +1,0 @@
-/home/ggrl/softwares/mendeleydesktop/mendeleydesktop-1.19.8-linux-x86_64/bin/mendeleydesktop

@@ -1,5 +1,5 @@
 #!/bin/bash
-#.dotfiles/arch
+#.dotfiles/install
 # Gabriel Góes Rocha de Lima
 # 2013-04-27
 # Modificado de ThePrimeagen/.dotfiles
@@ -7,7 +7,7 @@
 # Script para instalar os dotfiles no sistema. Este arquivo é invocado pelo
 # script que define as variáveis do ambiente, cada ambiente pode ter sua config
 # como: arch, ubuntu, debian...
-#
+
 pushd $DOTFILES
 for folder in $(echo $CONFIG_FOLDERS)
 do
@@ -16,24 +16,13 @@ do
     stow -D $folder
     stow -t $HOME/.config/$folder $folder
 done
-popd
 
-pushd $DOTFILES/bash
-for file in $(echo $BASHRC)
-do
-    echo "stow $file..."
-    stow -D $file
-    stow -t $HOME $file
-done
-popd
+echo "stow bash..."
+stow -D bash
+stow -t $HOME bash
 
-pushd $DOTFILES/bin
-for file in $(echo $SCRIPTS)
-do
-    echo "stow $file..."
-    stow -D $file
-    stow -t $HOME/.local/bin $file
-done
+echo "stow scripts..."
+stow -D scripts
+stow -t $HOME/.local/bin/ scripts
 
 popd
-echo $pwd
