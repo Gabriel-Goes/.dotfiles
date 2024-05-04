@@ -8,3 +8,7 @@ de scripts para instalação e configuração do ambiente com git e stow.
 ```bash
 ./arch
 ```
+
+## Próximo Passo
+ Usar a pasta .config em vez das pastas dentro de .config fazendo com que todos
+ os pacotes estejam em $HOME.
