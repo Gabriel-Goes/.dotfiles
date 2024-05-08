@@ -22,31 +22,32 @@
 #export QT_QPA_PLATFORM_PLUGIN_PATH=/usr/lib/qt/plugins/platforms
 
 # -------------------------- Setting PATHS ------------------------------------
-# Setting PAHT
+# Setting PATH
 export PATH=/bin/
 
-# /usr/
+# USER
 export PATH=/usr/bin/:$PATH
 export PATH=/usr/local/bin/:$PATH
-#export PATH=/usr/lib/ccache/bin/:$PATH
-#export PATH=/usr/bin/vendor_perl/:$PATH
-#export PATH=/usr/bin/site_perl/:$PATH
-#export PATH=/usr/bin/core_perl_/:$PATH
+export PATH=/usr/lib/ccache/bin/:$PATH
+export PATH=/usr/bin/vendor_perl/:$PATH
+export PATH=/usr/bin/site_perl/:$PATH
+export PATH=/usr/bin/core_perl_/:$PATH
 #export PATH=/usr/lib/jvm/default/bin/:$PATH
 
-# .local
-#export PATH=$HOME/.local/share/applications/:$PATH
+# LOCAL
 #export PATH=$HOME/.local/share/:$PATH
 export PATH=$HOME/.local/bin/:$PATH
+export PATH=$HOME/.local/share/applications/:$PATH
 
-# $HOME/softwares
+# SOFTWARES
 #export PATH=$HOME/softwares/gdal/build/bin/:$PATH
 #export PATH=$HOME/softwares/saga/saga-9.3.2/saga-gis/build/src/saga_core/saga_cmd/:$PATH
 #export PATH=$HOME/softwares/otb/bin/:$PATH
 #export PATH=$HOME/softwares/jdk-21.0.2/bin/:$PATH
- 
-# PYENV
 export PATH=$HOME/.pyenv/bin:$PATH
+
+# Setting PYTHONPATH
+export PYTHONPATH=:
  
 # -------------------------- Setting Languages --------------------------------
 # Setting Languages
