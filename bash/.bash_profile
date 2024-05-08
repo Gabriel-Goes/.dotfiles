@@ -15,6 +15,8 @@
 
 source $HOME/.bash_paths
 
+eval "$(pyenv init --path)"
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
+
 eval "$(ssh-agent -s)"

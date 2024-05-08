@@ -12,6 +12,6 @@ alias l='ls --color=auto'
 alias lla="ls -la --color=auto"
 alias ll="ls -l --color=auto"
 alias la="ls -A --color=auto"
-alias tmux="tmux -2"
 
+alias tmux="tmux -2"
 alias vim='nvim'

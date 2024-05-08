@@ -9,52 +9,51 @@
 # -----------------------------------------------------------------------------
 #
 # Setting LD_LIBRARY_PATH
-export LD_LIBRARY_PATH=/usr/lib
-export LD_LIBRARY_PATH=$HOME/softwares/otb/lib/:$LD_LIBRARY_PATH
-export LD_LIBRARY_PATH=$HOME/softwares/gdal/build/lib/:$LD_LIBRARY_PATH
-export LD_LIBRARY_PATH=$HOME/.pyenv/versions/3.11.9/lib/:$LD_LIBRARY_PATH
+#export LD_LIBRARY_PATH=/usr/lib
+#export LD_LIBRARY_PATH=$HOME/softwares/otb/lib/:$LD_LIBRARY_PATH
+#export LD_LIBRARY_PATH=$HOME/softwares/gdal/build/lib/:$LD_LIBRARY_PATH
 
 # Setting OTB_APPLICATION_PATH
-export OTB_APPLICATION_PATH=/home/ggrl/softwares/otb/lib/otb/applications
+#export OTB_APPLICATION_PATH=/home/ggrl/softwares/otb/lib/otb/applications
 
-## ---------------------------- Setting QT -------------------------------------
+# ---------------------------- Setting QT -------------------------------------
 # Setting QT_QPA_PLATFORMTHEME
-export QT_QPA_PLATFORMTHEME=qt5ct
-export QT_QPA_PLATFORM_PLUGIN_PATH=/usr/lib/qt/plugins/platforms
+#export QT_QPA_PLATFORMTHEME=qt5ct
+#export QT_QPA_PLATFORM_PLUGIN_PATH=/usr/lib/qt/plugins/platforms
 
 # -------------------------- Setting PATHS ------------------------------------
-# $HOME/SOFTWARES
-export PATH=$HOME/softwares/gdal/build/bin/
-export PATH=$HOME/softwares/saga/saga-9.3.2/saga-gis/build/src/saga_core/saga_cmd/:$PATH
-export PATH=$HOME/softwares/otb/bin/:$PATH
-export PATH=$HOME/softwares/jdk-21.0.2/bin/:$PATH
+# Setting PAHT
+export PATH=/bin/
 
-# LOCAL
-export PATH=$HOME/.local/share/applications/:$PATH
-export PATH=$HOME/.local/share/:$PATH
+# /usr/
+export PATH=/usr/bin/:$PATH
+export PATH=/usr/local/bin/:$PATH
+#export PATH=/usr/lib/ccache/bin/:$PATH
+#export PATH=/usr/bin/vendor_perl/:$PATH
+#export PATH=/usr/bin/site_perl/:$PATH
+#export PATH=/usr/bin/core_perl_/:$PATH
+#export PATH=/usr/lib/jvm/default/bin/:$PATH
+
+# .local
+#export PATH=$HOME/.local/share/applications/:$PATH
+#export PATH=$HOME/.local/share/:$PATH
 export PATH=$HOME/.local/bin/:$PATH
 
+# $HOME/softwares
+#export PATH=$HOME/softwares/gdal/build/bin/:$PATH
+#export PATH=$HOME/softwares/saga/saga-9.3.2/saga-gis/build/src/saga_core/saga_cmd/:$PATH
+#export PATH=$HOME/softwares/otb/bin/:$PATH
+#export PATH=$HOME/softwares/jdk-21.0.2/bin/:$PATH
+ 
 # PYENV
 export PATH=$HOME/.pyenv/bin:$PATH
-
-# Setting /usr/ PATH
-export PATH=$PATH:/usr/lib/ccache/bin/
-export PATH=$PATH:/usr/bin/vendor_perl/
-export PATH=$PATH:/usr/bin/site_perl/
-export PATH=$PATH:/usr/bin/core_perl_/
-export PATH=$PATH:/usr/local/sbin/
-export PATH=$PATH:/usr/local/bin/
-export PATH=$PATH:/usr/lib/jvm/default/bin/
-export PATH=$PATH:/usr/bin/
-
-# Setting /bin/ PATH
-export PATH=$PATH:bin/
-
+ 
 # -------------------------- Setting Languages --------------------------------
 # Setting Languages
 export LC_ALL=pt_BR.UTF-8
 export LANG=pt_BR.UTF-8
-export PATH="$HOME/.pyenv/bin:$PATH"
+
 eval "$(pyenv init --path)"
+eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
 

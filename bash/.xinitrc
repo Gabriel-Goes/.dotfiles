@@ -1,15 +1,24 @@
 #!/bin/sh
 #
-
 userresources=$HOME/.Xresources
-
-if [ -f $userresources ]; then
-    xrdb -merge $userresources
+sysresources=/etc/X11/xinit/.Xresources
+if [ -f $sysresources ]; then
+    xrdb -merge $sysresources
 fi
 
-source ~/.bash_profile
-exec core_temp
-exec gif_sun_ok
+if [ -f "$userresources" ]; then
+    xrdb -merge "$userresources"
+fi
 
-i3 
+if [ -d /etc/X11/xinit/xinitrc.d ] ; then
+ for f in /etc/X11/xinit/xinitrc.d/?*.sh ; do
+  [ -x "$f" ] && . "$f"
+ done
+ unset f
+fi
 
+xbindkeys
+gif_lofi_girl
+source .bash_profile
+
+i3
