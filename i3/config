@@ -41,7 +41,7 @@ bindsym $mod+F10 exec --no-startup-id 'tsm' '󰇧_Postgre' "if ! systemctl is-ac
 # CONFIGURAÇÕES
 bindsym $mod+Shift+F11 exec --no-startup-id 'tsm' 'Configs' 'cd ~/.config/i3 && vim ./config'
 bindsym $mod+Shift+F12 exec --no-startup-id 'tsm' 'Configs' 'cd ~/.config/nvim && vim ./init.lua'
-bindsym $mod+F12 exec --no-startup-id 'tsm' 'Configs' 'cd ~/.dotfiles && vim .'
+bindsym $mod+F12 exec --no-startup-id 'tsm' 'Configs' 'cd ~/.config && vim .'
 
 bindsym $mod+Return exec alacritty -e tmux
 bindsym $mod+Shift+q kill
@@ -153,12 +153,12 @@ bindsym $mod+r mode "resize"
 bar {
         font pango: opendyslexic 7
         status_command i3status -c ~/.config/i3/i3status/primary_config
-        output DVI-D-0
+        # output DVI-D-0
         tray_output none
 }
-bar {
-        font pango: opendyslexic 7
-        status_command i3status -c ~/.config/i3/i3status/second_config
-        output DP-0
-        tray_output DP-0
-}
+# bar {
+#         font pango: opendyslexic 7
+#         status_command i3status -c ~/.config/i3/i3status/second_config
+#         output DP-0
+#         tray_output DP-0
+# }

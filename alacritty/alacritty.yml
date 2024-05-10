@@ -1,0 +1,34 @@
+# Alacritty Configuration
+
+shell:
+  program: /bin/bash
+
+font:
+  normal:
+    family: OpenDyslexicMono
+    style: Regular
+  bold:
+    family: OpenDyslexicMono
+    style: Regular
+  italic:
+    family: OpenDyslexicMono
+    style: Regular
+  bold_italic:
+    family: OpenDyslexicMono
+    style: Regular
+  size: 7
+
+cursor:
+  style:
+    shape: Block
+    blinking: On
+  thickness: 1.0
+
+mouse:
+  hide_when_typing: true
+
+window:
+  decorations: Full
+  padding:
+    x: 0
+    y: 0

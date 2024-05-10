@@ -25,4 +25,8 @@ echo "stow scripts..."
 stow -D scripts
 stow -t $HOME/.local/bin/ scripts
 
+echo "stow mimeapss.list"
+stow -D mimeapps.list
+stow -t $HOME/.config/ mimeapps.list
+
 popd
