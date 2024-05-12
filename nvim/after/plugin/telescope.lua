@@ -1,7 +1,6 @@
 -- print('Hello, from after/plugin/telescope.lua')
 -- Telescope
 require('telescope').load_extension('fzf')
-
 require('telescope').setup{
     extensions = {
         live_grep = {
@@ -32,6 +31,13 @@ end)
 vim.keymap.set("n", "<leader>gf", function()
     builtin.grep_string({ search = vim.fn.expand("<cword>") });
 end)
+
+vim.keymap.set("n", "<leader>pq", function()
+    vim.cmd('Telescope')
+end)
+
+
+
 
 return {
     'nvim-telescope/telescope.nvim', tab = '0.1.6',

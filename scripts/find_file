@@ -1,0 +1,18 @@
+#!/bin/bash
+# search_in_commits.sh
+# Uso: ./search_in_commits.sh palavra
+
+palavra="$1"
+
+# Iterar sobre todos os branches
+for branch in $(git branch -r | grep -v HEAD); do
+    # Checkout no branch
+    git checkout $branch > /dev/null 2>&1
+    # Iterar sobre todos os commits
+    for commit in $(git log --format="%H"); do
+        # Procurar pela palavra no arquivo prediction.py
+        if git show $commit:prediction.py 2> /dev/null | grep -q "$palavra"; then
+            echo "Encontrado em $branch no commit $commit"
+        fi
+    done
+done

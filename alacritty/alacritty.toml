@@ -1,5 +1,12 @@
 # Alacritty Configuration
+[shell]
+program = '/bin/bash'
+
 [font]
+normal = { family = 'OpenDyslexicM Nerd Font Propo', style = 'Regular' }
+bold = { family = 'OpenDyslexicM Nerd Font Propo', style = 'Regular' }
+italic = { family = 'OpenDyslexicM Nerd Font Propo', style = 'Regular' }
+bold_italic = { family = 'OpenDyslexicM Nerd Font Propo', style = 'Regular' }
 size = 7
 
 [cursor]
