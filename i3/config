@@ -24,9 +24,9 @@ bindsym XF86AudioPrev exec playerctl previous
 bindsym XF86AudioStop exec playerctl stop
 bindsym XF86Tools exec --no-startup-id 'tsm' 'Spotify' 'spotify_player'
 bindsym Print exec --no-startup-id 'screenshot'
+bindsym $mod+Print exec --no-startup-id 'screenshot_wind'
 
 bindsym $mod+XF86Tools exec --no-startup-id discord
-bindsym $mod+Print exec --no-startup-id obs_init
 
 # PROJETOS
 bindsym $mod+F1 exec --no-startup-id 'tsm'

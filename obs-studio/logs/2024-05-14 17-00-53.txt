@@ -1,0 +1,190 @@
+17:00:53.477: Using EGL/X11
+17:00:53.478: CPU Name: AMD Ryzen 5 3600X 6-Core Processor
+17:00:53.478: CPU Speed: 4165.207MHz
+17:00:53.478: Physical Cores: 6, Logical Cores: 12
+17:00:53.478: Physical Memory: 23975MB Total, 10215MB Free
+17:00:53.478: Kernel Version: Linux 6.6.30-2-lts
+17:00:53.478: Distribution: "Arch Linux" Unknown
+17:00:53.478: Session Type: tty
+17:00:53.478: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.21.1
+17:00:53.528: Qt Version: 6.7.0 (runtime), 6.7.0 (compiled)
+17:00:53.528: Portable mode: false
+17:00:53.558: OBS 30.1.2-1 (linux)
+17:00:53.558: ---------------------------------
+17:00:53.559: ---------------------------------
+17:00:53.559: audio settings reset:
+17:00:53.559: 	samples per sec: 48000
+17:00:53.559: 	speakers:        2
+17:00:53.559: 	max buffering:   960 milliseconds
+17:00:53.559: 	buffering type:  dynamically increasing
+17:00:53.563: ---------------------------------
+17:00:53.563: Initializing OpenGL...
+17:00:53.671: Loading up OpenGL on adapter NVIDIA Corporation NVIDIA GeForce GTX 1650 SUPER/PCIe/SSE2
+17:00:53.671: OpenGL loaded successfully, version 3.3.0 NVIDIA 550.78, shading language 3.30 NVIDIA via Cg compiler
+17:00:53.720: ---------------------------------
+17:00:53.720: video settings reset:
+17:00:53.720: 	base resolution:   1920x1080
+17:00:53.720: 	output resolution: 1920x1080
+17:00:53.720: 	downscale filter:  Bicubic
+17:00:53.720: 	fps:               60/1
+17:00:53.720: 	format:            NV12
+17:00:53.720: 	YUV mode:          Rec. 709/Partial
+17:00:53.721: NV12 texture support enabled
+17:00:53.721: P010 texture support not available
+17:00:53.767: Audio monitoring device:
+17:00:53.767: 	name: Padrão
+17:00:53.767: 	id: default
+17:00:53.767: ---------------------------------
+17:00:53.777: Failed to load 'en-US' text for module: 'decklink-captions.so'
+17:00:53.788: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+17:00:53.799: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+17:00:53.799: Failed to initialize module 'decklink.so'
+17:00:53.974: [pipewire] No captures available
+17:00:54.066: NVENC supported
+17:00:54.066: VAAPI: Failed to initialize display in vaapi_device_h264_supported
+17:00:54.066: FFmpeg VAAPI H264 encoding not supported
+17:00:54.066: VAAPI: Failed to initialize display in vaapi_device_av1_supported
+17:00:54.066: FFmpeg VAAPI AV1 encoding not supported
+17:00:54.066: VAAPI: Failed to initialize display in vaapi_device_hevc_supported
+17:00:54.066: FFmpeg VAAPI HEVC encoding not supported
+17:00:54.213: ---------------------------------
+17:00:54.213:   Loaded Modules:
+17:00:54.213:     text-freetype2.so
+17:00:54.213:     rtmp-services.so
+17:00:54.213:     obs-x264.so
+17:00:54.213:     obs-webrtc.so
+17:00:54.213:     obs-vst.so
+17:00:54.213:     obs-transitions.so
+17:00:54.213:     obs-qsv11.so
+17:00:54.213:     obs-outputs.so
+17:00:54.214:     obs-libfdk.so
+17:00:54.214:     obs-filters.so
+17:00:54.214:     obs-ffmpeg.so
+17:00:54.214:     linux-v4l2.so
+17:00:54.214:     linux-pulseaudio.so
+17:00:54.214:     linux-pipewire.so
+17:00:54.214:     linux-jack.so
+17:00:54.214:     linux-capture.so
+17:00:54.214:     linux-alsa.so
+17:00:54.214:     image-source.so
+17:00:54.214:     frontend-tools.so
+17:00:54.214:     decklink-output-ui.so
+17:00:54.214:     decklink-captions.so
+17:00:54.214: ---------------------------------
+17:00:54.214: QWidget::setTabOrder: 'first' and 'second' must be in the same window
+17:00:54.216: ==== Startup complete ===============================================
+17:00:54.242: All scene data cleared
+17:00:54.242: ------------------------------------------------
+17:00:54.245: xshm-input: Geometry 1440x900 @ 1024,0
+17:00:54.249: pulse-input: Server name: 'PulseAudio (on PipeWire 1.0.6) 15.0.0'
+17:00:54.249: pulse-input: An error occurred while getting the source info!
+17:00:54.250: pulse-input: Server name: 'PulseAudio (on PipeWire 1.0.6) 15.0.0'
+17:00:54.250: pulse-input: Audio format: float32le, 48000 Hz, 2 channels
+17:00:54.250: pulse-input: Started recording from 'easyeffects_source'
+17:00:54.254: pulse-input: Server name: 'PulseAudio (on PipeWire 1.0.6) 15.0.0'
+17:00:54.254: pulse-input: Audio format: float32le, 48000 Hz, 2 channels
+17:00:54.254: pulse-input: Started recording from 'easyeffects_sink.monitor'
+17:00:54.336: v4l2-input: Start capture from /dev/video0
+17:00:54.336: v4l2-input: Unable to open device
+17:00:54.336: v4l2-input: Initialization failed, errno: Arquivo ou diretório inexistente
+17:00:54.337: [Media Source 'Fonte de mídia']: settings:
+17:00:54.337: 	input:                   udp://192.168.15.38:1213
+17:00:54.337: 	input_format:            
+17:00:54.337: 	speed:                   100
+17:00:54.337: 	is_looping:              no
+17:00:54.337: 	is_linear_alpha:         no
+17:00:54.337: 	is_hw_decoding:          yes
+17:00:54.337: 	is_clear_on_media_end:   no
+17:00:54.337: 	restart_on_activate:     no
+17:00:54.337: 	close_when_inactive:     no
+17:00:54.337: 	full_decode:             no
+17:00:54.337: 	ffmpeg_options:          
+17:00:54.339: xshm-input: Geometry 1024x768 @ 0,0
+17:00:54.349: Switched to scene 'Stream Config'
+17:00:54.349: ------------------------------------------------
+17:00:54.349: Loaded scenes:
+17:00:54.349: - scene 'Stream':
+17:00:54.349:     - source: 'Gianini' (pulse_output_capture)
+17:00:54.349:     - source: 'Microfone' (pulse_input_capture)
+17:00:54.349:         - filter: 'Supressão de ruídos' (noise_suppress_filter_v2)
+17:00:54.349:         - filter: 'Compressor' (compressor_filter)
+17:00:54.349:         - filter: 'Equalizador de 3 Bandas' (basic_eq_filter)
+17:00:54.349:         - filter: 'Filtro de ruídos' (noise_gate_filter)
+17:00:54.349:     - source: 'EE_Sink' (pulse_output_capture)
+17:00:54.349:     - source: 'AOC_LIXO' (xshm_input)
+17:00:54.349:         - filter: 'Nitidez' (sharpness_filter_v2)
+17:00:54.349:     - source: 'AOC_VELHO' (xshm_input)
+17:00:54.349:     - source: 'marte_bg' (image_source)
+17:00:54.349:     - source: 'Fonte de mídia' (ffmpeg_source)
+17:00:54.349:         - filter: 'Color Key' (color_key_filter_v2)
+17:00:54.349:     - filter: 'Chroma Key' (chroma_key_filter_v2)
+17:00:54.349: - scene 'Stream Config':
+17:00:54.349:     - source: 'Gianini' (pulse_output_capture)
+17:00:54.349:     - source: 'Microfone' (pulse_input_capture)
+17:00:54.349:         - filter: 'Supressão de ruídos' (noise_suppress_filter_v2)
+17:00:54.349:         - filter: 'Compressor' (compressor_filter)
+17:00:54.349:         - filter: 'Equalizador de 3 Bandas' (basic_eq_filter)
+17:00:54.349:         - filter: 'Filtro de ruídos' (noise_gate_filter)
+17:00:54.349:     - source: 'EE_Sink' (pulse_output_capture)
+17:00:54.349:     - source: 'AOC_LIXO' (xshm_input)
+17:00:54.349:         - filter: 'Nitidez' (sharpness_filter_v2)
+17:00:54.349:     - source: 'AOC_VELHO' (xshm_input)
+17:00:54.349:     - source: 'marte_bg' (image_source)
+17:00:54.349:     - source: 'Fonte de mídia' (ffmpeg_source)
+17:00:54.349:         - filter: 'Color Key' (color_key_filter_v2)
+17:00:54.349:     - filter: 'Chroma Key' (chroma_key_filter_v2)
+17:00:54.349: - scene 'Settings':
+17:00:54.349:     - source: 'AOC_LIXO' (xshm_input)
+17:00:54.349:         - filter: 'Nitidez' (sharpness_filter_v2)
+17:00:54.349:     - source: 'AOC_VELHO' (xshm_input)
+17:00:54.349:     - source: 'Gianini' (pulse_output_capture)
+17:00:54.349:     - source: 'Microfone' (pulse_input_capture)
+17:00:54.349:         - filter: 'Supressão de ruídos' (noise_suppress_filter_v2)
+17:00:54.349:         - filter: 'Compressor' (compressor_filter)
+17:00:54.349:         - filter: 'Equalizador de 3 Bandas' (basic_eq_filter)
+17:00:54.349:         - filter: 'Filtro de ruídos' (noise_gate_filter)
+17:00:54.349:     - source: 'EE_Sink' (pulse_output_capture)
+17:00:54.349:     - source: 'Fonte de mídia' (ffmpeg_source)
+17:00:54.349:         - filter: 'Color Key' (color_key_filter_v2)
+17:00:54.349: - scene 'wbcam':
+17:00:54.349:     - source: 'Imagem' (image_source)
+17:00:54.349:     - source: 'WebCam2' (v4l2_input)
+17:00:54.349:         - filter: 'Chroma Key' (chroma_key_filter_v2)
+17:00:54.350:     - source: 'Fonte de mídia' (ffmpeg_source)
+17:00:54.350:         - filter: 'Color Key' (color_key_filter_v2)
+17:00:54.350:     - source: 'Microfone' (pulse_input_capture)
+17:00:54.350:         - filter: 'Supressão de ruídos' (noise_suppress_filter_v2)
+17:00:54.350:         - filter: 'Compressor' (compressor_filter)
+17:00:54.350:         - filter: 'Equalizador de 3 Bandas' (basic_eq_filter)
+17:00:54.350:         - filter: 'Filtro de ruídos' (noise_gate_filter)
+17:00:54.350:     - filter: 'Chroma Key' (chroma_key_filter_v2)
+17:00:54.350: - scene 'Marte':
+17:00:54.350:     - source: 'Imagem' (image_source)
+17:00:54.350: ------------------------------------------------
+17:00:54.861: adding 42 milliseconds of audio buffering, total audio buffering is now 42 milliseconds (source: Microfone)
+17:00:54.861: 
+17:55:36.729: Starting stream due to hotkey
+17:55:36.732: ---------------------------------
+17:55:36.733: [FFmpeg NVENC encoder: 'simple_video_stream'] settings:
+17:55:36.733: 	encoder:      NVIDIA NVENC H.264 (FFmpeg)
+17:55:36.733: 	rate_control: CBR
+17:55:36.733: 	bitrate:      6800
+17:55:36.733: 	cqp:          0
+17:55:36.733: 	keyint:       120
+17:55:36.733: 	preset:       p7
+17:55:36.733: 	tuning:       hq
+17:55:36.733: 	multipass:    qres
+17:55:36.733: 	profile:      high
+17:55:36.733: 	width:        1920
+17:55:36.733: 	height:       1080
+17:55:36.733: 	b-frames:     2
+17:55:36.733: 	psycho-aq:    1
+17:55:36.733: 	GPU:          0
+17:55:36.733: 
+17:55:37.272: libfdk_aac encoder created
+17:55:37.272: libfdk_aac bitrate: 128, channels: 2
+17:55:37.273: [rtmp stream: 'simple_stream'] Connecting to RTMP URL rtmp://a.rtmp.youtube.com/live2...
+17:55:37.867: [rtmp stream: 'simple_stream'] Connection to rtmp://a.rtmp.youtube.com/live2 (2800:3f0:4001:801::200c) successful
+17:55:37.877: ==== Streaming Start ===============================================
+18:02:47.885: adding 21 milliseconds of audio buffering, total audio buffering is now 64 milliseconds (source: Microfone)
+18:02:47.885: 
