@@ -16,6 +16,9 @@ vim.keymap.set('n', "<A-c>", vim.cmd.tabc)
 vim.keymap.set("n", "<A-k>", "<cmd>bn<CR>", { noremap = true, silent = true })
 vim.keymap.set("n", "<A-j>", "<cmd>bp<CR>", { noremap = true, silent = true })
 
+-- window
+vim.keymap.set('n', "<leader>o", "<C-W>|", { noremap = true, silent = true })
+
 -- Delete buffer
 vim.keymap.set("n", "<leader>d", "<cmd>bd<CR>",
                { noremap = true, silent = true })

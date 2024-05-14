@@ -37,6 +37,7 @@ vim.opt.shell = 'bash'
 vim.opt.shellcmdflag = '-c'
 vim.opt.shellredir = '>%s 2>&1'
 vim.opt.shellpipe = '2>&1| tee'
+vim.opt.winminwidth = 20
 
 -- Python-Mode Configurations
 vim.g.pymode_lint = 0

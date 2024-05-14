@@ -7,7 +7,6 @@
 # Versão: 0.4
 # -----------------------------------------------------------------------------
 #
-# This file is sourced by all *interactive* bash shells on startup.
 # If you want to add aliases, custom functions, or environment variables,
 # change the ~/.bash_aliases, ~/.bash_functions, and ~/.bash_paths files.
 #
