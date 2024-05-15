@@ -1,0 +1,4 @@
+#!/bin/bash
+#
+
+sudo vpnc --enable-weak-encryption /home/ipt/.config/vpn_iag/VPN-IAG_USP.conf
