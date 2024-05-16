@@ -32,6 +32,7 @@ bindsym $mod+XF86Tools exec --no-startup-id discord
 bindsym $mod+F1 exec --no-startup-id 'tsm'
 bindsym $mod+F2 exec --no-startup-id 'tsm' '󰇧PreditorTerra󰇧' 'cd ~/projetos/PreditorTerra && vim .'
 bindsym $mod+F3 exec --no-startup-id 'tsm' '󰇧Classificador󰇧' 'cd ~/projetos/ClassificadorSismologico && vim .'
+bindsym $mod+F5 exec --no-startup-id 'tsm' '󰇧Classificador_󰇧' 'cd ~/projetos/ClassificadorSismologico && ./farejador.sh'
 bindsym $mod+F8 exec --no-startup-id 'tsm' '󱁊ZettelVim󱁊' 'cd ~/projetos/ZettelVim && vim .'
 
 # EXECUTÁVEIS
