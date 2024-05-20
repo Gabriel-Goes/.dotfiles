@@ -188,3 +188,157 @@
 17:55:37.877: ==== Streaming Start ===============================================
 18:02:47.885: adding 21 milliseconds of audio buffering, total audio buffering is now 64 milliseconds (source: Microfone)
 18:02:47.885: 
+23:35:01.664: WriteN, RTMP send error 110 (323 bytes)
+23:35:01.664: WriteN, RTMP send error 9 (59 bytes)
+23:35:01.664: WriteN, RTMP send error 9 (42 bytes)
+23:35:01.664: [rtmp stream: 'simple_stream'] Disconnected from rtmp://a.rtmp.youtube.com/live2
+23:35:01.664: Output 'simple_stream': stopping
+23:35:01.664: Output 'simple_stream': Total frames output: 1221569 (1221783 attempted)
+23:35:01.664: Output 'simple_stream': Total drawn frames: 1013117 (1221863 attempted)
+23:35:01.664: Output 'simple_stream': Number of lagged frames due to rendering lag/stalls: 208746 (17.1%)
+23:35:01.664: Output 'simple_stream': Number of dropped frames due to insufficient bandwidth/connection stalls: 214 (0.0%)
+23:35:01.664: Output 'simple_stream': Reconnecting in 2.00 seconds..
+23:35:01.664: [rtmp stream: 'simple_stream'] Freeing 1107 remaining packets
+23:35:02.097: libfdk_aac encoder destroyed
+23:35:03.664: ---------------------------------
+23:35:03.665: [FFmpeg NVENC encoder: 'simple_video_stream'] settings:
+23:35:03.665: 	encoder:      NVIDIA NVENC H.264 (FFmpeg)
+23:35:03.665: 	rate_control: CBR
+23:35:03.665: 	bitrate:      6800
+23:35:03.665: 	cqp:          0
+23:35:03.665: 	keyint:       120
+23:35:03.665: 	preset:       p7
+23:35:03.665: 	tuning:       hq
+23:35:03.665: 	multipass:    qres
+23:35:03.665: 	profile:      high
+23:35:03.665: 	width:        1920
+23:35:03.665: 	height:       1080
+23:35:03.665: 	b-frames:     2
+23:35:03.665: 	psycho-aq:    1
+23:35:03.665: 	GPU:          0
+23:35:03.665: 
+23:35:04.098: libfdk_aac encoder created
+23:35:04.098: libfdk_aac bitrate: 128, channels: 2
+23:35:04.098: [rtmp stream: 'simple_stream'] Connecting to RTMP URL rtmp://a.rtmp.youtube.com/live2...
+23:35:05.193: [rtmp stream: 'simple_stream'] Connection to rtmp://a.rtmp.youtube.com/live2 (142.251.129.236) successful
+15:54:12.685: WriteN, RTMP send error 32 (351 bytes)
+15:54:12.685: WriteN, RTMP send error 9 (59 bytes)
+15:54:12.685: WriteN, RTMP send error 9 (42 bytes)
+15:54:12.685: [rtmp stream: 'simple_stream'] Disconnected from rtmp://a.rtmp.youtube.com/live2
+15:54:12.685: Output 'simple_stream': stopping
+15:54:12.685: Output 'simple_stream': Total frames output: 3524810
+15:54:12.685: Output 'simple_stream': Total drawn frames: 3019612 (3524915 attempted)
+15:54:12.685: Output 'simple_stream': Number of lagged frames due to rendering lag/stalls: 505303 (14.3%)
+15:54:12.685: Output 'simple_stream': Reconnecting in 2.00 seconds..
+15:54:13.114: libfdk_aac encoder destroyed
+15:54:14.686: ---------------------------------
+15:54:14.686: [FFmpeg NVENC encoder: 'simple_video_stream'] settings:
+15:54:14.686: 	encoder:      NVIDIA NVENC H.264 (FFmpeg)
+15:54:14.686: 	rate_control: CBR
+15:54:14.686: 	bitrate:      6800
+15:54:14.686: 	cqp:          0
+15:54:14.686: 	keyint:       120
+15:54:14.686: 	preset:       p7
+15:54:14.686: 	tuning:       hq
+15:54:14.686: 	multipass:    qres
+15:54:14.686: 	profile:      high
+15:54:14.686: 	width:        1920
+15:54:14.686: 	height:       1080
+15:54:14.686: 	b-frames:     2
+15:54:14.686: 	psycho-aq:    1
+15:54:14.686: 	GPU:          0
+15:54:14.686: 
+15:54:15.117: libfdk_aac encoder created
+15:54:15.117: libfdk_aac bitrate: 128, channels: 2
+15:54:15.118: [rtmp stream: 'simple_stream'] Connecting to RTMP URL rtmp://a.rtmp.youtube.com/live2...
+15:54:15.705: [rtmp stream: 'simple_stream'] Connection to rtmp://a.rtmp.youtube.com/live2 (2800:3f0:4001:809::200c) successful
+01:25:50.946: [rtmp stream: 'simple_stream'] User stopped the stream
+01:25:50.946: Output 'simple_stream': stopping
+01:25:50.947: Output 'simple_stream': Total frames output: 2057677
+01:25:50.947: Output 'simple_stream': Total drawn frames: 1752429 (2057751 attempted)
+01:25:50.947: Output 'simple_stream': Number of lagged frames due to rendering lag/stalls: 305322 (14.8%)
+01:25:50.947: ==== Streaming Stop ================================================
+01:25:51.389: libfdk_aac encoder destroyed
+01:25:56.558: ==== Shutting down ==================================================
+01:25:56.632: pulse-input: Stopped recording from 'easyeffects_source'
+01:25:56.632: pulse-input: Got 370851 packets with 445021200 frames
+01:25:56.632: pulse-input: Stopped recording from 'easyeffects_sink.monitor'
+01:25:56.632: pulse-input: Got 370850 packets with 445020000 frames
+01:25:56.666: MP: Failed to open media: 'udp://192.168.15.38:1213'
+01:25:56.668: All scene data cleared
+01:25:56.668: ------------------------------------------------
+01:25:56.755: [Scripting] Total detached callbacks: 0
+01:25:56.755: Freeing OBS context data
+01:25:56.860: == Profiler Results =============================
+01:25:56.860: run_program_init: 1152.38 ms
+01:25:56.860:  ┣OBSApp::AppInit: 6.799 ms
+01:25:56.860:  ┃ ┗OBSApp::InitLocale: 4.13 ms
+01:25:56.860:  ┗OBSApp::OBSInit: 976.004 ms
+01:25:56.860:    ┣obs_startup: 50.217 ms
+01:25:56.860:    ┗OBSBasic::OBSInit: 894.559 ms
+01:25:56.860:      ┣OBSBasic::InitBasicConfig: 0.105 ms
+01:25:56.860:      ┣OBSBasic::ResetAudio: 0.541 ms
+01:25:56.860:      ┣OBSBasic::ResetVideo: 206.968 ms
+01:25:56.860:      ┃ ┗obs_init_graphics: 160.843 ms
+01:25:56.860:      ┃   ┗shader compilation: 48.823 ms
+01:25:56.860:      ┣OBSBasic::InitOBSCallbacks: 0.004 ms
+01:25:56.860:      ┣OBSBasic::InitHotkeys: 0.035 ms
+01:25:56.860:      ┣obs_load_all_modules2: 446.723 ms
+01:25:56.860:      ┃ ┣obs_init_module(decklink-captions.so): 0 ms
+01:25:56.860:      ┃ ┣obs_init_module(decklink-output-ui.so): 0.005 ms
+01:25:56.860:      ┃ ┣obs_init_module(decklink.so): 0.157 ms
+01:25:56.860:      ┃ ┣obs_init_module(frontend-tools.so): 85.166 ms
+01:25:56.860:      ┃ ┣obs_init_module(image-source.so): 0.011 ms
+01:25:56.860:      ┃ ┣obs_init_module(linux-alsa.so): 0.003 ms
+01:25:56.860:      ┃ ┣obs_init_module(linux-capture.so): 8.762 ms
+01:25:56.860:      ┃ ┣obs_init_module(linux-jack.so): 0.004 ms
+01:25:56.860:      ┃ ┣obs_init_module(linux-pipewire.so): 3.488 ms
+01:25:56.860:      ┃ ┣obs_init_module(linux-pulseaudio.so): 0.004 ms
+01:25:56.860:      ┃ ┣obs_init_module(linux-v4l2.so): 4.411 ms
+01:25:56.860:      ┃ ┣obs_init_module(obs-ffmpeg.so): 6.088 ms
+01:25:56.860:      ┃ ┃ ┗nvenc_check: 5.352 ms
+01:25:56.860:      ┃ ┣obs_init_module(obs-filters.so): 0.032 ms
+01:25:56.860:      ┃ ┣obs_init_module(obs-libfdk.so): 0.002 ms
+01:25:56.860:      ┃ ┣obs_init_module(obs-outputs.so): 0.003 ms
+01:25:56.860:      ┃ ┣obs_init_module(obs-qsv11.so): 12.107 ms
+01:25:56.860:      ┃ ┣obs_init_module(obs-transitions.so): 0.007 ms
+01:25:56.860:      ┃ ┣obs_init_module(obs-vst.so): 0.006 ms
+01:25:56.860:      ┃ ┣obs_init_module(obs-webrtc.so): 0.005 ms
+01:25:56.860:      ┃ ┣obs_init_module(obs-x264.so): 0.002 ms
+01:25:56.860:      ┃ ┣obs_init_module(rtmp-services.so): 1.663 ms
+01:25:56.860:      ┃ ┗obs_init_module(text-freetype2.so): 0.021 ms
+01:25:56.860:      ┣OBSBasic::InitService: 1.93 ms
+01:25:56.860:      ┣OBSBasic::ResetOutputs: 0.213 ms
+01:25:56.860:      ┣OBSBasic::CreateHotkeys: 4.308 ms
+01:25:56.860:      ┣OBSBasic::InitPrimitives: 0.153 ms
+01:25:56.860:      ┗OBSBasic::Load: 132.558 ms
+01:25:56.861: obs_hotkey_thread(25 ms): min=0.052 ms, median=0.106 ms, max=132.751 ms, 99th percentile=37.632 ms, 80.9129% below 25 ms
+01:25:56.861: audio_thread(Audio): min=0.003 ms, median=0.108 ms, max=73.755 ms, 99th percentile=1.048 ms
+01:25:56.861:  ┗receive_audio: min=0.002 ms, median=0.08 ms, max=18.557 ms, 99th percentile=0.305 ms
+01:25:56.861:    ┣buffer_audio: min=0 ms, median=0.001 ms, max=0.381 ms, 99th percentile=0.004 ms
+01:25:56.861:    ┗do_encode: min=0.033 ms, median=0.078 ms, max=18.552 ms, 99th percentile=0.3 ms
+01:25:56.861:      ┣encode(simple_aac): min=0.031 ms, median=0.068 ms, max=10.127 ms, 99th percentile=0.27 ms
+01:25:56.861:      ┗send_packet: min=0.001 ms, median=0.009 ms, max=18.456 ms, 99th percentile=0.059 ms
+01:25:56.861: obs_graphics_thread(16.6667 ms): min=0.062 ms, median=4.738 ms, max=256.377 ms, 99th percentile=46.054 ms, 80.2074% below 16.667 ms
+01:25:56.861:  ┣tick_sources: min=0 ms, median=3.128 ms, max=173.589 ms, 99th percentile=43.834 ms
+01:25:56.861:  ┣output_frame: min=0.027 ms, median=0.86 ms, max=76.988 ms, 99th percentile=1.951 ms
+01:25:56.861:  ┃ ┣gs_context(video->graphics): min=0.027 ms, median=0.372 ms, max=76.128 ms, 99th percentile=1.306 ms
+01:25:56.861:  ┃ ┃ ┣render_video: min=0.016 ms, median=0.348 ms, max=76.051 ms, 99th percentile=0.737 ms
+01:25:56.861:  ┃ ┃ ┃ ┣render_main_texture: min=0.012 ms, median=0.253 ms, max=22.241 ms, 99th percentile=0.488 ms
+01:25:56.861:  ┃ ┃ ┃ ┣render_convert_texture: min=0.026 ms, median=0.05 ms, max=21.451 ms, 99th percentile=0.103 ms
+01:25:56.861:  ┃ ┃ ┃ ┗stage_output_texture: min=0.016 ms, median=0.027 ms, max=75.473 ms, 99th percentile=0.216 ms
+01:25:56.861:  ┃ ┃ ┣gs_flush: min=0.003 ms, median=0.005 ms, max=61.102 ms, 99th percentile=0.016 ms
+01:25:56.861:  ┃ ┃ ┗download_frame: min=0 ms, median=0.003 ms, max=16.605 ms, 99th percentile=0.005 ms
+01:25:56.861:  ┃ ┗output_video_data: min=0.274 ms, median=0.476 ms, max=22.307 ms, 99th percentile=1.152 ms
+01:25:56.861:  ┗render_displays: min=0.008 ms, median=0.331 ms, max=172.851 ms, 99th percentile=40.532 ms
+01:25:56.861: video_thread(video): min=0 ms, median=1.252 ms, max=192.647 ms, 99th percentile=4.304 ms
+01:25:56.861:  ┗receive_video: min=0.34 ms, median=1.188 ms, max=35.819 ms, 99th percentile=2.871 ms, 1.1762 calls per parent call
+01:25:56.861:    ┗do_encode: min=0.339 ms, median=1.187 ms, max=35.817 ms, 99th percentile=2.869 ms
+01:25:56.861:      ┣encode(simple_video_stream): min=0.335 ms, median=1.174 ms, max=35.767 ms, 99th percentile=2.833 ms
+01:25:56.861:      ┗send_packet: min=0.001 ms, median=0.01 ms, max=22.541 ms, 99th percentile=0.078 ms
+01:25:56.861: =================================================
+01:25:56.861: == Profiler Time Between Calls ==================
+01:25:56.862: obs_hotkey_thread(25 ms): min=25.07 ms, median=25.172 ms, max=579.31 ms, 57.9812% within ±2% of 25 ms (0% lower, 42.0188% higher)
+01:25:56.862: obs_graphics_thread(16.6667 ms): min=1.991 ms, median=16.666 ms, max=256.543 ms, 57.0188% within ±2% of 16.667 ms (23.2036% lower, 19.7776% higher)
+01:25:56.862: =================================================
+01:25:57.243: Number of memory leaks: 0

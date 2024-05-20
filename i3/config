@@ -3,6 +3,10 @@ font pango: opendyslexic 7
 set $refresh_i3status killall -SIGUSR1 i3status
 
 exec --no-startup-id dex -ae i3
+exec --no-startup-id helvum
+exec --no-startup-id easyeffects
+exec --no-startup-id picom -b
+exec --no-startup-id nvidia-settings --load-config-only
 
 floating_modifier $mod
 set $mod Mod4
@@ -122,6 +126,8 @@ bindsym $mod+7 workspace number 7; rename workspace to $ws7
 bindsym $mod+8 workspace number 8; rename workspace to $ws8
 bindsym $mod+9 workspace number 9; rename workspace to $ws9
 bindsym $mod+0 workspace number 10; rename workspace to $ws10
+bindsym $mod+Ctrl+8 workspace number 18; rename workspace to $ws18
+
 
 bindsym $mod+Shift+1 move container to workspace number $ws1
 bindsym $mod+Shift+2 move container to workspace number $ws2
