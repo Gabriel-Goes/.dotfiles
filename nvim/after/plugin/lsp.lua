@@ -132,14 +132,4 @@ require'lspconfig'.marksman.setup{
     }
 }
 
--------------- XML
-require'lspconfig'.lenminx.setup{
-    on_attach = on_attach,
-    settings = {
-        xml = {
-            enabled = true,
-        }
-    }
-}
-
 -- print("LSP Carregado com sucesso")

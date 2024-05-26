@@ -1,17 +1,17 @@
 # I3-WM Configuration File
 font pango: opendyslexic 7
+
 set $refresh_i3status killall -SIGUSR1 i3status
 
-exec --no-startup-id dex -ae i3
-exec --no-startup-id helvum
-exec --no-startup-id easyeffects
-exec --no-startup-id picom -b
 exec --no-startup-id nvidia-settings --load-config-only
 
 floating_modifier $mod
 set $mod Mod4
 
 for_window [class="^.*"] border pixel 0
+for_window [class="farejador.py"] floating enable
+for_window [class="feh"] floating enable
+
 gaps inner 3
 gaps outer 3
 smart_gaps on
@@ -48,7 +48,7 @@ bindsym $mod+Shift+F11 exec --no-startup-id 'tsm' 'Configs' 'cd ~/.config/i3 
 bindsym $mod+Shift+F12 exec --no-startup-id 'tsm' 'Configs' 'cd ~/.config/nvim && vim ./init.lua'
 bindsym $mod+F12 exec --no-startup-id 'tsm' 'Configs' 'cd ~/.config && vim .'
 
-bindsym $mod+Return exec alacritty -e tmux
+bindsym $mod+Return exec wezterm -e tmux
 bindsym $mod+Shift+q kill
 
 bindsym Menu exec --no-startup-id dmenu_run_history
@@ -81,8 +81,8 @@ set $ws6 "6: 󱁊 Zettelkasten"
 set $ws7 "7:  Biblioteca"
 set $ws8 "8"
 set $ws9 "9:  Configs"
-
 set $ws10 "10"
+
 set $ws18 "18: 󱀞 Multimídia"
 set $ws19 "19: 󰑋 OBStudio"
 set $ws20 "20: 󰇧 Preditor Terra"
@@ -126,7 +126,9 @@ bindsym $mod+7 workspace number 7; rename workspace to $ws7
 bindsym $mod+8 workspace number 8; rename workspace to $ws8
 bindsym $mod+9 workspace number 9; rename workspace to $ws9
 bindsym $mod+0 workspace number 10; rename workspace to $ws10
+
 bindsym $mod+Ctrl+8 workspace number 18; rename workspace to $ws18
+bindsym $mod+Ctrl+9 workspace number 19; rename workspace to $ws19
 
 
 bindsym $mod+Shift+1 move container to workspace number $ws1
@@ -160,12 +162,12 @@ bindsym $mod+r mode "resize"
 bar {
         font pango: opendyslexic 7
         status_command i3status -c ~/.config/i3/i3status/primary_config
-        # output DVI-D-0
+        output DVI-D-0
         tray_output none
 }
-# bar {
-#         font pango: opendyslexic 7
-#         status_command i3status -c ~/.config/i3/i3status/second_config
-#         output DP-0
-#         tray_output DP-0
-# }
+bar {
+        font pango: opendyslexic 7
+        status_command i3status -c ~/.config/i3/i3status/second_config
+        output DP-0
+        tray_output DP-0
+}
