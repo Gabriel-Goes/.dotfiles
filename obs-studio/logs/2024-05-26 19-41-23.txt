@@ -1,0 +1,166 @@
+19:41:23.386: [Safe Mode] Unclean shutdown detected!
+19:41:25.760: [Safe Mode] User elected to launch normally.
+19:41:25.761: Using EGL/X11
+19:41:25.761: CPU Name: AMD Ryzen 5 3600X 6-Core Processor
+19:41:25.761: CPU Speed: 3708.027MHz
+19:41:25.762: Physical Cores: 6, Logical Cores: 12
+19:41:25.762: Physical Memory: 23979MB Total, 14836MB Free
+19:41:25.762: Kernel Version: Linux 6.9.2-arch1-1
+19:41:25.762: Distribution: "Arch Linux" Unknown
+19:41:25.762: Session Type: tty
+19:41:25.762: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.21.1
+19:41:25.765: Qt Version: 6.7.1 (runtime), 6.7.0 (compiled)
+19:41:25.765: Portable mode: false
+19:41:25.795: OBS 30.1.2-1 (linux)
+19:41:25.795: ---------------------------------
+19:41:25.797: ---------------------------------
+19:41:25.797: audio settings reset:
+19:41:25.797: 	samples per sec: 48000
+19:41:25.797: 	speakers:        2
+19:41:25.797: 	max buffering:   960 milliseconds
+19:41:25.797: 	buffering type:  dynamically increasing
+19:41:25.802: ---------------------------------
+19:41:25.802: Initializing OpenGL...
+19:41:25.839: Loading up OpenGL on adapter NVIDIA Corporation NVIDIA GeForce GTX 1650 SUPER/PCIe/SSE2
+19:41:25.839: OpenGL loaded successfully, version 3.3.0 NVIDIA 550.78, shading language 3.30 NVIDIA via Cg compiler
+19:41:25.870: ---------------------------------
+19:41:25.870: video settings reset:
+19:41:25.870: 	base resolution:   1920x1080
+19:41:25.870: 	output resolution: 1920x1080
+19:41:25.870: 	downscale filter:  Bicubic
+19:41:25.870: 	fps:               60/1
+19:41:25.870: 	format:            NV12
+19:41:25.870: 	YUV mode:          Rec. 709/Partial
+19:41:25.871: NV12 texture support enabled
+19:41:25.871: P010 texture support not available
+19:41:25.888: Audio monitoring device:
+19:41:25.888: 	name: Padrão
+19:41:25.888: 	id: default
+19:41:25.888: ---------------------------------
+19:41:25.897: Failed to load 'en-US' text for module: 'decklink-captions.so'
+19:41:25.907: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+19:41:25.915: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+19:41:25.915: Failed to initialize module 'decklink.so'
+19:41:26.058: [pipewire] No captures available
+19:41:26.080: v4l2loopback not installed, virtual camera disabled
+19:41:26.151: NVENC supported
+19:41:26.152: VAAPI: Failed to initialize display in vaapi_device_h264_supported
+19:41:26.152: FFmpeg VAAPI H264 encoding not supported
+19:41:26.152: VAAPI: Failed to initialize display in vaapi_device_av1_supported
+19:41:26.152: FFmpeg VAAPI AV1 encoding not supported
+19:41:26.152: VAAPI: Failed to initialize display in vaapi_device_hevc_supported
+19:41:26.152: FFmpeg VAAPI HEVC encoding not supported
+19:41:26.270: ---------------------------------
+19:41:26.270:   Loaded Modules:
+19:41:26.270:     text-freetype2.so
+19:41:26.270:     rtmp-services.so
+19:41:26.270:     obs-x264.so
+19:41:26.270:     obs-webrtc.so
+19:41:26.270:     obs-vst.so
+19:41:26.270:     obs-transitions.so
+19:41:26.270:     obs-qsv11.so
+19:41:26.270:     obs-outputs.so
+19:41:26.270:     obs-libfdk.so
+19:41:26.270:     obs-filters.so
+19:41:26.270:     obs-ffmpeg.so
+19:41:26.270:     linux-v4l2.so
+19:41:26.270:     linux-pulseaudio.so
+19:41:26.270:     linux-pipewire.so
+19:41:26.270:     linux-jack.so
+19:41:26.270:     linux-capture.so
+19:41:26.270:     linux-alsa.so
+19:41:26.270:     image-source.so
+19:41:26.270:     frontend-tools.so
+19:41:26.270:     decklink-output-ui.so
+19:41:26.270:     decklink-captions.so
+19:41:26.270: ---------------------------------
+19:41:26.271: ==== Startup complete ===============================================
+19:41:26.273: Switched to Preview/Program mode
+19:41:26.273: ------------------------------------------------
+19:41:26.309: All scene data cleared
+19:41:26.309: ------------------------------------------------
+19:41:26.311: xshm-input: Geometry 1440x900 @ 1024,0
+19:41:26.315: pulse-input: Server name: 'PulseAudio (on PipeWire 1.0.7) 15.0.0'
+19:41:26.315: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+19:41:26.315: pulse-input: Started recording from 'alsa_output.pci-0000_09_00.4.analog-stereo.monitor'
+19:41:26.383: [Media Source 'Fonte de mídia']: settings:
+19:41:26.383: 	input:                   udp://192.168.15.38:1213
+19:41:26.383: 	input_format:            
+19:41:26.383: 	speed:                   100
+19:41:26.383: 	is_looping:              no
+19:41:26.383: 	is_linear_alpha:         no
+19:41:26.383: 	is_hw_decoding:          yes
+19:41:26.383: 	is_clear_on_media_end:   no
+19:41:26.383: 	restart_on_activate:     no
+19:41:26.383: 	close_when_inactive:     no
+19:41:26.383: 	full_decode:             no
+19:41:26.383: 	ffmpeg_options:          
+19:41:26.384: xshm-input: Geometry 1024x768 @ 0,0
+19:41:26.385: pulse-input: Server name: 'PulseAudio (on PipeWire 1.0.7) 15.0.0'
+19:41:26.385: pulse-input: An error occurred while getting the source info!
+19:41:26.390: alsa-input: PCM 'default' rate set to 44100
+19:41:26.390: alsa-input: PCM 'default' channels set to 2
+19:41:26.409: Switched to scene 'wbcam'
+19:41:26.409: User switched Program to scene 'Stream'
+19:41:26.410: ------------------------------------------------
+19:41:26.410: Loaded scenes:
+19:41:26.410: - scene 'Stream':
+19:41:26.410:     - source: 'Mic (HS)' (alsa_input_capture)
+19:41:26.410:         - filter: 'Supressão de ruídos' (noise_suppress_filter_v2)
+19:41:26.410:         - filter: 'Ganho' (gain_filter)
+19:41:26.410:     - source: 'EE-Sink' (pulse_output_capture)
+19:41:26.410:     - source: 'Gianini' (pulse_output_capture)
+19:41:26.410:     - source: 'AOC_LIXO' (xshm_input)
+19:41:26.410:         - filter: 'Nitidez' (sharpness_filter_v2)
+19:41:26.410:     - source: 'AOC_VELHO' (xshm_input)
+19:41:26.410:     - source: 'marte_bg' (image_source)
+19:41:26.410:     - source: 'Fonte de mídia' (ffmpeg_source)
+19:41:26.410:         - filter: 'Color Key' (color_key_filter_v2)
+19:41:26.410:     - filter: 'Chroma Key' (chroma_key_filter_v2)
+19:41:26.410: - scene 'Stream Config':
+19:41:26.410:     - source: 'Mic (HS)' (alsa_input_capture)
+19:41:26.410:         - filter: 'Supressão de ruídos' (noise_suppress_filter_v2)
+19:41:26.410:         - filter: 'Ganho' (gain_filter)
+19:41:26.410:     - source: 'EE-Sink' (pulse_output_capture)
+19:41:26.410:     - source: 'Gianini' (pulse_output_capture)
+19:41:26.410:     - source: 'AOC_LIXO' (xshm_input)
+19:41:26.410:         - filter: 'Nitidez' (sharpness_filter_v2)
+19:41:26.410:     - source: 'AOC_VELHO' (xshm_input)
+19:41:26.410:     - source: 'marte_bg' (image_source)
+19:41:26.410:     - source: 'Fonte de mídia' (ffmpeg_source)
+19:41:26.410:         - filter: 'Color Key' (color_key_filter_v2)
+19:41:26.410:     - filter: 'Chroma Key' (chroma_key_filter_v2)
+19:41:26.410: - scene 'Settings':
+19:41:26.410:     - source: 'Mic (HS)' (alsa_input_capture)
+19:41:26.410:         - filter: 'Supressão de ruídos' (noise_suppress_filter_v2)
+19:41:26.410:         - filter: 'Ganho' (gain_filter)
+19:41:26.410:     - source: 'EE-Sink' (pulse_output_capture)
+19:41:26.410:     - source: 'Gianini' (pulse_output_capture)
+19:41:26.410:     - source: 'marte_bg' (image_source)
+19:41:26.410:     - source: 'AOC_VELHO' (xshm_input)
+19:41:26.410:     - source: 'AOC_LIXO' (xshm_input)
+19:41:26.410:         - filter: 'Nitidez' (sharpness_filter_v2)
+19:41:26.410:     - source: 'Fonte de mídia' (ffmpeg_source)
+19:41:26.410:         - filter: 'Color Key' (color_key_filter_v2)
+19:41:26.410: - scene 'wbcam':
+19:41:26.410:     - source: 'Mic (HS)' (alsa_input_capture)
+19:41:26.410:         - filter: 'Supressão de ruídos' (noise_suppress_filter_v2)
+19:41:26.410:         - filter: 'Ganho' (gain_filter)
+19:41:26.410:     - source: 'Imagem' (image_source)
+19:41:26.410:     - source: 'Fonte de mídia' (ffmpeg_source)
+19:41:26.410:         - filter: 'Color Key' (color_key_filter_v2)
+19:41:26.410:     - source: 'Gianini' (pulse_output_capture)
+19:41:26.410:     - source: 'EE-Sink' (pulse_output_capture)
+19:41:26.410:     - filter: 'Chroma Key' (chroma_key_filter_v2)
+19:41:26.410: - scene 'Marte':
+19:41:26.410:     - source: 'Imagem' (image_source)
+19:41:26.410: ------------------------------------------------
+19:41:26.885: adding 42 milliseconds of audio buffering, total audio buffering is now 42 milliseconds (source: Gianini)
+19:41:26.885: 
+19:41:27.035: adding 42 milliseconds of audio buffering, total audio buffering is now 85 milliseconds (source: Mic (HS))
+19:41:27.035: 
+19:51:42.832: User switched to scene 'Stream'
+19:53:14.597: adding 213 milliseconds of audio buffering, total audio buffering is now 298 milliseconds (source: Mic (HS))
+19:53:14.597: 
+19:53:14.981: adding 128 milliseconds of audio buffering, total audio buffering is now 426 milliseconds (source: Mic (HS))
+19:53:14.981: 
