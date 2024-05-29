@@ -3,7 +3,7 @@ local xplr = xplr -- The globally exposed configuration to be overridden.
 ---@diagnostic enable
 
 -- ```lua
--- version = "0.0.0"
+version = "0.21.8"
 -- ```
 
 -- # Configuration ------------------------------------------------------------
@@ -12,27 +12,6 @@ local xplr = xplr -- The globally exposed configuration to be overridden.
 -- * [xplr.config.node_types](https://xplr.dev/en/node_types)
 -- * [xplr.config.layouts](https://xplr.dev/en/layouts)
 -- * [xplr.config.modes](https://xplr.dev/en/modes)
-
-
-xplr.config.modes.builtin.default.key_bindings.on_key.P = {
-  help = "preview",
-  messages = {
-    {
-      BashExecSilently0 = [===[
-        FIFO_PATH="/tmp/xplr.fifo"
-
-        if [ -e "$FIFO_PATH" ]; then
-          "$XPLR" -m StopFifo
-          rm -f -- "$FIFO_PATH"
-        else
-          mkfifo "$FIFO_PATH"
-          "$HOME/.local/bin/imv-open" "$FIFO_PATH" "$XPLR_FOCUS_PATH" &
-          "$XPLR" -m 'StartFifo: %q' "$FIFO_PATH"
-        fi
-      ]===],
-    },
-  },
-}
 
 -- Type: boolean
 xplr.config.general.disable_debug_error_mode = false
@@ -3217,6 +3196,7 @@ xplr.fn.custom = {}
 --   }
 -- }
 -- ```
+--
 
 return {
   on_load = {},

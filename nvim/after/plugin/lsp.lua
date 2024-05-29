@@ -108,17 +108,15 @@ require'lspconfig'.pylsp.setup{
 }
 -------------- LaTex
 require'lspconfig'.ltex.setup{
+    cmd = { "ltex-ls" },
     on_attach = on_attach,
-    filetypes = {"tex", "bib"},
     settings = {
         ltex = {
-            language = "pt-BR",
-            dictionary = {
-                ["pt-BR"] = vim.fn.readfile(vim.fn.expand("~/.config/nvim/dictionary/pt-BR.dic")),
-            },
             enabled = true,
-        }
-    }
+            language = "en",
+            diagnosticSeverity = "information",
+        },
+    },
 }
 
 -------------- Marksman
