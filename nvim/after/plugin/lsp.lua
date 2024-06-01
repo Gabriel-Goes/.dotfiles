@@ -4,6 +4,7 @@
 -- LSP Native
 -- print('Hello, from after/plugin/lsp.lua')
 
+
 --  Mason LSP
 require('mason').setup()
 require('mason-lspconfig').setup({
@@ -101,8 +102,6 @@ require('lspconfig').lua_ls.setup{
 
 -------------- Pylsp
 require'lspconfig'.pylsp.setup{
-
--- /home/ggrl/.local/share/nvim/mason/bin/
     cmd = {vim.fn.stdpath('data') .. '/mason/bin/pylsp'},
     on_attach = on_attach,
 }
@@ -129,5 +128,3 @@ require'lspconfig'.marksman.setup{
         }
     }
 }
-
--- print("LSP Carregado com sucesso")

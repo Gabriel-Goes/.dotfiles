@@ -1,0 +1,518 @@
+07:14:04.543: Using EGL/X11
+07:14:04.543: CPU Name: AMD Ryzen 5 3600X 6-Core Processor
+07:14:04.543: CPU Speed: 3511.105MHz
+07:14:04.543: Physical Cores: 6, Logical Cores: 12
+07:14:04.543: Physical Memory: 23979MB Total, 9893MB Free
+07:14:04.543: Kernel Version: Linux 6.9.2-arch1-1
+07:14:04.544: Distribution: "Arch Linux" Unknown
+07:14:04.544: Session Type: tty
+07:14:04.544: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.21.1
+07:14:04.554: Qt Version: 6.7.1 (runtime), 6.7.0 (compiled)
+07:14:04.554: Portable mode: false
+07:14:04.602: OBS 30.1.2-1 (linux)
+07:14:04.602: ---------------------------------
+07:14:04.604: ---------------------------------
+07:14:04.604: audio settings reset:
+07:14:04.604: 	samples per sec: 48000
+07:14:04.604: 	speakers:        2
+07:14:04.604: 	max buffering:   960 milliseconds
+07:14:04.604: 	buffering type:  dynamically increasing
+07:14:04.608: ---------------------------------
+07:14:04.608: Initializing OpenGL...
+07:14:04.730: Loading up OpenGL on adapter NVIDIA Corporation NVIDIA GeForce GTX 1650 SUPER/PCIe/SSE2
+07:14:04.730: OpenGL loaded successfully, version 3.3.0 NVIDIA 550.78, shading language 3.30 NVIDIA via Cg compiler
+07:14:04.763: ---------------------------------
+07:14:04.763: video settings reset:
+07:14:04.763: 	base resolution:   1920x1080
+07:14:04.763: 	output resolution: 1920x1080
+07:14:04.763: 	downscale filter:  Bicubic
+07:14:04.763: 	fps:               60/1
+07:14:04.763: 	format:            NV12
+07:14:04.763: 	YUV mode:          Rec. 709/Partial
+07:14:04.765: NV12 texture support enabled
+07:14:04.765: P010 texture support not available
+07:14:04.850: Audio monitoring device:
+07:14:04.850: 	name: Padrão
+07:14:04.850: 	id: default
+07:14:04.850: ---------------------------------
+07:14:04.860: Failed to load 'en-US' text for module: 'decklink-captions.so'
+07:14:04.869: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+07:14:04.877: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+07:14:04.877: Failed to initialize module 'decklink.so'
+07:14:05.035: [pipewire] No captures available
+07:14:05.061: v4l2loopback not installed, virtual camera disabled
+07:14:05.110: NVENC supported
+07:14:05.110: VAAPI: Failed to initialize display in vaapi_device_h264_supported
+07:14:05.110: FFmpeg VAAPI H264 encoding not supported
+07:14:05.110: VAAPI: Failed to initialize display in vaapi_device_av1_supported
+07:14:05.110: FFmpeg VAAPI AV1 encoding not supported
+07:14:05.110: VAAPI: Failed to initialize display in vaapi_device_hevc_supported
+07:14:05.110: FFmpeg VAAPI HEVC encoding not supported
+07:14:05.243: ---------------------------------
+07:14:05.243:   Loaded Modules:
+07:14:05.243:     text-freetype2.so
+07:14:05.243:     rtmp-services.so
+07:14:05.243:     obs-x264.so
+07:14:05.243:     obs-webrtc.so
+07:14:05.243:     obs-vst.so
+07:14:05.243:     obs-transitions.so
+07:14:05.243:     obs-qsv11.so
+07:14:05.243:     obs-outputs.so
+07:14:05.243:     obs-libfdk.so
+07:14:05.243:     obs-filters.so
+07:14:05.243:     obs-ffmpeg.so
+07:14:05.243:     linux-v4l2.so
+07:14:05.243:     linux-pulseaudio.so
+07:14:05.243:     linux-pipewire.so
+07:14:05.243:     linux-jack.so
+07:14:05.243:     linux-capture.so
+07:14:05.243:     linux-alsa.so
+07:14:05.243:     image-source.so
+07:14:05.243:     frontend-tools.so
+07:14:05.243:     decklink-output-ui.so
+07:14:05.243:     decklink-captions.so
+07:14:05.243: ---------------------------------
+07:14:05.244: ==== Startup complete ===============================================
+07:14:05.246: Switched to Preview/Program mode
+07:14:05.246: ------------------------------------------------
+07:14:05.287: All scene data cleared
+07:14:05.287: ------------------------------------------------
+07:14:05.290: xshm-input: Geometry 1440x900 @ 1024,0
+07:14:05.293: pulse-input: Server name: 'PulseAudio (on PipeWire 1.0.7) 15.0.0'
+07:14:05.293: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+07:14:05.293: pulse-input: Started recording from 'alsa_output.pci-0000_09_00.4.analog-stereo.monitor'
+07:14:05.360: [Media Source 'Fonte de mídia']: settings:
+07:14:05.360: 	input:                   udp://192.168.15.38:1213
+07:14:05.360: 	input_format:            
+07:14:05.360: 	speed:                   100
+07:14:05.360: 	is_looping:              no
+07:14:05.360: 	is_linear_alpha:         no
+07:14:05.360: 	is_hw_decoding:          yes
+07:14:05.360: 	is_clear_on_media_end:   no
+07:14:05.360: 	restart_on_activate:     no
+07:14:05.360: 	close_when_inactive:     no
+07:14:05.360: 	full_decode:             no
+07:14:05.360: 	ffmpeg_options:          
+07:14:05.362: xshm-input: Geometry 1024x768 @ 0,0
+07:14:05.363: pulse-input: Server name: 'PulseAudio (on PipeWire 1.0.7) 15.0.0'
+07:14:05.364: pulse-input: Audio format: float32le, 48000 Hz, 2 channels
+07:14:05.364: pulse-input: Started recording from 'easyeffects_sink.monitor'
+07:14:05.396: alsa-input: PCM 'default' rate set to 44100
+07:14:05.396: alsa-input: PCM 'default' channels set to 2
+07:14:05.429: Switched to scene 'Stream'
+07:14:05.430: User switched Program to scene 'Stream'
+07:14:05.441: ------------------------------------------------
+07:14:05.441: Loaded scenes:
+07:14:05.441: - scene 'Stream':
+07:14:05.441:     - source: 'EE-Sink' (pulse_output_capture)
+07:14:05.441:     - source: 'Mic (HS)' (alsa_input_capture)
+07:14:05.441:         - filter: 'Supressão de ruídos' (noise_suppress_filter_v2)
+07:14:05.441:         - filter: 'Ganho' (gain_filter)
+07:14:05.441:         - filter: 'Filtro de ruídos' (noise_gate_filter)
+07:14:05.441:     - source: 'Gianini' (pulse_output_capture)
+07:14:05.441:     - source: 'AOC_LIXO' (xshm_input)
+07:14:05.441:     - source: 'AOC_VELHO' (xshm_input)
+07:14:05.441:     - source: 'marte_bg' (image_source)
+07:14:05.441:     - source: 'Fonte de mídia' (ffmpeg_source)
+07:14:05.441:         - filter: 'Color Key' (color_key_filter_v2)
+07:14:05.441:     - filter: 'Chroma Key' (chroma_key_filter_v2)
+07:14:05.441: - scene 'Stream Config':
+07:14:05.441:     - source: 'Mic (HS)' (alsa_input_capture)
+07:14:05.441:         - filter: 'Supressão de ruídos' (noise_suppress_filter_v2)
+07:14:05.441:         - filter: 'Ganho' (gain_filter)
+07:14:05.441:         - filter: 'Filtro de ruídos' (noise_gate_filter)
+07:14:05.441:     - source: 'EE-Sink' (pulse_output_capture)
+07:14:05.441:     - source: 'Gianini' (pulse_output_capture)
+07:14:05.441:     - source: 'AOC_LIXO' (xshm_input)
+07:14:05.441:     - source: 'AOC_VELHO' (xshm_input)
+07:14:05.441:     - source: 'marte_bg' (image_source)
+07:14:05.441:     - source: 'Fonte de mídia' (ffmpeg_source)
+07:14:05.441:         - filter: 'Color Key' (color_key_filter_v2)
+07:14:05.441:     - filter: 'Chroma Key' (chroma_key_filter_v2)
+07:14:05.441: - scene 'Settings':
+07:14:05.441:     - source: 'Mic (HS)' (alsa_input_capture)
+07:14:05.441:         - filter: 'Supressão de ruídos' (noise_suppress_filter_v2)
+07:14:05.441:         - filter: 'Ganho' (gain_filter)
+07:14:05.441:         - filter: 'Filtro de ruídos' (noise_gate_filter)
+07:14:05.441:     - source: 'EE-Sink' (pulse_output_capture)
+07:14:05.441:     - source: 'Gianini' (pulse_output_capture)
+07:14:05.441:     - source: 'marte_bg' (image_source)
+07:14:05.441:     - source: 'AOC_VELHO' (xshm_input)
+07:14:05.441:     - source: 'AOC_LIXO' (xshm_input)
+07:14:05.441:     - source: 'Fonte de mídia' (ffmpeg_source)
+07:14:05.441:         - filter: 'Color Key' (color_key_filter_v2)
+07:14:05.441: - scene 'wbcam':
+07:14:05.441:     - source: 'Mic (HS)' (alsa_input_capture)
+07:14:05.441:         - filter: 'Supressão de ruídos' (noise_suppress_filter_v2)
+07:14:05.441:         - filter: 'Ganho' (gain_filter)
+07:14:05.441:         - filter: 'Filtro de ruídos' (noise_gate_filter)
+07:14:05.441:     - source: 'Imagem' (image_source)
+07:14:05.441:     - source: 'Fonte de mídia' (ffmpeg_source)
+07:14:05.441:         - filter: 'Color Key' (color_key_filter_v2)
+07:14:05.441:     - source: 'Gianini' (pulse_output_capture)
+07:14:05.441:     - source: 'EE-Sink' (pulse_output_capture)
+07:14:05.441:     - filter: 'Chroma Key' (chroma_key_filter_v2)
+07:14:05.441: - scene 'Marte':
+07:14:05.441:     - source: 'Imagem' (image_source)
+07:14:05.442: ------------------------------------------------
+07:14:05.906: adding 42 milliseconds of audio buffering, total audio buffering is now 42 milliseconds (source: Gianini)
+07:14:05.906: 
+07:14:06.012: adding 42 milliseconds of audio buffering, total audio buffering is now 85 milliseconds (source: Mic (HS))
+07:14:06.012: 
+10:14:38.491:   OpenType support missing for "OpenDyslexicMono", script 11
+10:14:38.491:   OpenType support missing for "JetBrains Mono", script 11
+10:14:38.491:   OpenType support missing for "JetBrains Mono NL", script 11
+10:14:38.492:   OpenType support missing for "Roboto", script 11
+10:14:38.492:   OpenType support missing for "Roboto Condensed", script 11
+10:14:38.492:   OpenType support missing for "Source Code Pro", script 11
+10:14:38.492:   OpenType support missing for "OpenDyslexic", script 11
+10:14:38.493:   OpenType support missing for "OpenDyslexicAlta", script 11
+10:14:38.493:   OpenType support missing for "OpenDyslexicAlt Nerd Font", script 11
+10:14:38.494:   OpenType support missing for "OpenDyslexicAlt Nerd Font Propo", script 11
+10:14:38.495:   OpenType support missing for "OpenDyslexic Nerd Font", script 11
+10:14:38.495:   OpenType support missing for "OpenDyslexic Nerd Font Propo", script 11
+10:14:38.496:   OpenType support missing for "D050000L", script 11
+10:14:38.496:   OpenType support missing for "Standard Symbols PS", script 11
+10:14:38.496:   OpenType support missing for "Open Sans", script 11
+10:14:38.496:   OpenType support missing for "SourceCodeVF", script 11
+10:14:38.497:   OpenType support missing for "OpenDyslexicM Nerd Font", script 11
+10:14:38.498:   OpenType support missing for "OpenDyslexicM Nerd Font Mono", script 11
+10:14:38.498:   OpenType support missing for "OpenDyslexicM Nerd Font Propo", script 11
+10:14:38.498:   OpenType support missing for "East Syriac Adiabene", script 11
+10:14:38.498:   OpenType support missing for "Estrangelo Antioch", script 11
+10:14:38.498:   OpenType support missing for "Serto Batnan", script 11
+10:14:38.498:   OpenType support missing for "East Syriac Ctesiphon", script 11
+10:14:38.499:   OpenType support missing for "Serto Jerusalem", script 11
+10:14:38.499:   OpenType support missing for "Serto Jerusalem Outline", script 11
+10:14:38.499:   OpenType support missing for "Serto Kharput", script 11
+10:14:38.499:   OpenType support missing for "Serto Malankara", script 11
+10:14:38.499:   OpenType support missing for "Serto Mardin", script 11
+10:14:38.499:   OpenType support missing for "Estrangelo Midyat", script 11
+10:14:38.499:   OpenType support missing for "Estrangelo Nisibin", script 11
+10:14:38.499:   OpenType support missing for "Estrangelo Nisibin Outline", script 11
+10:14:38.500:   OpenType support missing for "Estrangelo Quenneshrin", script 11
+10:14:38.500:   OpenType support missing for "Estrangelo Talada", script 11
+10:14:38.500:   OpenType support missing for "Estrangelo TurAbdin", script 11
+10:14:38.500:   OpenType support missing for "Serto Urhoy", script 11
+10:14:38.500:   OpenType support missing for "OpenDyslexic3", script 11
+10:14:38.500:   OpenType support missing for "C059", script 11
+10:14:38.500:   OpenType support missing for "Nimbus Mono PS", script 11
+10:14:38.501:   OpenType support missing for "Nimbus Roman", script 11
+10:14:38.501:   OpenType support missing for "Nimbus Sans", script 11
+10:14:38.501:   OpenType support missing for "P052", script 11
+10:14:38.501:   OpenType support missing for "URW Gothic", script 11
+10:14:38.501:   OpenType support missing for "Estrangelo Edessa", script 11
+10:14:38.502:   OpenType support missing for "Cantarell", script 11
+10:14:38.502:   OpenType support missing for "Nimbus Sans Narrow", script 11
+10:14:38.502:   OpenType support missing for "PowerlineSymbols", script 11
+10:14:38.503:   OpenType support missing for "Goha-Tibeb Zemen", script 11
+10:14:38.503:   OpenType support missing for "URW Bookman", script 11
+10:14:38.504:   OpenType support missing for "Z003", script 11
+10:14:38.504:   OpenType support missing for "", script 11
+10:14:38.504:   OpenType support missing for "", script 11
+10:14:38.504:   OpenType support missing for "", script 11
+10:14:38.504:   OpenType support missing for "", script 11
+10:14:38.505:   OpenType support missing for "", script 11
+10:14:38.505:   OpenType support missing for "", script 11
+10:14:38.505:   OpenType support missing for "", script 11
+10:14:38.505:   OpenType support missing for "", script 11
+10:14:38.505:   OpenType support missing for "", script 11
+10:14:38.505:   OpenType support missing for "", script 11
+10:14:38.505:   OpenType support missing for "", script 11
+10:14:38.505:   OpenType support missing for "", script 11
+10:14:38.506:   OpenType support missing for "", script 11
+10:14:38.507:   OpenType support missing for "", script 11
+10:14:38.507:   OpenType support missing for "", script 11
+10:14:38.508:   OpenType support missing for "", script 11
+10:14:38.508:   OpenType support missing for "", script 11
+10:14:38.508:   OpenType support missing for "", script 11
+10:14:38.508:   OpenType support missing for "OpenDyslexicMono", script 12
+10:14:38.508:   OpenType support missing for "JetBrains Mono", script 12
+10:14:38.508:   OpenType support missing for "JetBrains Mono NL", script 12
+10:14:38.509:   OpenType support missing for "Roboto", script 12
+10:14:38.509:   OpenType support missing for "Roboto Condensed", script 12
+10:14:38.509:   OpenType support missing for "Source Code Pro", script 12
+10:14:38.509:   OpenType support missing for "OpenDyslexic", script 12
+10:14:38.509:   OpenType support missing for "OpenDyslexicAlta", script 12
+10:14:38.509:   OpenType support missing for "OpenDyslexicAlt Nerd Font", script 12
+10:14:38.510:   OpenType support missing for "OpenDyslexicAlt Nerd Font Propo", script 12
+10:14:38.510:   OpenType support missing for "OpenDyslexic Nerd Font", script 12
+10:14:38.510:   OpenType support missing for "OpenDyslexic Nerd Font Propo", script 12
+10:14:38.510:   OpenType support missing for "D050000L", script 12
+10:14:38.510:   OpenType support missing for "Standard Symbols PS", script 12
+10:14:38.511:   OpenType support missing for "Open Sans", script 12
+10:14:38.511:   OpenType support missing for "SourceCodeVF", script 12
+10:14:38.511:   OpenType support missing for "OpenDyslexicM Nerd Font", script 12
+10:14:38.511:   OpenType support missing for "OpenDyslexicM Nerd Font Mono", script 12
+10:14:38.512:   OpenType support missing for "OpenDyslexicM Nerd Font Propo", script 12
+10:14:38.512:   OpenType support missing for "East Syriac Adiabene", script 12
+10:14:38.512:   OpenType support missing for "Estrangelo Antioch", script 12
+10:14:38.512:   OpenType support missing for "Serto Batnan", script 12
+10:14:38.512:   OpenType support missing for "East Syriac Ctesiphon", script 12
+10:14:38.512:   OpenType support missing for "Serto Jerusalem", script 12
+10:14:38.512:   OpenType support missing for "Serto Jerusalem Outline", script 12
+10:14:38.512:   OpenType support missing for "Serto Kharput", script 12
+10:14:38.513:   OpenType support missing for "Serto Malankara", script 12
+10:14:38.513:   OpenType support missing for "Serto Mardin", script 12
+10:14:38.513:   OpenType support missing for "Estrangelo Midyat", script 12
+10:14:38.513:   OpenType support missing for "Estrangelo Nisibin", script 12
+10:14:38.513:   OpenType support missing for "Estrangelo Nisibin Outline", script 12
+10:14:38.513:   OpenType support missing for "Estrangelo Quenneshrin", script 12
+10:14:38.513:   OpenType support missing for "Estrangelo Talada", script 12
+10:14:38.513:   OpenType support missing for "Estrangelo TurAbdin", script 12
+10:14:38.513:   OpenType support missing for "Serto Urhoy", script 12
+10:14:38.514:   OpenType support missing for "OpenDyslexic3", script 12
+10:14:38.514:   OpenType support missing for "C059", script 12
+10:14:38.514:   OpenType support missing for "Nimbus Mono PS", script 12
+10:14:38.514:   OpenType support missing for "Nimbus Roman", script 12
+10:14:38.514:   OpenType support missing for "Nimbus Sans", script 12
+10:14:38.515:   OpenType support missing for "P052", script 12
+10:14:38.515:   OpenType support missing for "URW Gothic", script 12
+10:14:38.515:   OpenType support missing for "Estrangelo Edessa", script 12
+10:14:38.515:   OpenType support missing for "Cantarell", script 12
+10:14:38.515:   OpenType support missing for "Nimbus Sans Narrow", script 12
+10:14:38.515:   OpenType support missing for "PowerlineSymbols", script 12
+10:14:38.515:   OpenType support missing for "Goha-Tibeb Zemen", script 12
+10:14:38.516:   OpenType support missing for "URW Bookman", script 12
+10:14:38.516:   OpenType support missing for "Z003", script 12
+10:14:38.516:   OpenType support missing for "", script 12
+10:14:38.516:   OpenType support missing for "", script 12
+10:14:38.516:   OpenType support missing for "", script 12
+10:14:38.516:   OpenType support missing for "", script 12
+10:14:38.516:   OpenType support missing for "", script 12
+10:14:38.517:   OpenType support missing for "", script 12
+10:14:38.517:   OpenType support missing for "", script 12
+10:14:38.517:   OpenType support missing for "", script 12
+10:14:38.517:   OpenType support missing for "", script 12
+10:14:38.517:   OpenType support missing for "", script 12
+10:14:38.517:   OpenType support missing for "", script 12
+10:14:38.518:   OpenType support missing for "", script 12
+10:14:38.518:   OpenType support missing for "", script 12
+10:14:38.518:   OpenType support missing for "", script 12
+10:14:38.518:   OpenType support missing for "", script 12
+10:14:38.518:   OpenType support missing for "", script 12
+10:14:38.519:   OpenType support missing for "", script 12
+10:14:38.519:   OpenType support missing for "", script 12
+10:14:38.519:   OpenType support missing for "OpenDyslexicMono", script 16
+10:14:38.519:   OpenType support missing for "JetBrains Mono", script 16
+10:14:38.519:   OpenType support missing for "JetBrains Mono NL", script 16
+10:14:38.520:   OpenType support missing for "Roboto", script 16
+10:14:38.520:   OpenType support missing for "Roboto Condensed", script 16
+10:14:38.520:   OpenType support missing for "Source Code Pro", script 16
+10:14:38.520:   OpenType support missing for "OpenDyslexic", script 16
+10:14:38.520:   OpenType support missing for "OpenDyslexicAlta", script 16
+10:14:38.520:   OpenType support missing for "OpenDyslexicAlt Nerd Font", script 16
+10:14:38.521:   OpenType support missing for "OpenDyslexicAlt Nerd Font Propo", script 16
+10:14:38.521:   OpenType support missing for "OpenDyslexic Nerd Font", script 16
+10:14:38.521:   OpenType support missing for "OpenDyslexic Nerd Font Propo", script 16
+10:14:38.521:   OpenType support missing for "D050000L", script 16
+10:14:38.522:   OpenType support missing for "Standard Symbols PS", script 16
+10:14:38.522:   OpenType support missing for "Open Sans", script 16
+10:14:38.522:   OpenType support missing for "SourceCodeVF", script 16
+10:14:38.522:   OpenType support missing for "OpenDyslexicM Nerd Font", script 16
+10:14:38.522:   OpenType support missing for "OpenDyslexicM Nerd Font Mono", script 16
+10:14:38.523:   OpenType support missing for "OpenDyslexicM Nerd Font Propo", script 16
+10:14:38.523:   OpenType support missing for "East Syriac Adiabene", script 16
+10:14:38.523:   OpenType support missing for "Estrangelo Antioch", script 16
+10:14:38.523:   OpenType support missing for "Serto Batnan", script 16
+10:14:38.523:   OpenType support missing for "East Syriac Ctesiphon", script 16
+10:14:38.523:   OpenType support missing for "Serto Jerusalem", script 16
+10:14:38.523:   OpenType support missing for "Serto Jerusalem Outline", script 16
+10:14:38.524:   OpenType support missing for "Serto Kharput", script 16
+10:14:38.524:   OpenType support missing for "Serto Malankara", script 16
+10:14:38.524:   OpenType support missing for "Serto Mardin", script 16
+10:14:38.524:   OpenType support missing for "Estrangelo Midyat", script 16
+10:14:38.524:   OpenType support missing for "Estrangelo Nisibin", script 16
+10:14:38.524:   OpenType support missing for "Estrangelo Nisibin Outline", script 16
+10:14:38.524:   OpenType support missing for "Estrangelo Quenneshrin", script 16
+10:14:38.524:   OpenType support missing for "Estrangelo Talada", script 16
+10:14:38.525:   OpenType support missing for "Estrangelo TurAbdin", script 16
+10:14:38.525:   OpenType support missing for "Serto Urhoy", script 16
+10:14:38.525:   OpenType support missing for "OpenDyslexic3", script 16
+10:14:38.525:   OpenType support missing for "C059", script 16
+10:14:38.525:   OpenType support missing for "Nimbus Mono PS", script 16
+10:14:38.525:   OpenType support missing for "Nimbus Roman", script 16
+10:14:38.526:   OpenType support missing for "Nimbus Sans", script 16
+10:14:38.526:   OpenType support missing for "P052", script 16
+10:14:38.526:   OpenType support missing for "URW Gothic", script 16
+10:14:38.526:   OpenType support missing for "Estrangelo Edessa", script 16
+10:14:38.526:   OpenType support missing for "Cantarell", script 16
+10:14:38.526:   OpenType support missing for "Nimbus Sans Narrow", script 16
+10:14:38.526:   OpenType support missing for "PowerlineSymbols", script 16
+10:14:38.527:   OpenType support missing for "Goha-Tibeb Zemen", script 16
+10:14:38.527:   OpenType support missing for "URW Bookman", script 16
+10:14:38.527:   OpenType support missing for "Z003", script 16
+10:14:38.527:   OpenType support missing for "", script 16
+10:14:38.527:   OpenType support missing for "", script 16
+10:14:38.527:   OpenType support missing for "", script 16
+10:14:38.527:   OpenType support missing for "", script 16
+10:14:38.528:   OpenType support missing for "", script 16
+10:14:38.528:   OpenType support missing for "", script 16
+10:14:38.528:   OpenType support missing for "", script 16
+10:14:38.528:   OpenType support missing for "", script 16
+10:14:38.528:   OpenType support missing for "", script 16
+10:14:38.528:   OpenType support missing for "", script 16
+10:14:38.528:   OpenType support missing for "", script 16
+10:14:38.528:   OpenType support missing for "", script 16
+10:14:38.529:   OpenType support missing for "", script 16
+10:14:38.529:   OpenType support missing for "", script 16
+10:14:38.529:   OpenType support missing for "", script 16
+10:14:38.529:   OpenType support missing for "", script 16
+10:14:38.529:   OpenType support missing for "", script 16
+10:14:38.529:   OpenType support missing for "", script 16
+10:14:38.530:   OpenType support missing for "OpenDyslexicMono", script 20
+10:14:38.530:   OpenType support missing for "JetBrains Mono", script 20
+10:14:38.530:   OpenType support missing for "JetBrains Mono NL", script 20
+10:14:38.530:   OpenType support missing for "Roboto", script 20
+10:14:38.530:   OpenType support missing for "Roboto Condensed", script 20
+10:14:38.530:   OpenType support missing for "Source Code Pro", script 20
+10:14:38.530:   OpenType support missing for "OpenDyslexic", script 20
+10:14:38.530:   OpenType support missing for "OpenDyslexicAlta", script 20
+10:14:38.531:   OpenType support missing for "OpenDyslexicAlt Nerd Font", script 20
+10:14:38.531:   OpenType support missing for "OpenDyslexicAlt Nerd Font Propo", script 20
+10:14:38.531:   OpenType support missing for "OpenDyslexic Nerd Font", script 20
+10:14:38.531:   OpenType support missing for "OpenDyslexic Nerd Font Propo", script 20
+10:14:38.532:   OpenType support missing for "D050000L", script 20
+10:14:38.532:   OpenType support missing for "Standard Symbols PS", script 20
+10:14:38.532:   OpenType support missing for "Open Sans", script 20
+10:14:38.532:   OpenType support missing for "SourceCodeVF", script 20
+10:14:38.532:   OpenType support missing for "OpenDyslexicM Nerd Font", script 20
+10:14:38.533:   OpenType support missing for "OpenDyslexicM Nerd Font Mono", script 20
+10:14:38.533:   OpenType support missing for "OpenDyslexicM Nerd Font Propo", script 20
+10:14:38.533:   OpenType support missing for "East Syriac Adiabene", script 20
+10:14:38.533:   OpenType support missing for "Estrangelo Antioch", script 20
+10:14:38.533:   OpenType support missing for "Serto Batnan", script 20
+10:14:38.533:   OpenType support missing for "East Syriac Ctesiphon", script 20
+10:14:38.533:   OpenType support missing for "Serto Jerusalem", script 20
+10:14:38.533:   OpenType support missing for "Serto Jerusalem Outline", script 20
+10:14:38.534:   OpenType support missing for "Serto Kharput", script 20
+10:14:38.534:   OpenType support missing for "Serto Malankara", script 20
+10:14:38.534:   OpenType support missing for "Serto Mardin", script 20
+10:14:38.534:   OpenType support missing for "Estrangelo Midyat", script 20
+10:14:38.534:   OpenType support missing for "Estrangelo Nisibin", script 20
+10:14:38.534:   OpenType support missing for "Estrangelo Nisibin Outline", script 20
+10:14:38.534:   OpenType support missing for "Estrangelo Quenneshrin", script 20
+10:14:38.534:   OpenType support missing for "Estrangelo Talada", script 20
+10:14:38.535:   OpenType support missing for "Estrangelo TurAbdin", script 20
+10:14:38.535:   OpenType support missing for "Serto Urhoy", script 20
+10:14:38.535:   OpenType support missing for "OpenDyslexic3", script 20
+10:14:38.535:   OpenType support missing for "C059", script 20
+10:14:38.535:   OpenType support missing for "Nimbus Mono PS", script 20
+10:14:38.535:   OpenType support missing for "Nimbus Roman", script 20
+10:14:38.536:   OpenType support missing for "Nimbus Sans", script 20
+10:14:38.536:   OpenType support missing for "P052", script 20
+10:14:38.536:   OpenType support missing for "URW Gothic", script 20
+10:14:38.536:   OpenType support missing for "Estrangelo Edessa", script 20
+10:14:38.536:   OpenType support missing for "Cantarell", script 20
+10:14:38.536:   OpenType support missing for "Nimbus Sans Narrow", script 20
+10:14:38.536:   OpenType support missing for "PowerlineSymbols", script 20
+10:14:38.536:   OpenType support missing for "Goha-Tibeb Zemen", script 20
+10:14:38.537:   OpenType support missing for "URW Bookman", script 20
+10:14:38.537:   OpenType support missing for "Z003", script 20
+10:14:38.537:   OpenType support missing for "", script 20
+10:14:38.537:   OpenType support missing for "", script 20
+10:14:38.537:   OpenType support missing for "", script 20
+10:14:38.537:   OpenType support missing for "", script 20
+10:14:38.537:   OpenType support missing for "", script 20
+10:14:38.537:   OpenType support missing for "", script 20
+10:14:38.538:   OpenType support missing for "", script 20
+10:14:38.538:   OpenType support missing for "", script 20
+10:14:38.538:   OpenType support missing for "", script 20
+10:14:38.538:   OpenType support missing for "", script 20
+10:14:38.538:   OpenType support missing for "", script 20
+10:14:38.538:   OpenType support missing for "", script 20
+10:14:38.538:   OpenType support missing for "", script 20
+10:14:38.538:   OpenType support missing for "", script 20
+10:14:38.539:   OpenType support missing for "", script 20
+10:14:38.539:   OpenType support missing for "", script 20
+10:14:38.539:   OpenType support missing for "", script 20
+10:14:38.539:   OpenType support missing for "", script 20
+10:14:52.936: Settings changed (stream 1, outputs)
+10:14:52.936: ------------------------------------------------
+10:14:55.169: ---------------------------------
+10:14:55.169: [FFmpeg NVENC encoder: 'simple_video_stream'] settings:
+10:14:55.169: 	encoder:      NVIDIA NVENC H.264 (FFmpeg)
+10:14:55.169: 	rate_control: CBR
+10:14:55.169: 	bitrate:      6000
+10:14:55.169: 	cqp:          0
+10:14:55.169: 	keyint:       120
+10:14:55.169: 	preset:       p7
+10:14:55.169: 	tuning:       hq
+10:14:55.169: 	multipass:    qres
+10:14:55.169: 	profile:      high
+10:14:55.169: 	width:        1920
+10:14:55.169: 	height:       1080
+10:14:55.169: 	b-frames:     2
+10:14:55.169: 	psycho-aq:    1
+10:14:55.169: 	GPU:          0
+10:14:55.169: 
+10:14:55.655: libfdk_aac encoder created
+10:14:55.656: libfdk_aac bitrate: 128, channels: 2
+10:14:55.656: [rtmp stream: 'simple_stream'] Connecting to RTMP URL rtmp://sao03.contribute.live-video.net/app...
+10:14:56.374: RTMPSockBuf_Fill, remote host closed connection
+10:14:56.374: [rtmp stream: 'simple_stream'] Connection to rtmp://sao03.contribute.live-video.net/app failed: -3
+10:14:56.374: ==== Streaming Stop ================================================
+10:15:06.257: Settings changed (stream 1)
+10:15:06.257: ------------------------------------------------
+10:15:08.785: encoder 'simple_video_stream': Cannot apply a new video_t object after the encoder has been initialized
+10:15:08.785: [rtmp stream: 'simple_stream'] Connecting to RTMP URL rtmp://sao03.contribute.live-video.net/app...
+10:15:10.809: [rtmp stream: 'simple_stream'] Connection to rtmp://sao03.contribute.live-video.net/app (99.181.80.142) successful
+10:15:10.855: ==== Streaming Start ===============================================
+10:15:10.857: Failed to inhibit: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface “org.freedesktop.portal.Inhibit” on object at path /org/freedesktop/portal/desktop
+10:15:17.992: User switched to scene 'Marte'
+10:15:19.495: User switched Program to scene 'Marte'
+10:15:21.017: User switched to scene 'Stream'
+10:15:41.370: User switched to scene 'Marte'
+10:15:42.033: User switched to scene 'Stream'
+10:15:47.048: User switched Program to scene 'Stream'
+10:15:48.576: User switched to scene 'Marte'
+10:18:10.292: User switched to scene 'Stream Config'
+10:18:12.029: User switched Program to scene 'Stream Config'
+10:18:13.561: User switched to scene 'Stream'
+10:22:39.678: User switched to scene 'Stream Config'
+10:22:55.717: User switched Program to scene 'Stream Config'
+10:28:13.406: [window-capture: 'Chat'] update settings:
+10:28:13.406: 	title: tmux
+10:28:13.406: 	class: org.wezfurlong.wezterm
+10:28:13.406: 
+10:28:13.426: User added source 'Chat' (xcomposite_input) to scene 'Stream Config'
+10:28:13.553: [window-capture: 'Chat'] update settings:
+10:28:13.553: 	title: Alacritty
+10:28:13.553: 	class: Spotify
+10:28:13.553: 
+10:28:13.553: xcb_composite_name_window_pixmap failed
+10:28:30.296: [window-capture: 'Chat'] update settings:
+10:28:30.296: 	title: KapChat — Mozilla Firefox
+10:28:30.296: 	class: Navigator
+10:28:30.296: 
+10:28:30.296: xcb_composite_name_window_pixmap failed
+10:32:32.760: [window-capture: 'Chat'] update settings:
+10:32:32.760: 	title: KapChat — Mozilla Firefox
+10:32:32.760: 	class: Navigator
+10:32:32.760: 
+10:32:32.761: xcb_composite_name_window_pixmap failed
+10:35:31.896: [window-capture: 'Chat'] update settings:
+10:35:31.896: 	title: Alacritty
+10:35:31.896: 	class: Spotify
+10:35:31.896: 
+10:35:31.896: xcb_composite_name_window_pixmap failed
+10:35:38.990: [window-capture: 'Chat'] update settings:
+10:35:38.990: 	title: jChat • camaradageologo — Mozilla Firefox
+10:35:38.990: 	class: Navigator
+10:35:38.990: 
+10:35:38.991: xcb_composite_name_window_pixmap failed
+10:37:30.531: User switched Program to scene 'Stream Config'
+10:38:11.525: User switched Program to scene 'Stream Config'
+10:38:17.549: User switched Program to scene 'Stream Config'
+10:40:26.033: [window-capture: 'Chat'] update settings:
+10:40:26.033: 	title: Criar camada de ponto — Mozilla Firefox
+10:40:26.033: 	class: Navigator
+10:40:26.033: 
+10:40:26.034: xcb_composite_name_window_pixmap failed
+10:40:31.595: [window-capture: 'Chat'] update settings:
+10:40:31.595: 	title: jChat • camaradageologo — Mozilla Firefox
+10:40:31.595: 	class: Navigator
+10:40:31.595: 
+10:45:18.635: User switched Program to scene 'Stream Config'
+10:48:47.737: User switched Program to scene 'Stream Config'
+10:49:23.292: User switched Program to scene 'Stream Config'

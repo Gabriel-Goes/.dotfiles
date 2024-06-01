@@ -10,6 +10,7 @@ set $mod Mod4
 
 for_window [class="^.*"] border pixel 0
 for_window [class="farejador.py"] floating enable
+for_window [title="Seletor de Eventos, Redes e Estações"] floating enable
 for_window [class="feh"] floating enable
 
 gaps inner 3
@@ -79,7 +80,7 @@ set $ws4 "4"
 set $ws5 "5"
 set $ws6 "6: 󱁊 Zettelkasten"
 set $ws7 "7:  Biblioteca"
-set $ws8 "8"
+set $ws8 "8: 󰇧 QGIS"
 set $ws9 "9:  Configs"
 set $ws10 "10"
 
@@ -115,6 +116,7 @@ for_window [title="OBS"] move container to workspace $ws19
 for_window [class="discord"] move container to workspace $ws18
 for_window [class="Spotify"] move container to workspace $ws18
 for_window [class="PreditorTerra"] move container to workspace $ws20
+for_window [class="QGIS"] move container to workspace $ws8
 
 bindsym $mod+1 workspace number 1; rename workspace to $ws1
 bindsym $mod+2 workspace number $ws2
