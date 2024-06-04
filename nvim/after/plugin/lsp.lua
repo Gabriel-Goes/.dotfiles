@@ -104,6 +104,17 @@ require('lspconfig').lua_ls.setup{
 require'lspconfig'.pylsp.setup{
     cmd = {vim.fn.stdpath('data') .. '/mason/bin/pylsp'},
     on_attach = on_attach,
+    -- ignore E501
+    settings = {
+        pylsp = {
+            plugins = {
+                pycodestyle = {
+                    enabled = true,
+                    ignore = {"E501"},
+                },
+            },
+        },
+    },
 }
 -------------- LaTex
 require'lspconfig'.ltex.setup{

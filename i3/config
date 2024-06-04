@@ -42,7 +42,7 @@ bindsym $mod+F8 exec --no-startup-id 'tsm' '󱁊ZettelVim󱁊' 'cd ~/projetos/Ze
 
 # EXECUTÁVEIS
 bindsym $mod+F7 exec --no-startup-id 'tsm' '󱁊Zettelkasten' 'cd ~/docs/TempestadeCerebral && vim "tempestade cerebral"'
-bindsym $mod+F10 exec --no-startup-id 'tsm' '󰇧_Postgre' "if ! systemctl is-active --quiet postgresql; then sudo systemctl start postgresql; fi && sudo -u postgres psql"
+bindsym $mod+F10 exec --no-startup-id 'tsm' '󰇧Postgre' 'if ! systemctl is-active --quiet postgresql; then sudo systemctl start postgresql; fi && sudo -u postgres psql'
 
 # CONFIGURAÇÕES
 bindsym $mod+Shift+F11 exec --no-startup-id 'tsm' 'Configs' 'cd ~/.config/i3 && vim ./config'

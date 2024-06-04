@@ -516,3 +516,19 @@
 10:45:18.635: User switched Program to scene 'Stream Config'
 10:48:47.737: User switched Program to scene 'Stream Config'
 10:49:23.292: User switched Program to scene 'Stream Config'
+12:34:20.803: [rtmp stream: 'simple_stream'] User stopped the stream
+12:34:20.803: Output 'simple_stream': stopping
+12:34:20.803: Output 'simple_stream': Total frames output: 500952
+12:34:20.803: Output 'simple_stream': Total drawn frames: 420932 (501119 attempted)
+12:34:20.803: Output 'simple_stream': Number of lagged frames due to rendering lag/stalls: 80187 (16.0%)
+12:34:20.816: ==== Streaming Stop ================================================
+12:34:21.216: libfdk_aac encoder destroyed
+14:20:58.646: adding 170 milliseconds of audio buffering, total audio buffering is now 256 milliseconds (source: Mic (HS))
+14:20:58.646: 
+14:21:03.976: adding 234 milliseconds of audio buffering, total audio buffering is now 490 milliseconds (source: Mic (HS))
+14:21:03.976: 
+14:21:12.622: Max audio buffering reached!
+14:21:12.693: adding 469 milliseconds of audio buffering, total audio buffering is now 960 milliseconds (source: Mic (HS))
+14:21:12.693: 
+14:21:12.766: Source Mic (HS) audio is lagging (over by 1242.33 ms) at max audio buffering. Restarting source audio.
+14:21:15.259: Source Mic (HS) audio is lagging (over by 163.73 ms) at max audio buffering. Restarting source audio.

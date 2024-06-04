@@ -57,3 +57,16 @@ vim.api.nvim_set_keymap('t', '<C-h>', [[<C-\><C-n><C-w>h]], {noremap = true, sil
 vim.api.nvim_set_keymap('t', '<C-j>', [[<C-\><C-n><C-w>j]], {noremap = true, silent = true})
 vim.api.nvim_set_keymap('t', '<C-k>', [[<C-\><C-n><C-w>k]], {noremap = true, silent = true})
 vim.api.nvim_set_keymap('t', '<C-l>', [[<C-\><C-n><C-w>l]], {noremap = true, silent = true})
+
+-- Remove trailing whitespaces on save
+vim.cmd([[
+autocmd BufWritePre * %s/\s\+$//e
+]])
+
+-- Atualizar buffer quando Neovim ganha foco
+vim.o.autoread = true
+vim.cmd([[autocmd FocusGained,BufEnter * checktime]])
+vim.cmd([[
+  autocmd FileChangedShellPost * echohl WarningMsg | echo "Arquivo foi alterado fora do Neovim, atualizado!" | echohl None
+]])
+

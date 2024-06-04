@@ -41,7 +41,7 @@ vim.keymap.set("n", "<leader>cx", "<cmd>!chmod +x %<CR>",
 vim.keymap.set("n", "<leader>tt", "<cmd>botright 15split term://$SHELL<CR>",
                { noremap = true, silent = true })
 
-vim.keymap.set("n", "<leader>ee", "<cmd><bar> exec '!%'<bar><CR>",
+vim.keymap.set("n", "<leader>ee", "<cmd><bar> exec '!./%'<bar><CR>",
                { noremap = true, silent = true })
 
 -- Função para executar qgis
