@@ -166,7 +166,9 @@ bar {
         status_command i3status -c ~/.config/i3/i3status/primary_config
         output DVI-D-0
         tray_output none
+        position bottom
 }
+
 bar {
         font pango: opendyslexic 7
         status_command i3status -c ~/.config/i3/i3status/second_config

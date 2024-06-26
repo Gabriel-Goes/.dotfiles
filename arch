@@ -10,7 +10,7 @@ if [[ -z $DOTFILES ]]; then
 fi
 
 if [[ -z $CONFIG_FOLDERS ]]; then
-    CONFIG_FOLDERS="ipython fontconfig alacritty i3 nvim tmux xplr"
+    CONFIG_FOLDERS="ipython fontconfig alacritty i3 nvim tmux xplr wezterm"
 fi
 
 CONFIG_FOLDERS=$CONFIG_FOLDERS DOTFILES=$DOTFILES $HOME/.dotfiles/install
