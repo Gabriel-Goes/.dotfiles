@@ -78,4 +78,8 @@ end
 vim.keymap.set("n", "<leader>et", extract_tar_file,
     { noremap = true, silent = true })
 
+-- Exec Farejador.sh
+vim.keymap.set("n", "<leader>qq", "<cmd>!~/projetos/ClassificadorSismologico/plugin.sh &>/dev/null &<CR>",
+               { noremap = true, silent = true })
+
 --print("lua/ggrl/remap.lua carregado com sucesso!")

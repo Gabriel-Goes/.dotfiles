@@ -21,14 +21,14 @@ font:
 cursor:
   style:
     shape: Block
-    blinking: On
+    blinking: on
   thickness: 1.0
 
 mouse:
   hide_when_typing: true
 
 window:
-  decorations: Full
+  decorations: none
   padding:
     x: 0
     y: 0

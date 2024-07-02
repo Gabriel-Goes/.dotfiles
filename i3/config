@@ -10,6 +10,9 @@ floating_modifier $mod
 set $mod Mod4
 
 for_window [class="^.*"] border pixel 0
+for_window [class="farejador.py"] floating enable
+for_window [class="Matplotlib"] floating enable
+for_window [class="feh"] floating enable
 gaps inner 3
 gaps outer 3
 smart_gaps on
