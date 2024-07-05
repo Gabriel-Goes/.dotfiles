@@ -3,7 +3,7 @@
 # Gabriel Góes Rocha de Lima
 # 2013-04-27
 # Modificado de ThePrimeagen/.dotfiles
-# 
+#
 # Script para instalar os dotfiles no sistema. Este arquivo é invocado pelo
 # script que define as variáveis do ambiente, cada ambiente pode ter sua config
 # como: arch, ubuntu, debian...
