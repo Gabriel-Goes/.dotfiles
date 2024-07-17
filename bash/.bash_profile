@@ -12,10 +12,3 @@
 [[ $- != *i* ]] && return
     [[ -f ~/.bashrc ]] && . ~/.bashrc # Source .bashrc
 # ---------------------------------------------------------------------------- #
-
-eval "$(pyenv init --path)"
-eval "$(pyenv init -)"
-eval "$(pyenv virtualenv-init -)"
-
-eval "$(ssh-agent -s)"
-

@@ -22,6 +22,9 @@ vim.keymap.set('n', "<leader>o", "<C-W>|", { noremap = true, silent = true })
 -- Delete buffer
 vim.keymap.set("n", "<leader>d", "<cmd>bd<CR>",
                { noremap = true, silent = true })
+vim.keymap.set("n", "<leader>D", "<cmd>bd!<CR>",
+               { noremap = true, silent = true })
+
 -- Save file
 vim.keymap.set("n", "<leader>ww", "<cmd>w<CR>",
                { noremap = true, silent = true })
@@ -38,9 +41,14 @@ vim.keymap.set("n", "<leader>cx", "<cmd>!chmod +x %<CR>",
 vim.keymap.set("n", "<leader>tt", "<cmd>botright 15split term://$SHELL<CR>",
                { noremap = true, silent = true })
 
-vim.keymap.set("n", "<leader>ee", "<cmd><bar> exec '!%'<bar><CR>",
+vim.keymap.set("n", "<leader>ee", "<cmd><bar> exec '!./%'<bar><CR>",
                { noremap = true, silent = true })
 
+-- Função para executar qgis
+vim.keymap.set("n", "<leader>qq", function()
+    vim.cmd("exec '!plugin.sh'")
+
+end, { noremap = true, silent = true })
 -- Função para descompactar o arquivo tar
 local function extract_tar_file()
     local node = require("neo-tree.sources.filesystem").get_node_at_cursor()

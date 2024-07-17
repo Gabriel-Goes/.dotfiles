@@ -11,11 +11,10 @@ size = 7
 
 [cursor]
 style = {shape = 'Block',blinking = 'On'}
-thickness = 1.0
+thickness = 1
 
 [mouse]
 hide_when_typing = true
 
 [window]
-decorations = 'Full'
-padding = { x = 0, y = 0 }
+opacity = 0.9

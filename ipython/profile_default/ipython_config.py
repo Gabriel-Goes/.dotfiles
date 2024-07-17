@@ -445,7 +445,7 @@ c.InteractiveShellApp.exec_lines.append('print("Warning: disable autoreload in i
 ## Set the color scheme (NoColor, Neutral, Linux, or LightBG).
 #  Choices: any of ['Neutral', 'NoColor', 'LightBG', 'Linux'] (case-insensitive)
 #  Default: 'Neutral'
-# c.InteractiveShell.colors = 'Neutral'
+c.InteractiveShell.colors = 'Linux'
 
 #  Default: False
 # c.InteractiveShell.debug = False
@@ -664,12 +664,12 @@ c.InteractiveShellApp.exec_lines.append('print("Warning: disable autoreload in i
 
 ## Highlight matching brackets.
 #  Default: True
-# c.TerminalInteractiveShell.highlight_matching_brackets = True
+c.TerminalInteractiveShell.highlight_matching_brackets = True
 
 ## The name or class of a Pygments style to use for syntax
 #          highlighting. To see available styles, run `pygmentize -L styles`.
 #  Default: traitlets.Undefined
-# c.TerminalInteractiveShell.highlighting_style = traitlets.Undefined
+c.TerminalInteractiveShell.highlighting_style = 'monokai'
 
 ## Override highlighting format for specific tokens
 #  Default: {}

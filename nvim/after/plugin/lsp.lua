@@ -4,6 +4,7 @@
 -- LSP Native
 -- print('Hello, from after/plugin/lsp.lua')
 
+
 --  Mason LSP
 require('mason').setup()
 require('mason-lspconfig').setup({
@@ -101,24 +102,31 @@ require('lspconfig').lua_ls.setup{
 
 -------------- Pylsp
 require'lspconfig'.pylsp.setup{
-
--- /home/ggrl/.local/share/nvim/mason/bin/
     cmd = {vim.fn.stdpath('data') .. '/mason/bin/pylsp'},
     on_attach = on_attach,
+    -- ignore E501
+    settings = {
+        pylsp = {
+            plugins = {
+                pycodestyle = {
+                    enabled = true,
+                    ignore = {"E501"},
+                },
+            },
+        },
+    },
 }
 -------------- LaTex
 require'lspconfig'.ltex.setup{
+    cmd = { "ltex-ls" },
     on_attach = on_attach,
-    filetypes = {"tex", "bib"},
     settings = {
         ltex = {
-            language = "pt-BR",
-            dictionary = {
-                ["pt-BR"] = vim.fn.readfile(vim.fn.expand("~/.config/nvim/dictionary/pt-BR.dic")),
-            },
             enabled = true,
-        }
-    }
+            language = "en",
+            diagnosticSeverity = "information",
+        },
+    },
 }
 
 -------------- Marksman
@@ -131,15 +139,3 @@ require'lspconfig'.marksman.setup{
         }
     }
 }
-
--------------- XML
-require'lspconfig'.lenminx.setup{
-    on_attach = on_attach,
-    settings = {
-        xml = {
-            enabled = true,
-        }
-    }
-}
-
--- print("LSP Carregado com sucesso")
