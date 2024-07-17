@@ -9,7 +9,7 @@
 
 
 # -------------------------------- PATHS ---------------------------------------
-# ----- BIN 
+# ----- BIN
 export PATH=/bin/
 # ----- USER
 export PATH=/usr/bin/vendor_perl/:$PATH
@@ -23,7 +23,7 @@ export PATH=/usr/local/bin/:$PATH
 export PATH=$HOME/.local/bin/:$PATH
 export PATH=$HOME/.local/share/:$PATH
 export PATH=$HOME/.local/share/applications/:$PATH
-# ----- APPS 
+# ----- APPS
 export PATH=$HOME/apps/jdk-21.0.2/bin/:$PATH
 
 # ---------------------------- LD_LIBRARY_PATH----------------------------------
@@ -44,9 +44,9 @@ eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
 
 # ------------------------------ PYTHONPATH ----------------------------------
-export PYTHONPATH=$HOME/.pyenv/versions/sismologia/lib/python3.12/site-packages/:$PYTHONPATH
- 
-# -------------------------------- Languages -----------------------------------
-export LC_ALL=pt_BR.UTF-8
+# export PYTHONPATH=$HOME/.pyenv/versions/sismologia/lib/python3.12/site-packages/:$PYTHONPATH
+export PYTHONPATH=$HOME/.pyenv/versions/sismologia/lib/python3.11/site-packages:$PYTHONPATH
+
+# -------------------------------- Languages ----------------------------------
 export LANG=pt_BR.UTF-8
 

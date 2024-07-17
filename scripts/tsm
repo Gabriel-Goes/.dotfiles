@@ -19,7 +19,7 @@
 SesionNumber=$(($(tmux list-sessions | wc -l)+1))
 SESSION_NAME=${1:-$'Session_'$SesionNumber}
 CLASS_NAME=$SESSION_NAME
-COMANDOS=${2:-'vim .'}
+COMANDOS=${2:-'vim'}
 
 # Add help message
 if [[ $1 == "-h" || $1 == "--help" ]]; then
