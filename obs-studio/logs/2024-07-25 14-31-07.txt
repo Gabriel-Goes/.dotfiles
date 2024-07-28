@@ -1,0 +1,157 @@
+14:31:07.538: [Safe Mode] Unclean shutdown detected!
+14:31:14.192: [Safe Mode] User elected to launch normally.
+14:31:14.194: Using EGL/X11
+14:31:14.195: CPU Name: AMD Ryzen 5 3600X 6-Core Processor
+14:31:14.195: CPU Speed: 4291.042MHz
+14:31:14.195: Physical Cores: 6, Logical Cores: 12
+14:31:14.195: Physical Memory: 23976MB Total, 3900MB Free
+14:31:14.195: Kernel Version: Linux 6.6.40-1-lts
+14:31:14.195: Distribution: "Arch Linux" Unknown
+14:31:14.195: Session Type: tty
+14:31:14.195: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.21.1
+14:31:14.200: Qt Version: 6.7.2 (runtime), 6.7.1 (compiled)
+14:31:14.200: Portable mode: false
+14:31:14.214: OBS 30.1.2-2 (linux)
+14:31:14.214: ---------------------------------
+14:31:14.218: ---------------------------------
+14:31:14.218: audio settings reset:
+14:31:14.218: 	samples per sec: 48000
+14:31:14.218: 	speakers:        2
+14:31:14.218: 	max buffering:   960 milliseconds
+14:31:14.218: 	buffering type:  dynamically increasing
+14:31:14.219: ---------------------------------
+14:31:14.219: Initializing OpenGL...
+14:31:14.371: Loading up OpenGL on adapter NVIDIA Corporation NVIDIA GeForce GTX 1650 SUPER/PCIe/SSE2
+14:31:14.371: OpenGL loaded successfully, version 3.3.0 NVIDIA 555.58.02, shading language 3.30 NVIDIA via Cg compiler
+14:31:14.395: ---------------------------------
+14:31:14.395: video settings reset:
+14:31:14.395: 	base resolution:   1440x900
+14:31:14.395: 	output resolution: 1440x900
+14:31:14.395: 	downscale filter:  Bicubic
+14:31:14.395: 	fps:               60/1
+14:31:14.395: 	format:            NV12
+14:31:14.395: 	YUV mode:          sRGB/Full
+14:31:14.395: NV12 texture support enabled
+14:31:14.395: P010 texture support not available
+14:31:14.395: Audio monitoring device:
+14:31:14.395: 	name: Padrão
+14:31:14.395: 	id: default
+14:31:14.395: ---------------------------------
+14:31:14.405: Failed to load 'en-US' text for module: 'decklink-captions.so'
+14:31:14.414: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+14:31:14.422: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+14:31:14.422: Failed to initialize module 'decklink.so'
+14:31:14.494: [pipewire] No captures available
+14:31:14.513: v4l2loopback not installed, virtual camera disabled
+14:31:14.521: [linux-vkcapture] plugin loaded successfully (version 1.5.0)
+14:31:14.559: NVENC supported
+14:31:14.560: VAAPI: Failed to initialize display in vaapi_device_h264_supported
+14:31:14.560: FFmpeg VAAPI H264 encoding not supported
+14:31:14.560: VAAPI: Failed to initialize display in vaapi_device_av1_supported
+14:31:14.560: FFmpeg VAAPI AV1 encoding not supported
+14:31:14.560: VAAPI: Failed to initialize display in vaapi_device_hevc_supported
+14:31:14.560: FFmpeg VAAPI HEVC encoding not supported
+14:31:14.659: ---------------------------------
+14:31:14.659:   Loaded Modules:
+14:31:14.659:     text-freetype2.so
+14:31:14.659:     rtmp-services.so
+14:31:14.659:     obs-x264.so
+14:31:14.659:     obs-webrtc.so
+14:31:14.659:     obs-vst.so
+14:31:14.659:     obs-transitions.so
+14:31:14.659:     obs-qsv11.so
+14:31:14.659:     obs-outputs.so
+14:31:14.659:     obs-libfdk.so
+14:31:14.659:     obs-filters.so
+14:31:14.659:     obs-ffmpeg.so
+14:31:14.659:     linux-vkcapture.so
+14:31:14.659:     linux-v4l2.so
+14:31:14.659:     linux-pulseaudio.so
+14:31:14.659:     linux-pipewire.so
+14:31:14.659:     linux-jack.so
+14:31:14.659:     linux-capture.so
+14:31:14.659:     linux-alsa.so
+14:31:14.659:     image-source.so
+14:31:14.659:     frontend-tools.so
+14:31:14.659:     decklink-output-ui.so
+14:31:14.659:     decklink-captions.so
+14:31:14.659: ---------------------------------
+14:31:14.659: ==== Startup complete ===============================================
+14:31:14.674: Switched to Preview/Program mode
+14:31:14.674: ------------------------------------------------
+14:31:14.709: All scene data cleared
+14:31:14.709: ------------------------------------------------
+14:31:14.710: xshm-input: Geometry 1440x900 @ 768,0
+14:31:14.711: xshm-input: Geometry 768x1024 @ 0,0
+14:31:14.761: pulse-input: Server name: 'PulseAudio (on PipeWire 1.2.1) 15.0.0'
+14:31:14.761: pulse-input: Audio format: s16le, 48000 Hz, 2 channels
+14:31:14.761: pulse-input: Started recording from 'alsa_input.usb-3142_fifine_Microphone-00.analog-stereo'
+14:31:14.762: pulse-input: Server name: 'PulseAudio (on PipeWire 1.2.1) 15.0.0'
+14:31:14.762: pulse-input: Audio format: s16le, 48000 Hz, 2 channels
+14:31:14.762: pulse-input: Started recording from 'alsa_output.usb-3142_fifine_Microphone-00.analog-stereo.monitor' (default)
+14:31:14.769: Switched to scene 'Stream Config'
+14:31:14.769: User switched Program to scene 'Stream'
+14:31:14.769: ------------------------------------------------
+14:31:14.769: Loaded scenes:
+14:31:14.769: - scene 'Stream':
+14:31:14.770:     - source: 'Fifine' (pulse_input_capture)
+14:31:14.770:         - filter: 'Supressão de ruídos' (noise_suppress_filter_v2)
+14:31:14.770:         - filter: 'Filtro de ruídos' (noise_gate_filter)
+14:31:14.770:     - source: 'Audio' (pulse_output_capture)
+14:31:14.770:     - source: 'AOC_LIXO' (xshm_input)
+14:31:14.770: - scene 'Stream Config':
+14:31:14.770:     - source: 'AOC_LIXO' (xshm_input)
+14:31:14.770:     - source: 'AOC_VELHO' (xshm_input)
+14:31:14.770:     - source: 'Fifine' (pulse_input_capture)
+14:31:14.770:         - filter: 'Supressão de ruídos' (noise_suppress_filter_v2)
+14:31:14.770:         - filter: 'Filtro de ruídos' (noise_gate_filter)
+14:31:14.770:     - source: 'Audio' (pulse_output_capture)
+14:31:14.770: - scene 'Settings':
+14:31:14.770:     - source: 'marte_planofundo' (image_source)
+14:31:14.770:     - source: 'AOC_VELHO' (xshm_input)
+14:31:14.770: - scene 'wbcam':
+14:31:14.770:     - source: 'marte_planofundo' (image_source)
+14:31:14.770: - scene 'MARTE':
+14:31:14.770:     - source: 'marte_planofundo' (image_source)
+14:31:14.770:     - source: 'Texto (FreeType 2)' (text_ft2_source_v2)
+14:31:14.770:     - source: 'Texto (FreeType 2)' (text_ft2_source_v2)
+14:31:14.770: ------------------------------------------------
+14:31:15.349: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Audio)
+14:31:15.349: 
+14:31:15.391: adding 42 milliseconds of audio buffering, total audio buffering is now 64 milliseconds (source: Fifine)
+14:31:15.391: 
+15:09:55.258: ---------------------------------
+15:09:55.258: [FFmpeg NVENC encoder: 'simple_video_recording'] settings:
+15:09:55.258: 	encoder:      NVIDIA NVENC H.264 (FFmpeg)
+15:09:55.258: 	rate_control: CQP
+15:09:55.258: 	bitrate:      0
+15:09:55.258: 	cqp:          22
+15:09:55.258: 	keyint:       -1
+15:09:55.258: 	preset:       p5
+15:09:55.258: 	tuning:       hq
+15:09:55.258: 	multipass:    qres
+15:09:55.258: 	profile:      high
+15:09:55.258: 	width:        1440
+15:09:55.258: 	height:       900
+15:09:55.258: 	b-frames:     2
+15:09:55.258: 	psycho-aq:    1
+15:09:55.258: 	GPU:          0
+15:09:55.258: 
+15:09:55.298: [NVENC encoder] nvenc_create_internal failed, trying again without Psycho Visual Tuning
+15:09:55.298: ---------------------------------
+15:09:55.298: [FFmpeg NVENC encoder: 'simple_video_recording'] settings:
+15:09:55.298: 	encoder:      NVIDIA NVENC H.264 (FFmpeg)
+15:09:55.298: 	rate_control: CQP
+15:09:55.298: 	bitrate:      0
+15:09:55.298: 	cqp:          22
+15:09:55.298: 	keyint:       -1
+15:09:55.298: 	preset:       p5
+15:09:55.298: 	tuning:       hq
+15:09:55.298: 	multipass:    qres
+15:09:55.298: 	profile:      high
+15:09:55.298: 	width:        1440
+15:09:55.298: 	height:       900
+15:09:55.298: 	b-frames:     2
+15:09:55.298: 	psycho-aq:    0
+15:09:55.298: 	GPU:          0
+15:09:55.298: 

@@ -1,0 +1,120 @@
+07:13:02.262: Using EGL/X11
+07:13:02.262: CPU Name: AMD Ryzen 5 3600X 6-Core Processor
+07:13:02.262: CPU Speed: 4135.022MHz
+07:13:02.263: Physical Cores: 6, Logical Cores: 12
+07:13:02.263: Physical Memory: 23976MB Total, 5389MB Free
+07:13:02.263: Kernel Version: Linux 6.6.40-1-lts
+07:13:02.263: Distribution: "Arch Linux" Unknown
+07:13:02.263: Session Type: tty
+07:13:02.263: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.21.1
+07:13:02.264: Qt Version: 6.7.2 (runtime), 6.7.1 (compiled)
+07:13:02.264: Portable mode: false
+07:13:02.311: OBS 30.1.2-2 (linux)
+07:13:02.311: ---------------------------------
+07:13:02.315: ---------------------------------
+07:13:02.315: audio settings reset:
+07:13:02.315: 	samples per sec: 48000
+07:13:02.315: 	speakers:        2
+07:13:02.315: 	max buffering:   960 milliseconds
+07:13:02.315: 	buffering type:  dynamically increasing
+07:13:02.316: ---------------------------------
+07:13:02.316: Initializing OpenGL...
+07:13:02.475: Loading up OpenGL on adapter NVIDIA Corporation NVIDIA GeForce GTX 1650 SUPER/PCIe/SSE2
+07:13:02.475: OpenGL loaded successfully, version 3.3.0 NVIDIA 555.58.02, shading language 3.30 NVIDIA via Cg compiler
+07:13:02.507: ---------------------------------
+07:13:02.507: video settings reset:
+07:13:02.507: 	base resolution:   1440x900
+07:13:02.507: 	output resolution: 1440x900
+07:13:02.507: 	downscale filter:  Bicubic
+07:13:02.507: 	fps:               60/1
+07:13:02.507: 	format:            NV12
+07:13:02.507: 	YUV mode:          sRGB/Full
+07:13:02.507: NV12 texture support enabled
+07:13:02.507: P010 texture support not available
+07:13:02.507: Audio monitoring device:
+07:13:02.507: 	name: Padrão
+07:13:02.507: 	id: default
+07:13:02.507: ---------------------------------
+07:13:02.515: Failed to load 'en-US' text for module: 'decklink-captions.so'
+07:13:02.522: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+07:13:02.528: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+07:13:02.528: Failed to initialize module 'decklink.so'
+07:13:02.597: [pipewire] No captures available
+07:13:02.619: v4l2loopback not installed, virtual camera disabled
+07:13:02.629: [linux-vkcapture] plugin loaded successfully (version 1.5.0)
+07:13:02.669: NVENC supported
+07:13:02.669: VAAPI: Failed to initialize display in vaapi_device_h264_supported
+07:13:02.669: FFmpeg VAAPI H264 encoding not supported
+07:13:02.669: VAAPI: Failed to initialize display in vaapi_device_av1_supported
+07:13:02.669: FFmpeg VAAPI AV1 encoding not supported
+07:13:02.669: VAAPI: Failed to initialize display in vaapi_device_hevc_supported
+07:13:02.669: FFmpeg VAAPI HEVC encoding not supported
+07:13:02.773: ---------------------------------
+07:13:02.773:   Loaded Modules:
+07:13:02.773:     text-freetype2.so
+07:13:02.773:     rtmp-services.so
+07:13:02.773:     obs-x264.so
+07:13:02.773:     obs-webrtc.so
+07:13:02.773:     obs-vst.so
+07:13:02.773:     obs-transitions.so
+07:13:02.773:     obs-qsv11.so
+07:13:02.773:     obs-outputs.so
+07:13:02.773:     obs-libfdk.so
+07:13:02.773:     obs-filters.so
+07:13:02.773:     obs-ffmpeg.so
+07:13:02.773:     linux-vkcapture.so
+07:13:02.773:     linux-v4l2.so
+07:13:02.773:     linux-pulseaudio.so
+07:13:02.773:     linux-pipewire.so
+07:13:02.773:     linux-jack.so
+07:13:02.773:     linux-capture.so
+07:13:02.773:     linux-alsa.so
+07:13:02.773:     image-source.so
+07:13:02.773:     frontend-tools.so
+07:13:02.773:     decklink-output-ui.so
+07:13:02.773:     decklink-captions.so
+07:13:02.773: ---------------------------------
+07:13:02.773: ==== Startup complete ===============================================
+07:13:02.775: Switched to Preview/Program mode
+07:13:02.775: ------------------------------------------------
+07:13:02.806: All scene data cleared
+07:13:02.806: ------------------------------------------------
+07:13:02.807: xshm-input: Geometry 1440x900 @ 768,0
+07:13:02.809: xshm-input: Geometry 768x1024 @ 0,0
+07:13:02.870: pulse-input: Server name: 'PulseAudio (on PipeWire 1.2.1) 15.0.0'
+07:13:02.870: pulse-input: Audio format: s16le, 48000 Hz, 2 channels
+07:13:02.870: pulse-input: Started recording from 'alsa_input.usb-3142_fifine_Microphone-00.analog-stereo'
+07:13:02.871: pulse-input: Server name: 'PulseAudio (on PipeWire 1.2.1) 15.0.0'
+07:13:02.871: pulse-input: Audio format: s16le, 48000 Hz, 2 channels
+07:13:02.871: pulse-input: Started recording from 'alsa_output.usb-3142_fifine_Microphone-00.analog-stereo.monitor' (default)
+07:13:02.879: Switched to scene 'Stream Config'
+07:13:02.879: User switched Program to scene 'Stream'
+07:13:02.879: ------------------------------------------------
+07:13:02.880: Loaded scenes:
+07:13:02.880: - scene 'Stream':
+07:13:02.880:     - source: 'Fifine' (pulse_input_capture)
+07:13:02.880:         - filter: 'Supressão de ruídos' (noise_suppress_filter_v2)
+07:13:02.880:         - filter: 'Filtro de ruídos' (noise_gate_filter)
+07:13:02.880:     - source: 'Audio' (pulse_output_capture)
+07:13:02.880:     - source: 'AOC_LIXO' (xshm_input)
+07:13:02.880: - scene 'Stream Config':
+07:13:02.880:     - source: 'AOC_LIXO' (xshm_input)
+07:13:02.880:     - source: 'AOC_VELHO' (xshm_input)
+07:13:02.880:     - source: 'Fifine' (pulse_input_capture)
+07:13:02.880:         - filter: 'Supressão de ruídos' (noise_suppress_filter_v2)
+07:13:02.880:         - filter: 'Filtro de ruídos' (noise_gate_filter)
+07:13:02.880:     - source: 'Audio' (pulse_output_capture)
+07:13:02.880: - scene 'Settings':
+07:13:02.880:     - source: 'marte_planofundo' (image_source)
+07:13:02.880:     - source: 'AOC_VELHO' (xshm_input)
+07:13:02.880: - scene 'wbcam':
+07:13:02.880:     - source: 'marte_planofundo' (image_source)
+07:13:02.880: - scene 'MARTE':
+07:13:02.880:     - source: 'marte_planofundo' (image_source)
+07:13:02.880:     - source: 'Texto (FreeType 2)' (text_ft2_source_v2)
+07:13:02.880:     - source: 'Texto (FreeType 2)' (text_ft2_source_v2)
+07:13:02.880: ------------------------------------------------
+07:13:03.467: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Audio)
+07:13:03.467: 
+07:13:03.488: adding 21 milliseconds of audio buffering, total audio buffering is now 42 milliseconds (source: Fifine)
+07:13:03.488: 

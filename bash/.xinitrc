@@ -16,5 +16,6 @@ source ~/.bash_profile
 xbindkeys &
 gif_lofi_girl &
 core_temp &
-monitor &
+r_monitor &
+obs_init &
 i3

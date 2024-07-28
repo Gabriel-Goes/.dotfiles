@@ -10,8 +10,9 @@ set $mod Mod4
 
 for_window [class="^.*"] border pixel 0
 for_window [class="farejador.py"] floating enable
-for_window [title="Seletor de Eventos, Redes e Estações"] floating enable
+for_window [class="Preditorterra"] floating enable
 for_window [class="feh"] floating enable
+for_window [title="Seletor de Eventos, Redes e Estações"] floating enable
 
 gaps inner 3
 gaps outer 3
@@ -40,9 +41,10 @@ bindsym $mod+F3 exec --no-startup-id 'tsm' '󰇧Classificador󰇧' 'cd ~/projeto
 bindsym $mod+F5 exec --no-startup-id 'tsm' '󰇧Classificador_󰇧' 'cd ~/projetos/ClassificadorSismologico && ./farejador.sh'
 bindsym $mod+F8 exec --no-startup-id 'tsm' '󱁊ZettelVim󱁊' 'cd ~/projetos/ZettelVim && vim .'
 
+
 # EXECUTÁVEIS
-bindsym $mod+F7 exec --no-startup-id 'tsm' '󱁊Zettelkasten' 'cd ~/docs/TempestadeCerebral && vim "tempestade cerebral"'
-bindsym $mod+F10 exec --no-startup-id 'tsm' '󰇧Postgre' 'if ! systemctl is-active --quiet postgresql; then sudo systemctl start postgresql; fi && sudo -u postgres psql'
+bindsym $mod+F7 exec --no-startup-id i3-msg workspace $ws6 && Zettelkasten
+bindsym $mod+F10 exec --no-startup-id 'tsm' '󰇧Postgre󰇧' start_postgre
 
 # CONFIGURAÇÕES
 bindsym $mod+Shift+F11 exec --no-startup-id 'tsm' 'Configs' 'cd ~/.config/i3 && vim ./config'

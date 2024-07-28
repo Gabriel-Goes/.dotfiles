@@ -14,7 +14,7 @@ SESSION_NAME="Zettelkasten"
 TERM_TITLE="Zettelkasten"
 
 # Entra no diretório do Projeto Predito Terra
-cd /home/ggrl/docs/TempestadeCerebral/
+cd /home/ggrl/docs/TempestaCerebralis/
 # Checa se existe sessão chamada $SESSION_NAME
 if tmux has-session -t $SESSION_NAME 2>/dev/null; then
     # Se existir, anexa a sessão
@@ -23,6 +23,6 @@ else
     # Se não existir, cria uma nova sessão
     # Open urxvt with tmux and execute geo alias and open neovim at /home/ggrl/projetos/geologist/
     alacritty -T $TERM_TITLE -e bash -c "tmux new-session -s $SESSION_NAME -d &&
-        tmux send-keys -t $SESSION_NAME 'nvim \"tempestade cerebral\" ' C-m &&
+        tmux send-keys -t $SESSION_NAME 'nvim \"tempesta cerebralis\" ' C-m &&
         tmux attach-session -t $SESSION_NAME"
 fi

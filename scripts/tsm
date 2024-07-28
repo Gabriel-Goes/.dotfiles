@@ -1,7 +1,7 @@
 #!/bin/bash
 #
 # create a bash script to navigate to project directory
-# open terminal with tmux and execute commands 
+# open terminal with tmux and execute commands
 #
 # Usage: tsm.sh [session_name] [commands]
 # Author: Gabriel Góes Rocha de Lima
