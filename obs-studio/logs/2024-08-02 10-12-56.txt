@@ -1,0 +1,140 @@
+10:12:56.566: [Safe Mode] Unclean shutdown detected!
+10:13:05.434: [Safe Mode] User elected to launch normally.
+10:13:05.435: Using EGL/X11
+10:13:05.435: CPU Name: AMD Ryzen 5 3600X 6-Core Processor
+10:13:05.435: CPU Speed: 4292.650MHz
+10:13:05.436: Physical Cores: 6, Logical Cores: 12
+10:13:05.436: Physical Memory: 23979MB Total, 18065MB Free
+10:13:05.436: Kernel Version: Linux 6.10.2-arch1-1
+10:13:05.436: Distribution: "Arch Linux" Unknown
+10:13:05.436: Session Type: tty
+10:13:05.436: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.21.1
+10:13:05.437: Qt Version: 6.7.2 (runtime), 6.7.2 (compiled)
+10:13:05.437: Portable mode: false
+10:13:05.477: OBS 30.2.1-1 (linux)
+10:13:05.477: ---------------------------------
+10:13:05.478: ---------------------------------
+10:13:05.478: audio settings reset:
+10:13:05.478: 	samples per sec: 48000
+10:13:05.478: 	speakers:        2
+10:13:05.478: 	max buffering:   960 milliseconds
+10:13:05.478: 	buffering type:  dynamically increasing
+10:13:05.490: ---------------------------------
+10:13:05.490: Initializing OpenGL...
+10:13:05.603: Loading up OpenGL on adapter NVIDIA Corporation NVIDIA GeForce GTX 1650 SUPER/PCIe/SSE2
+10:13:05.603: OpenGL loaded successfully, version 3.3.0 NVIDIA 555.58.02, shading language 3.30 NVIDIA via Cg compiler
+10:13:05.628: ---------------------------------
+10:13:05.628: video settings reset:
+10:13:05.628: 	base resolution:   1440x900
+10:13:05.628: 	output resolution: 1440x900
+10:13:05.628: 	downscale filter:  Bicubic
+10:13:05.628: 	fps:               60/1
+10:13:05.628: 	format:            NV12
+10:13:05.628: 	YUV mode:          sRGB/Full
+10:13:05.629: NV12 texture support enabled
+10:13:05.629: P010 texture support not available
+10:13:05.698: Audio monitoring device:
+10:13:05.698: 	name: Padrão
+10:13:05.698: 	id: default
+10:13:05.698: ---------------------------------
+10:13:05.710: Failed to load 'en-US' text for module: 'decklink-captions.so'
+10:13:05.721: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+10:13:05.730: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+10:13:05.730: Failed to initialize module 'decklink.so'
+10:13:05.901: [pipewire] No capture sources available
+10:13:05.927: v4l2loopback not installed, virtual camera not registered
+10:13:05.936: [linux-vkcapture] plugin loaded successfully (version 1.5.0)
+10:13:06.026: NVENC supported
+10:13:06.026: VAAPI: Failed to initialize display in vaapi_device_h264_supported
+10:13:06.026: FFmpeg VAAPI H264 encoding not supported
+10:13:06.026: VAAPI: Failed to initialize display in vaapi_device_av1_supported
+10:13:06.026: FFmpeg VAAPI AV1 encoding not supported
+10:13:06.026: VAAPI: Failed to initialize display in vaapi_device_hevc_supported
+10:13:06.026: FFmpeg VAAPI HEVC encoding not supported
+10:13:06.153: ---------------------------------
+10:13:06.153:   Loaded Modules:
+10:13:06.153:     text-freetype2.so
+10:13:06.153:     rtmp-services.so
+10:13:06.153:     obs-x264.so
+10:13:06.153:     obs-webrtc.so
+10:13:06.153:     obs-vst.so
+10:13:06.153:     obs-transitions.so
+10:13:06.153:     obs-qsv11.so
+10:13:06.153:     obs-outputs.so
+10:13:06.153:     obs-libfdk.so
+10:13:06.153:     obs-filters.so
+10:13:06.153:     obs-ffmpeg.so
+10:13:06.153:     linux-vkcapture.so
+10:13:06.153:     linux-v4l2.so
+10:13:06.153:     linux-pulseaudio.so
+10:13:06.153:     linux-pipewire.so
+10:13:06.153:     linux-jack.so
+10:13:06.153:     linux-capture.so
+10:13:06.153:     linux-alsa.so
+10:13:06.153:     image-source.so
+10:13:06.153:     frontend-tools.so
+10:13:06.153:     decklink-output-ui.so
+10:13:06.153:     decklink-captions.so
+10:13:06.153: ---------------------------------
+10:13:06.154: ---------------------------------
+10:13:06.154: Available Encoders:
+10:13:06.154:   Video Encoders:
+10:13:06.154: 	- ffmpeg_svt_av1 (SVT-AV1)
+10:13:06.154: 	- ffmpeg_aom_av1 (AOM AV1)
+10:13:06.154: 	- jim_nvenc (NVIDIA NVENC H.264)
+10:13:06.154: 	- jim_hevc_nvenc (NVIDIA NVENC HEVC)
+10:13:06.154: 	- jim_av1_nvenc (NVIDIA NVENC AV1)
+10:13:06.154: 	- obs_x264 (x264)
+10:13:06.154:   Audio Encoders:
+10:13:06.154: 	- ffmpeg_aac (FFmpeg AAC)
+10:13:06.154: 	- ffmpeg_opus (FFmpeg Opus)
+10:13:06.154: 	- ffmpeg_pcm_s16le (FFmpeg PCM (16-bit))
+10:13:06.154: 	- ffmpeg_pcm_s24le (FFmpeg PCM (24-bit))
+10:13:06.154: 	- ffmpeg_pcm_f32le (FFmpeg PCM (32-bit float))
+10:13:06.154: 	- ffmpeg_alac (FFmpeg ALAC (24-bit))
+10:13:06.154: 	- ffmpeg_flac (FFmpeg FLAC (16-bit))
+10:13:06.154: 	- libfdk_aac (libfdk AAC)
+10:13:06.154: ==== Startup complete ===============================================
+10:13:06.157: Switched to Preview/Program mode
+10:13:06.157: ------------------------------------------------
+10:13:06.182: All scene data cleared
+10:13:06.182: ------------------------------------------------
+10:13:06.185: pulse-input: Server name: 'PulseAudio (on PipeWire 1.2.1) 15.0.0'
+10:13:06.185: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+10:13:06.185: pulse-input: Started recording from 'alsa_output.pci-0000_09_00.4.analog-stereo.monitor' (default)
+10:13:06.185: [Loaded global audio device]: 'Áudio do desktop'
+10:13:06.186: pulse-input: Server name: 'PulseAudio (on PipeWire 1.2.1) 15.0.0'
+10:13:06.186: pulse-input: An error occurred while getting the source info!
+10:13:06.189: [Loaded global audio device]: 'Mic/Aux'
+10:13:06.189:     - filter: 'Supressão de ruídos' (noise_suppress_filter_v2)
+10:13:06.189:     - filter: 'Compressor' (compressor_filter)
+10:13:06.200: xshm-input: Geometry 1440x900 @ 768,0
+10:13:06.201: xshm-input: Geometry 768x1024 @ 0,0
+10:13:06.202: pulse-input: Server name: 'PulseAudio (on PipeWire 1.2.1) 15.0.0'
+10:13:06.202: pulse-input: An error occurred while getting the source info!
+10:13:06.202: pulse-input: Server name: 'PulseAudio (on PipeWire 1.2.1) 15.0.0'
+10:13:06.202: pulse-input: An error occurred while getting the source info!
+10:13:06.203: [window-capture: 'Captura de janela (Xcomposite)'] update settings:
+10:13:06.203: 	title: unknown
+10:13:06.203: 	class: unknown
+10:13:06.203: 
+10:13:06.296: Switched to scene 'Pausa'
+10:13:06.296: User switched Program to scene 'Stream'
+10:13:06.297: ------------------------------------------------
+10:13:06.297: Loaded scenes:
+10:13:06.297: - scene 'Stream':
+10:13:06.297:     - source: 'AOC_LIXO' (xshm_input)
+10:13:06.297:     - source: 'Captura de janela (Xcomposite)' (xcomposite_input)
+10:13:06.297: - scene 'Stream Config':
+10:13:06.297:     - source: 'AOC_LIXO' (xshm_input)
+10:13:06.297:     - source: 'AOC_VELHO' (xshm_input)
+10:13:06.297:     - source: 'Fifine' (pulse_input_capture)
+10:13:06.297:         - filter: 'Supressão de ruídos' (noise_suppress_filter_v2)
+10:13:06.297:         - filter: 'Filtro de ruídos' (noise_gate_filter)
+10:13:06.297:         - filter: 'Ganho' (gain_filter)
+10:13:06.297:     - source: 'Audio' (pulse_output_capture)
+10:13:06.297: - scene 'Pausa':
+10:13:06.297:     - source: 'Marte' (image_source)
+10:13:06.297: ------------------------------------------------
+10:13:06.801: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Áudio do desktop)
+10:13:06.801: 
