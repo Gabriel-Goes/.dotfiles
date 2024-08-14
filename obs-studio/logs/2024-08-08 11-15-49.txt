@@ -297,3 +297,43 @@
 17:13:59.915: User switched to scene 'Stream'
 17:14:03.464: User switched Program to scene 'Stream'
 17:14:04.998: User switched to scene 'Stream Config'
+18:06:58.681: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/ggrl/2024-08-08 12-55-55.mkv' stopped
+18:06:58.681: Output 'simple_file_output': stopping
+18:06:58.681: Output 'simple_file_output': Total frames output: 1119675
+18:06:58.681: Output 'simple_file_output': Total drawn frames: 1119152 (1119736 attempted)
+18:06:58.681: Output 'simple_file_output': Number of lagged frames due to rendering lag/stalls: 584 (0.1%)
+18:06:58.682: ==== Recording Stop ================================================
+18:06:58.863: libfdk_aac encoder destroyed
+18:07:00.625: [rtmp stream: 'simple_stream'] User stopped the stream
+18:07:00.625: Output 'simple_stream': stopping
+18:07:00.625: Output 'simple_stream': Total frames output: 968923
+18:07:00.625: Output 'simple_stream': Total drawn frames: 968466 (969014 attempted)
+18:07:00.625: Output 'simple_stream': Number of lagged frames due to rendering lag/stalls: 548 (0.1%)
+18:07:00.625: Video stopped, number of skipped frames due to encoding lag: 584/1119853 (0.1%)
+18:07:00.626: ==== Streaming Stop ================================================
+18:07:00.989: libfdk_aac encoder destroyed
+18:29:31.376: Source Mic/Aux audio is lagging (over by 190.66 ms) at max audio buffering. Restarting source audio.
+18:29:37.160: Source Mic/Aux audio is lagging (over by 11.81 ms) at max audio buffering. Restarting source audio.
+18:29:38.560: Source Mic/Aux audio is lagging (over by 47.32 ms) at max audio buffering. Restarting source audio.
+18:29:44.559: Source Mic/Aux audio is lagging (over by 691.33 ms) at max audio buffering. Restarting source audio.
+18:29:46.091: Source Mic/Aux audio is lagging (over by 51.84 ms) at max audio buffering. Restarting source audio.
+18:29:46.753: Source Mic/Aux audio is lagging (over by 228.42 ms) at max audio buffering. Restarting source audio.
+18:29:49.700: Source Mic/Aux audio is lagging (over by 189.75 ms) at max audio buffering. Restarting source audio.
+18:29:50.232: Source Mic/Aux audio is lagging (over by 350.21 ms) at max audio buffering. Restarting source audio.
+18:29:50.840: Source Mic/Aux audio is lagging (over by 134.21 ms) at max audio buffering. Restarting source audio.
+18:29:51.362: Source Mic/Aux audio is lagging (over by 164.50 ms) at max audio buffering. Restarting source audio.
+18:29:57.547: Source Mic/Aux audio is lagging (over by 732.90 ms) at max audio buffering. Restarting source audio.
+18:29:57.832: Source Mic/Aux audio is lagging (over by 77.12 ms) at max audio buffering. Restarting source audio.
+18:30:00.353: Source Mic/Aux audio is lagging (over by 60.82 ms) at max audio buffering. Restarting source audio.
+18:30:01.227: Source Mic/Aux audio is lagging (over by 49.56 ms) at max audio buffering. Restarting source audio.
+18:30:05.217: Source Mic/Aux audio is lagging (over by 18.70 ms) at max audio buffering. Restarting source audio.
+18:30:05.804: Source Mic/Aux audio is lagging (over by 3.15 ms) at max audio buffering. Restarting source audio.
+18:30:07.876: Source Mic/Aux audio is lagging (over by 94.49 ms) at max audio buffering. Restarting source audio.
+18:30:08.263: Source Mic/Aux audio is lagging (over by 35.46 ms) at max audio buffering. Restarting source audio.
+18:30:09.355: Source Mic/Aux audio is lagging (over by 59.91 ms) at max audio buffering. Restarting source audio.
+18:30:10.015: Source Mic/Aux audio is lagging (over by 229.24 ms) at max audio buffering. Restarting source audio.
+18:30:10.439: Source Mic/Aux audio is lagging (over by 70.43 ms) at max audio buffering. Restarting source audio.
+18:30:15.471: Source Mic/Aux audio is lagging (over by 403.02 ms) at max audio buffering. Restarting source audio.
+18:30:15.900: Source Mic/Aux audio is lagging (over by 370.26 ms) at max audio buffering. Restarting source audio.
+18:30:17.405: Source Mic/Aux audio is lagging (over by 60.42 ms) at max audio buffering. Restarting source audio.
+18:30:18.563: Source Mic/Aux audio is lagging (over by 794.98 ms) at max audio buffering. Restarting source audio.

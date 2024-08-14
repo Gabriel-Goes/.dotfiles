@@ -30,8 +30,9 @@ export LD_LIBRARY_PATH=/usr/local/lib/
 export LD_LIBRARY_PATH=/usr/lib/:$LD_LIBRARY_PATH
 
 # ---------------------- QT_QPA_PLATFORM-THEME ------------------------------ #
-#export QT_QPA_PLATFORM_PLUGIN_PATH=/usr/lib/qt/plugins/platforms
-#export QT_QPA_PLATFORMTHEME=qt5ct
+export QT_QPA_PLATFORM_PLUGIN_PATH=/usr/lib/qt/plugins
+export QT_DEBUG_PLUGINS=1
+export QT_QPA_PLATFORMTHEME=qt5ct
 
 # ---------------------------- PKG_CONFIG_PATH ------------------------------ #
 export PKG_CONFIG_PATH=/usr/local/lib/pkgconfig/:$PKG_CONFIG_PATH
@@ -42,9 +43,22 @@ activate_pyenv() {
     eval "$(pyenv init --path)"
     eval "$(pyenv init -)"
     eval "$(pyenv virtualenv-init -)"
-    # export PYTHONPATH=$HOME/.pyenv/versions/sismologia/lib/python3.12/site-packages/:$PYTHONPATH
+    export PYTHONPATH=$HOME/.pyenv/versions/sismologia/lib/python3.12/site-packages/:$PYTHONPATH
 }
-activate_pyenv
+
+deactivate_pyenv() {
+    # Remover pyenv do PATH
+    export PATH=$(echo $PATH | sed -e "s|$HOME/.pyenv/bin:||" -e "s|$HOME/.pyenv/shims:||")
+
+    # Desfazer as inicializações do pyenv
+    if command -v pyenv 1>/dev/null 2>&1; then
+        unset -f pyenv
+    fi
+
+    # Remover todas as entradas do PYTHONPATH que pertencem ao pyenv
+    export PYTHONPATH=$(echo $PYTHONPATH | tr ':' '\n' | grep -v "$HOME/.pyenv" | tr '\n' ':' | sed 's/:$//')
+}
+# activate_pyenv
 
 # ------------------------------- XDGE_PATH --------------------------------- #
 export XDG_CONFIG_HOME=$HOME/.config

@@ -49,7 +49,7 @@ bindsym $mod+F10 exec --no-startup-id 'tsm' '󰇧Postgre󰇧' start_postgre
 # CONFIGURAÇÕES
 bindsym $mod+Shift+F11 exec --no-startup-id 'tsm' 'Configs' 'cd ~/.config/i3 && vim ./config'
 bindsym $mod+Shift+F12 exec --no-startup-id 'tsm' 'Configs' 'cd ~/.config/nvim && vim ./init.lua'
-bindsym $mod+F12 exec --no-startup-id 'tsm' 'Configs' 'cd ~/.config && vim .'
+bindsym $mod+F12 exec --no-startup-id 'tsm' 'Configs' 'cd ~/.dotfiles && vim .'
 
 bindsym $mod+Return exec alacritty -e tmux
 bindsym $mod+Shift+q kill

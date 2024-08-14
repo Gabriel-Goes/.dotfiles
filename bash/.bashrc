@@ -15,7 +15,7 @@
 #
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
-    [[ -f ~/.bash_prompt ]] && . ~/.bash_prompt # Prompt
-    [[ -f ~/.bash_aliases ]] && . ~/.bash_aliases # Alias definitions
-    [[ -f ~/.bash_paths ]] && . ~/.bash_paths # paths
+    [[ -f ~/.bash_prompt ]] && . ~/.bash_prompt
+    [[ -f ~/.bash_aliases ]] && . ~/.bash_aliases
+    [[ -f ~/.bash_paths ]] && . ~/.bash_paths
 # -----------------------------------------------------------------------------
