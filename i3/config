@@ -86,6 +86,7 @@ set $ws8 "8: 󰇧 QGIS"
 set $ws9 "9:  Configs"
 set $ws10 "10"
 
+set $ws17 "17: 󰇧 QGIS"
 set $ws18 "18: 󱀞 Multimídia"
 set $ws19 "19: 󰑋 OBStudio"
 set $ws20 "20: 󰇧 Preditor Terra"
