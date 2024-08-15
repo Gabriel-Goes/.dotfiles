@@ -1,0 +1,786 @@
+18:17:46.764: Using EGL/X11
+18:17:46.764: CPU Name: AMD Ryzen 5 3600X 6-Core Processor
+18:17:46.764: CPU Speed: 4208.572MHz
+18:17:46.765: Physical Cores: 6, Logical Cores: 12
+18:17:46.765: Physical Memory: 23976MB Total, 19942MB Free
+18:17:46.765: Kernel Version: Linux 6.6.45-1-lts
+18:17:46.765: Distribution: "Arch Linux" Unknown
+18:17:46.765: Session Type: tty
+18:17:46.765: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.21.1
+18:17:46.767: Qt Version: 6.7.2 (runtime), 6.7.2 (compiled)
+18:17:46.767: Portable mode: false
+18:17:46.837: OBS 30.2.1-1 (linux)
+18:17:46.837: ---------------------------------
+18:17:46.839: ---------------------------------
+18:17:46.839: audio settings reset:
+18:17:46.839: 	samples per sec: 48000
+18:17:46.839: 	speakers:        2
+18:17:46.839: 	max buffering:   960 milliseconds
+18:17:46.839: 	buffering type:  dynamically increasing
+18:17:46.846: ---------------------------------
+18:17:46.846: Initializing OpenGL...
+18:17:46.998: Loading up OpenGL on adapter NVIDIA Corporation NVIDIA GeForce GTX 1650 SUPER/PCIe/SSE2
+18:17:46.998: OpenGL loaded successfully, version 3.3.0 NVIDIA 555.58.02, shading language 3.30 NVIDIA via Cg compiler
+18:17:47.040: ---------------------------------
+18:17:47.041: video settings reset:
+18:17:47.041: 	base resolution:   1920x1080
+18:17:47.041: 	output resolution: 1920x1080
+18:17:47.041: 	downscale filter:  Bicubic
+18:17:47.041: 	fps:               60/1
+18:17:47.041: 	format:            NV12
+18:17:47.041: 	YUV mode:          sRGB/Full
+18:17:47.041: NV12 texture support enabled
+18:17:47.041: P010 texture support not available
+18:17:47.083: Audio monitoring device:
+18:17:47.083: 	name: Padrão
+18:17:47.083: 	id: default
+18:17:47.083: ---------------------------------
+18:17:47.091: Failed to load 'en-US' text for module: 'decklink-captions.so'
+18:17:47.102: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+18:17:47.112: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+18:17:47.112: Failed to initialize module 'decklink.so'
+18:17:47.275: [pipewire] No capture sources available
+18:17:47.298: v4l2loopback not installed, virtual camera not registered
+18:17:47.307: [linux-vkcapture] plugin loaded successfully (version 1.5.0)
+18:17:47.404: NVENC supported
+18:17:47.405: VAAPI: Failed to initialize display in vaapi_device_h264_supported
+18:17:47.405: FFmpeg VAAPI H264 encoding not supported
+18:17:47.405: VAAPI: Failed to initialize display in vaapi_device_av1_supported
+18:17:47.405: FFmpeg VAAPI AV1 encoding not supported
+18:17:47.405: VAAPI: Failed to initialize display in vaapi_device_hevc_supported
+18:17:47.405: FFmpeg VAAPI HEVC encoding not supported
+18:17:47.540: ---------------------------------
+18:17:47.540:   Loaded Modules:
+18:17:47.540:     text-freetype2.so
+18:17:47.540:     rtmp-services.so
+18:17:47.540:     obs-x264.so
+18:17:47.540:     obs-webrtc.so
+18:17:47.540:     obs-vst.so
+18:17:47.540:     obs-transitions.so
+18:17:47.540:     obs-qsv11.so
+18:17:47.540:     obs-outputs.so
+18:17:47.540:     obs-libfdk.so
+18:17:47.540:     obs-filters.so
+18:17:47.540:     obs-ffmpeg.so
+18:17:47.540:     linux-vkcapture.so
+18:17:47.540:     linux-v4l2.so
+18:17:47.540:     linux-pulseaudio.so
+18:17:47.540:     linux-pipewire.so
+18:17:47.540:     linux-jack.so
+18:17:47.540:     linux-capture.so
+18:17:47.540:     linux-alsa.so
+18:17:47.540:     image-source.so
+18:17:47.540:     frontend-tools.so
+18:17:47.540:     decklink-output-ui.so
+18:17:47.540:     decklink-captions.so
+18:17:47.540: ---------------------------------
+18:17:47.541: ---------------------------------
+18:17:47.541: Available Encoders:
+18:17:47.541:   Video Encoders:
+18:17:47.541: 	- ffmpeg_svt_av1 (SVT-AV1)
+18:17:47.541: 	- ffmpeg_aom_av1 (AOM AV1)
+18:17:47.541: 	- jim_nvenc (NVIDIA NVENC H.264)
+18:17:47.541: 	- jim_hevc_nvenc (NVIDIA NVENC HEVC)
+18:17:47.541: 	- jim_av1_nvenc (NVIDIA NVENC AV1)
+18:17:47.542: 	- obs_x264 (x264)
+18:17:47.542:   Audio Encoders:
+18:17:47.542: 	- ffmpeg_aac (FFmpeg AAC)
+18:17:47.542: 	- ffmpeg_opus (FFmpeg Opus)
+18:17:47.542: 	- ffmpeg_pcm_s16le (FFmpeg PCM (16-bit))
+18:17:47.542: 	- ffmpeg_pcm_s24le (FFmpeg PCM (24-bit))
+18:17:47.542: 	- ffmpeg_pcm_f32le (FFmpeg PCM (32-bit float))
+18:17:47.542: 	- ffmpeg_alac (FFmpeg ALAC (24-bit))
+18:17:47.542: 	- ffmpeg_flac (FFmpeg FLAC (16-bit))
+18:17:47.542: 	- libfdk_aac (libfdk AAC)
+18:17:47.542: ==== Startup complete ===============================================
+18:17:47.545: Switched to Preview/Program mode
+18:17:47.545: ------------------------------------------------
+18:17:47.565: All scene data cleared
+18:17:47.565: ------------------------------------------------
+18:17:47.569: pulse-input: Server name: 'PulseAudio (on PipeWire 1.2.2) 15.0.0'
+18:17:47.569: pulse-input: An error occurred while getting the source info!
+18:17:47.569: [Loaded global audio device]: 'Áudio do desktop'
+18:17:47.569: pulse-input: Server name: 'PulseAudio (on PipeWire 1.2.2) 15.0.0'
+18:17:47.570: pulse-input: Audio format: s16le, 48000 Hz, 2 channels
+18:17:47.570: pulse-input: Started recording from 'alsa_input.usb-3142_fifine_Microphone-00.analog-stereo'
+18:17:47.574: [Loaded global audio device]: 'Mic/Aux'
+18:17:47.574:     - filter: 'Supressão de ruídos' (noise_suppress_filter_v2)
+18:17:47.574:     - filter: 'Compressor' (compressor_filter)
+18:17:47.585: xshm-input: Geometry 1440x900 @ 768,0
+18:17:47.586: xshm-input: Geometry 768x1024 @ 0,0
+18:17:47.586: [window-capture: 'Captura de janela (Xcomposite)'] update settings:
+18:17:47.586: 	title: unknown
+18:17:47.586: 	class: unknown
+18:17:47.586: 
+18:17:47.674: [Media Source 'Fonte de mídia']: settings:
+18:17:47.674: 	input:                   udp://192.168.15.38:6640
+18:17:47.674: 	input_format:            
+18:17:47.674: 	speed:                   100
+18:17:47.674: 	is_looping:              no
+18:17:47.674: 	is_linear_alpha:         no
+18:17:47.674: 	is_hw_decoding:          no
+18:17:47.674: 	is_clear_on_media_end:   yes
+18:17:47.674: 	restart_on_activate:     yes
+18:17:47.674: 	close_when_inactive:     no
+18:17:47.674: 	full_decode:             no
+18:17:47.674: 	ffmpeg_options:          
+18:17:47.683: Switched to scene 'Stream'
+18:17:47.683: User switched Program to scene 'Stream'
+18:17:47.684: ------------------------------------------------
+18:17:47.684: Loaded scenes:
+18:17:47.684: - scene 'Stream':
+18:17:47.684:     - source: 'AOC_LIXO' (xshm_input)
+18:17:47.684:     - source: 'Captura de janela (Xcomposite)' (xcomposite_input)
+18:17:47.684:     - source: 'Fonte de mídia' (ffmpeg_source)
+18:17:47.684: - scene 'Stream Config':
+18:17:47.684:     - source: 'AOC_LIXO' (xshm_input)
+18:17:47.684:     - source: 'AOC_VELHO' (xshm_input)
+18:17:47.684: - scene 'Pausa':
+18:17:47.684:     - source: 'Marte' (image_source)
+18:17:47.684: ------------------------------------------------
+18:17:48.205: adding 64 milliseconds of audio buffering, total audio buffering is now 64 milliseconds (source: Mic/Aux)
+18:17:48.205: 
+18:36:34.301: User switched to scene 'Stream Config'
+18:36:35.528: User switched to scene 'Stream'
+18:40:45.933: adding 21 milliseconds of audio buffering, total audio buffering is now 85 milliseconds (source: Mic/Aux)
+18:40:45.933: 
+21:57:17.247: [obs-nvenc: 'simple_video_recording'] settings:
+21:57:17.247: 	codec:        H264
+21:57:17.247: 	rate_control: CQP
+21:57:17.247: 	bitrate:      0
+21:57:17.247: 	cqp:          23
+21:57:17.247: 	keyint:       250
+21:57:17.247: 	preset:       p5
+21:57:17.247: 	tuning:       hq
+21:57:17.247: 	multipass:    qres
+21:57:17.247: 	profile:      high
+21:57:17.247: 	width:        1920
+21:57:17.247: 	height:       1080
+21:57:17.247: 	b-frames:     2
+21:57:17.247: 	lookahead:    false
+21:57:17.247: 	psycho_aq:    true
+21:57:17.247: 
+21:57:17.302: libfdk_aac encoder created
+21:57:17.302: libfdk_aac bitrate: 192, channels: 2
+21:57:17.369: ==== Recording Start ===============================================
+21:57:17.369: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/ggrl/2024-08-14 21-57-16.mkv'...
+22:04:36.811: [obs-nvenc: 'simple_video_stream'] settings:
+22:04:36.811: 	codec:        HEVC
+22:04:36.811: 	rate_control: CBR
+22:04:36.811: 	bitrate:      10000
+22:04:36.811: 	cqp:          20
+22:04:36.811: 	keyint:       120
+22:04:36.811: 	preset:       p4
+22:04:36.811: 	tuning:       hq
+22:04:36.811: 	multipass:    qres
+22:04:36.811: 	profile:      main
+22:04:36.811: 	width:        1920
+22:04:36.811: 	height:       1080
+22:04:36.811: 	b-frames:     2
+22:04:36.811: 	lookahead:    false
+22:04:36.811: 	psycho_aq:    true
+22:04:36.811: 
+22:04:36.851: libfdk_aac encoder created
+22:04:36.851: libfdk_aac bitrate: 160, channels: 2
+22:04:36.851: [rtmp stream: 'simple_stream'] Connecting to RTMP URL rtmp://a.rtmp.youtube.com/live2...
+22:04:37.853: [rtmp stream: 'simple_stream'] Connection to rtmp://a.rtmp.youtube.com/live2 (2800:3f0:4001:838::200c) successful
+22:04:37.925: ==== Streaming Start ===============================================
+22:04:39.767: [rtmp stream: 'simple_stream'] User stopped the stream
+22:04:39.767: Output 'simple_stream': stopping
+22:04:39.767: Output 'simple_stream': Total frames output: 104
+22:04:39.767: Output 'simple_stream': Total drawn frames: 170 (175 attempted)
+22:04:39.767: Output 'simple_stream': Number of lagged frames due to rendering lag/stalls: 5 (2.9%)
+22:04:39.769: ==== Streaming Stop ================================================
+22:04:39.937: libfdk_aac encoder destroyed
+22:04:42.438: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/ggrl/2024-08-14 21-57-16.mkv' stopped
+22:04:42.438: Output 'simple_file_output': stopping
+22:04:42.438: Output 'simple_file_output': Total frames output: 26693
+22:04:42.438: Output 'simple_file_output': Total drawn frames: 26695 (26705 attempted)
+22:04:42.438: Output 'simple_file_output': Number of lagged frames due to rendering lag/stalls: 10 (0.0%)
+22:04:42.438: Video stopped, number of skipped frames due to encoding lag: 10/26706 (0.0%)
+22:04:42.438: ==== Recording Stop ================================================
+22:04:42.855: libfdk_aac encoder destroyed
+17:04:36.136: [obs-nvenc: 'simple_video_recording'] settings:
+17:04:36.136: 	codec:        H264
+17:04:36.136: 	rate_control: CQP
+17:04:36.136: 	bitrate:      0
+17:04:36.136: 	cqp:          23
+17:04:36.136: 	keyint:       250
+17:04:36.136: 	preset:       p5
+17:04:36.136: 	tuning:       hq
+17:04:36.136: 	multipass:    qres
+17:04:36.136: 	profile:      high
+17:04:36.136: 	width:        1920
+17:04:36.136: 	height:       1080
+17:04:36.136: 	b-frames:     2
+17:04:36.136: 	lookahead:    false
+17:04:36.136: 	psycho_aq:    true
+17:04:36.136: 
+17:04:36.182: libfdk_aac encoder created
+17:04:36.182: libfdk_aac bitrate: 192, channels: 2
+17:04:36.185: ==== Recording Start ===============================================
+17:04:36.185: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/ggrl/2024-08-15 17-04-35.mkv'...
+17:07:21.076: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/ggrl/2024-08-15 17-04-35.mkv' stopped
+17:07:21.076: Output 'simple_file_output': stopping
+17:07:21.076: Output 'simple_file_output': Total frames output: 9880
+17:07:21.076: Output 'simple_file_output': Total drawn frames: 9889 (9894 attempted)
+17:07:21.076: Output 'simple_file_output': Number of lagged frames due to rendering lag/stalls: 5 (0.1%)
+17:07:21.077: Video stopped, number of skipped frames due to encoding lag: 5/9892 (0.1%)
+17:07:21.077: ==== Recording Stop ================================================
+17:07:21.529: libfdk_aac encoder destroyed
+17:07:24.050: [obs-nvenc: 'simple_video_recording'] settings:
+17:07:24.050: 	codec:        H264
+17:07:24.050: 	rate_control: CQP
+17:07:24.050: 	bitrate:      0
+17:07:24.050: 	cqp:          23
+17:07:24.050: 	keyint:       250
+17:07:24.050: 	preset:       p5
+17:07:24.050: 	tuning:       hq
+17:07:24.050: 	multipass:    qres
+17:07:24.050: 	profile:      high
+17:07:24.050: 	width:        1920
+17:07:24.050: 	height:       1080
+17:07:24.050: 	b-frames:     2
+17:07:24.050: 	lookahead:    false
+17:07:24.050: 	psycho_aq:    true
+17:07:24.050: 
+17:07:24.091: libfdk_aac encoder created
+17:07:24.091: libfdk_aac bitrate: 192, channels: 2
+17:07:24.094: ==== Recording Start ===============================================
+17:07:24.094: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/ggrl/2024-08-15 17-07-23.mkv'...
+17:11:18.596: [obs-nvenc: 'simple_video_stream'] settings:
+17:11:18.596: 	codec:        HEVC
+17:11:18.596: 	rate_control: CBR
+17:11:18.596: 	bitrate:      10000
+17:11:18.596: 	cqp:          20
+17:11:18.596: 	keyint:       120
+17:11:18.596: 	preset:       p4
+17:11:18.596: 	tuning:       hq
+17:11:18.596: 	multipass:    qres
+17:11:18.596: 	profile:      main
+17:11:18.596: 	width:        1920
+17:11:18.596: 	height:       1080
+17:11:18.596: 	b-frames:     2
+17:11:18.596: 	lookahead:    false
+17:11:18.596: 	psycho_aq:    true
+17:11:18.596: 
+17:11:18.637: libfdk_aac encoder created
+17:11:18.637: libfdk_aac bitrate: 160, channels: 2
+17:11:18.637: [rtmp stream: 'simple_stream'] Connecting to RTMP URL rtmp://a.rtmp.youtube.com/live2...
+17:11:19.246: [rtmp stream: 'simple_stream'] Connection to rtmp://a.rtmp.youtube.com/live2 (2800:3f0:4001:83c::200c) successful
+17:11:19.293: ==== Streaming Start ===============================================
+17:11:21.779: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/ggrl/2024-08-15 17-07-23.mkv' stopped
+17:11:21.779: Output 'simple_file_output': stopping
+17:11:21.779: Output 'simple_file_output': Total frames output: 14246
+17:11:21.779: Output 'simple_file_output': Total drawn frames: 14251 (14261 attempted)
+17:11:21.779: Output 'simple_file_output': Number of lagged frames due to rendering lag/stalls: 10 (0.1%)
+17:11:21.779: ==== Recording Stop ================================================
+17:11:21.938: libfdk_aac encoder destroyed
+17:11:23.356: [rtmp stream: 'simple_stream'] User stopped the stream
+17:11:23.356: Output 'simple_stream': stopping
+17:11:23.356: Output 'simple_stream': Total frames output: 235
+17:11:23.356: Output 'simple_stream': Total drawn frames: 281 (284 attempted)
+17:11:23.356: Output 'simple_stream': Number of lagged frames due to rendering lag/stalls: 3 (1.1%)
+17:11:23.356: Video stopped, number of skipped frames due to encoding lag: 10/14353 (0.1%)
+17:11:23.357: ==== Streaming Stop ================================================
+17:11:23.681: libfdk_aac encoder destroyed
+17:27:07.601: [Media Source 'WebCam Deru']: settings:
+17:27:07.601: 	input:                   
+17:27:07.601: 	input_format:            (null)
+17:27:07.601: 	speed:                   100
+17:27:07.601: 	is_looping:              no
+17:27:07.601: 	is_linear_alpha:         no
+17:27:07.601: 	is_hw_decoding:          no
+17:27:07.601: 	is_clear_on_media_end:   yes
+17:27:07.601: 	restart_on_activate:     yes
+17:27:07.601: 	close_when_inactive:     no
+17:27:07.601: 	full_decode:             no
+17:27:07.601: 	ffmpeg_options:          
+17:27:07.606: User added source 'WebCam Deru' (ffmpeg_source) to scene 'Stream'
+17:27:25.856: [Media Source 'WebCam Deru']: settings:
+17:27:25.856: 	input:                   udp://192.168.15.38:6640
+17:27:25.856: 	input_format:            
+17:27:25.856: 	speed:                   100
+17:27:25.856: 	is_looping:              no
+17:27:25.856: 	is_linear_alpha:         no
+17:27:25.856: 	is_hw_decoding:          no
+17:27:25.856: 	is_clear_on_media_end:   yes
+17:27:25.856: 	restart_on_activate:     yes
+17:27:25.856: 	close_when_inactive:     no
+17:27:25.856: 	full_decode:             no
+17:27:25.856: 	ffmpeg_options:          
+17:27:25.856: MP: Failed to open media: 'udp://192.168.15.38:6640'
+17:27:25.891: [Media Source 'WebCam Deru']: Disconnected. Reconnecting...
+17:27:35.891: MP: Failed to open media: 'udp://192.168.15.38:6640'
+17:27:45.906: MP: Failed to open media: 'udp://192.168.15.38:6640'
+17:27:55.923: MP: Failed to open media: 'udp://192.168.15.38:6640'
+17:28:05.941: MP: Failed to open media: 'udp://192.168.15.38:6640'
+17:28:15.972: MP: Failed to open media: 'udp://192.168.15.38:6640'
+17:28:25.973: MP: Failed to open media: 'udp://192.168.15.38:6640'
+17:28:28.601: [Media Source 'Fonte de mídia']: settings:
+17:28:28.601: 	input:                   udp://192.168.15.38:6640
+17:28:28.601: 	input_format:            
+17:28:28.601: 	speed:                   100
+17:28:28.601: 	is_looping:              no
+17:28:28.601: 	is_linear_alpha:         no
+17:28:28.601: 	is_hw_decoding:          no
+17:28:28.601: 	is_clear_on_media_end:   yes
+17:28:28.601: 	restart_on_activate:     yes
+17:28:28.601: 	close_when_inactive:     no
+17:28:28.601: 	full_decode:             no
+17:28:28.601: 	ffmpeg_options:          
+17:28:35.974: MP: Failed to open media: 'udp://192.168.15.38:6640'
+17:28:38.172: User Removed source 'WebCam Deru' (ffmpeg_source) from scene 'Stream'
+17:28:52.448: [Media Source 'Fonte de mídia']: settings:
+17:28:52.448: 	input:                   
+17:28:52.448: 	input_format:            
+17:28:52.448: 	speed:                   100
+17:28:52.448: 	is_looping:              no
+17:28:52.448: 	is_linear_alpha:         no
+17:28:52.448: 	is_hw_decoding:          no
+17:28:52.448: 	is_clear_on_media_end:   yes
+17:28:52.448: 	restart_on_activate:     yes
+17:28:52.448: 	close_when_inactive:     no
+17:28:52.448: 	full_decode:             no
+17:28:52.448: 	ffmpeg_options:          
+17:28:52.448: [Media Source 'Fonte de mídia']: Disconnected. Reconnecting...
+17:28:55.663: User Removed source 'Fonte de mídia' (ffmpeg_source) from scene 'Stream'
+17:29:01.873: [Media Source 'webcam']: settings:
+17:29:01.873: 	input:                   
+17:29:01.873: 	input_format:            (null)
+17:29:01.873: 	speed:                   100
+17:29:01.873: 	is_looping:              no
+17:29:01.873: 	is_linear_alpha:         no
+17:29:01.873: 	is_hw_decoding:          no
+17:29:01.873: 	is_clear_on_media_end:   yes
+17:29:01.873: 	restart_on_activate:     yes
+17:29:01.873: 	close_when_inactive:     no
+17:29:01.873: 	full_decode:             no
+17:29:01.873: 	ffmpeg_options:          
+17:29:01.876: User added source 'webcam' (ffmpeg_source) to scene 'Stream'
+17:29:06.993: [Media Source 'webcam']: settings:
+17:29:06.993: 	input:                   udp://192.168.15.38:6640
+17:29:06.993: 	input_format:            
+17:29:06.993: 	speed:                   100
+17:29:06.993: 	is_looping:              no
+17:29:06.993: 	is_linear_alpha:         no
+17:29:06.993: 	is_hw_decoding:          no
+17:29:06.993: 	is_clear_on_media_end:   yes
+17:29:06.993: 	restart_on_activate:     yes
+17:29:06.993: 	close_when_inactive:     no
+17:29:06.993: 	full_decode:             no
+17:29:06.993: 	ffmpeg_options:          
+17:29:32.435: [Media Source 'webcam']: settings:
+17:29:32.435: 	input:                   udp://192.168.15.38:6640
+17:29:32.435: 	input_format:            
+17:29:32.435: 	speed:                   100
+17:29:32.435: 	is_looping:              no
+17:29:32.435: 	is_linear_alpha:         no
+17:29:32.435: 	is_hw_decoding:          no
+17:29:32.435: 	is_clear_on_media_end:   yes
+17:29:32.435: 	restart_on_activate:     yes
+17:29:32.435: 	close_when_inactive:     no
+17:29:32.435: 	full_decode:             no
+17:29:32.435: 	ffmpeg_options:          
+18:02:18.041: [Media Source 'webcam']: settings:
+18:02:18.041: 	input:                   udp://192.168.15.38:6640
+18:02:18.041: 	input_format:            
+18:02:18.041: 	speed:                   100
+18:02:18.041: 	is_looping:              no
+18:02:18.041: 	is_linear_alpha:         no
+18:02:18.041: 	is_hw_decoding:          no
+18:02:18.041: 	is_clear_on_media_end:   yes
+18:02:18.041: 	restart_on_activate:     yes
+18:02:18.041: 	close_when_inactive:     no
+18:02:18.041: 	full_decode:             no
+18:02:18.041: 	ffmpeg_options:          
+18:02:24.668: User Removed source 'webcam' (ffmpeg_source) from scene 'Stream'
+18:02:29.093: [Media Source 'Fonte de mídia 2']: settings:
+18:02:29.093: 	input:                   
+18:02:29.093: 	input_format:            (null)
+18:02:29.093: 	speed:                   100
+18:02:29.093: 	is_looping:              no
+18:02:29.093: 	is_linear_alpha:         no
+18:02:29.093: 	is_hw_decoding:          no
+18:02:29.093: 	is_clear_on_media_end:   yes
+18:02:29.093: 	restart_on_activate:     yes
+18:02:29.093: 	close_when_inactive:     no
+18:02:29.093: 	full_decode:             no
+18:02:29.093: 	ffmpeg_options:          
+18:02:29.096: User added source 'Fonte de mídia 2' (ffmpeg_source) to scene 'Stream'
+18:02:47.356: [Media Source 'Fonte de mídia 2']: settings:
+18:02:47.356: 	input:                   udp://192.168.15.38:6640
+18:02:47.356: 	input_format:            
+18:02:47.356: 	speed:                   100
+18:02:47.356: 	is_looping:              no
+18:02:47.356: 	is_linear_alpha:         no
+18:02:47.356: 	is_hw_decoding:          no
+18:02:47.356: 	is_clear_on_media_end:   yes
+18:02:47.356: 	restart_on_activate:     yes
+18:02:47.356: 	close_when_inactive:     no
+18:02:47.356: 	full_decode:             no
+18:02:47.356: 	ffmpeg_options:          
+18:03:38.537: [Media Source 'Fonte de mídia 2']: settings:
+18:03:38.537: 	input:                   udp://192.168.15.38:6640
+18:03:38.537: 	input_format:            
+18:03:38.537: 	speed:                   100
+18:03:38.537: 	is_looping:              no
+18:03:38.537: 	is_linear_alpha:         no
+18:03:38.537: 	is_hw_decoding:          no
+18:03:38.537: 	is_clear_on_media_end:   yes
+18:03:38.537: 	restart_on_activate:     yes
+18:03:38.537: 	close_when_inactive:     no
+18:03:38.537: 	full_decode:             no
+18:03:38.537: 	ffmpeg_options:          
+18:03:43.969: [Media Source 'Fonte de mídia 2']: settings:
+18:03:43.969: 	input:                   udp://192.168.15.38:6640
+18:03:43.969: 	input_format:            
+18:03:43.969: 	speed:                   100
+18:03:43.969: 	is_looping:              no
+18:03:43.969: 	is_linear_alpha:         no
+18:03:43.969: 	is_hw_decoding:          no
+18:03:43.969: 	is_clear_on_media_end:   yes
+18:03:43.969: 	restart_on_activate:     yes
+18:03:43.969: 	close_when_inactive:     no
+18:03:43.969: 	full_decode:             no
+18:03:43.969: 	ffmpeg_options:          
+18:05:39.960: User Removed source 'Fonte de mídia 2' (ffmpeg_source) from scene 'Stream'
+18:06:16.800: [Media Source 'webcam']: settings:
+18:06:16.800: 	input:                   
+18:06:16.800: 	input_format:            (null)
+18:06:16.800: 	speed:                   100
+18:06:16.800: 	is_looping:              no
+18:06:16.800: 	is_linear_alpha:         no
+18:06:16.800: 	is_hw_decoding:          no
+18:06:16.800: 	is_clear_on_media_end:   yes
+18:06:16.800: 	restart_on_activate:     yes
+18:06:16.800: 	close_when_inactive:     no
+18:06:16.800: 	full_decode:             no
+18:06:16.800: 	ffmpeg_options:          
+18:06:16.802: User added source 'webcam' (ffmpeg_source) to scene 'Stream'
+18:06:32.249: [Media Source 'webcam']: settings:
+18:06:32.249: 	input:                   udp://192.168.15.38:6640
+18:06:32.249: 	input_format:            
+18:06:32.249: 	speed:                   100
+18:06:32.249: 	is_looping:              no
+18:06:32.249: 	is_linear_alpha:         no
+18:06:32.249: 	is_hw_decoding:          no
+18:06:32.249: 	is_clear_on_media_end:   yes
+18:06:32.249: 	restart_on_activate:     yes
+18:06:32.249: 	close_when_inactive:     no
+18:06:32.249: 	full_decode:             no
+18:06:32.249: 	ffmpeg_options:          
+18:06:38.154: User Removed source 'webcam' (ffmpeg_source) from scene 'Stream'
+18:08:34.429: [Media Source 'Fonte de mídia 2']: settings:
+18:08:34.429: 	input:                   
+18:08:34.429: 	input_format:            (null)
+18:08:34.429: 	speed:                   100
+18:08:34.429: 	is_looping:              no
+18:08:34.429: 	is_linear_alpha:         no
+18:08:34.429: 	is_hw_decoding:          no
+18:08:34.429: 	is_clear_on_media_end:   yes
+18:08:34.429: 	restart_on_activate:     yes
+18:08:34.429: 	close_when_inactive:     no
+18:08:34.429: 	full_decode:             no
+18:08:34.429: 	ffmpeg_options:          
+18:08:34.432: User added source 'Fonte de mídia 2' (ffmpeg_source) to scene 'Stream'
+18:08:55.325: [Media Source 'Fonte de mídia 2']: settings:
+18:08:55.325: 	input:                   rtp://geodatabase.duckdns.org:6640
+18:08:55.325: 	input_format:            
+18:08:55.325: 	speed:                   100
+18:08:55.325: 	is_looping:              no
+18:08:55.325: 	is_linear_alpha:         no
+18:08:55.325: 	is_hw_decoding:          no
+18:08:55.325: 	is_clear_on_media_end:   yes
+18:08:55.325: 	restart_on_activate:     yes
+18:08:55.325: 	close_when_inactive:     no
+18:08:55.325: 	full_decode:             no
+18:08:55.325: 	ffmpeg_options:          
+18:08:55.877: MP: Failed to open media: 'rtp://geodatabase.duckdns.org:6640'
+18:08:55.889: [Media Source 'Fonte de mídia 2']: Disconnected. Reconnecting...
+18:09:05.891: MP: Failed to open media: 'rtp://geodatabase.duckdns.org:6640'
+18:09:16.456: MP: Failed to open media: 'rtp://geodatabase.duckdns.org:6640'
+18:09:26.917: MP: Failed to open media: 'rtp://geodatabase.duckdns.org:6640'
+18:09:42.765: MP: Failed to open media: 'rtp://geodatabase.duckdns.org:6640'
+18:09:52.791: MP: Failed to open media: 'rtp://geodatabase.duckdns.org:6640'
+18:10:04.162: MP: Failed to open media: 'rtp://geodatabase.duckdns.org:6640'
+18:10:14.173: MP: Failed to open media: 'rtp://geodatabase.duckdns.org:6640'
+18:10:24.193: MP: Failed to open media: 'rtp://geodatabase.duckdns.org:6640'
+18:10:34.199: MP: Failed to open media: 'rtp://geodatabase.duckdns.org:6640'
+18:10:44.216: MP: Failed to open media: 'rtp://geodatabase.duckdns.org:6640'
+18:10:54.220: MP: Failed to open media: 'rtp://geodatabase.duckdns.org:6640'
+18:11:04.378: MP: Failed to open media: 'rtp://geodatabase.duckdns.org:6640'
+18:11:14.401: MP: Failed to open media: 'rtp://geodatabase.duckdns.org:6640'
+18:11:24.408: MP: Failed to open media: 'rtp://geodatabase.duckdns.org:6640'
+18:11:34.413: MP: Failed to open media: 'rtp://geodatabase.duckdns.org:6640'
+18:11:44.437: MP: Failed to open media: 'rtp://geodatabase.duckdns.org:6640'
+18:11:54.440: MP: Failed to open media: 'rtp://geodatabase.duckdns.org:6640'
+18:12:04.623: MP: Failed to open media: 'rtp://geodatabase.duckdns.org:6640'
+18:12:14.641: MP: Failed to open media: 'rtp://geodatabase.duckdns.org:6640'
+18:12:24.657: MP: Failed to open media: 'rtp://geodatabase.duckdns.org:6640'
+18:12:34.674: MP: Failed to open media: 'rtp://geodatabase.duckdns.org:6640'
+18:12:44.702: MP: Failed to open media: 'rtp://geodatabase.duckdns.org:6640'
+18:12:54.714: MP: Failed to open media: 'rtp://geodatabase.duckdns.org:6640'
+18:13:04.878: MP: Failed to open media: 'rtp://geodatabase.duckdns.org:6640'
+18:13:14.921: MP: Failed to open media: 'rtp://geodatabase.duckdns.org:6640'
+18:13:24.924: MP: Failed to open media: 'rtp://geodatabase.duckdns.org:6640'
+18:13:34.930: MP: Failed to open media: 'rtp://geodatabase.duckdns.org:6640'
+18:13:44.944: MP: Failed to open media: 'rtp://geodatabase.duckdns.org:6640'
+18:13:54.946: MP: Failed to open media: 'rtp://geodatabase.duckdns.org:6640'
+18:14:05.115: MP: Failed to open media: 'rtp://geodatabase.duckdns.org:6640'
+18:14:15.124: MP: Failed to open media: 'rtp://geodatabase.duckdns.org:6640'
+18:15:45.586: Last log entry repeated for 9 more lines
+18:15:45.586: User Removed source 'Fonte de mídia 2' (ffmpeg_source) from scene 'Stream'
+18:15:51.907: [Media Source ' webam']: settings:
+18:15:51.907: 	input:                   
+18:15:51.907: 	input_format:            (null)
+18:15:51.907: 	speed:                   100
+18:15:51.907: 	is_looping:              no
+18:15:51.907: 	is_linear_alpha:         no
+18:15:51.907: 	is_hw_decoding:          no
+18:15:51.907: 	is_clear_on_media_end:   yes
+18:15:51.907: 	restart_on_activate:     yes
+18:15:51.907: 	close_when_inactive:     no
+18:15:51.907: 	full_decode:             no
+18:15:51.907: 	ffmpeg_options:          
+18:15:51.911: User added source ' webam' (ffmpeg_source) to scene 'Stream'
+18:16:14.156: [Media Source ' webam']: settings:
+18:16:14.156: 	input:                   rtp://192.168.15.38:6640
+18:16:14.156: 	input_format:            
+18:16:14.156: 	speed:                   100
+18:16:14.156: 	is_looping:              no
+18:16:14.156: 	is_linear_alpha:         no
+18:16:14.156: 	is_hw_decoding:          no
+18:16:14.156: 	is_clear_on_media_end:   yes
+18:16:14.156: 	restart_on_activate:     yes
+18:16:14.156: 	close_when_inactive:     no
+18:16:14.156: 	full_decode:             no
+18:16:14.156: 	ffmpeg_options:          
+18:16:14.156: MP: Failed to open media: 'rtp://192.168.15.38:6640'
+18:16:14.159: [Media Source ' webam']: Disconnected. Reconnecting...
+18:16:24.160: MP: Failed to open media: 'rtp://192.168.15.38:6640'
+18:16:34.162: MP: Failed to open media: 'rtp://192.168.15.38:6640'
+18:16:44.173: MP: Failed to open media: 'rtp://192.168.15.38:6640'
+18:18:15.959: User switched to scene 'Stream Config'
+18:33:46.062: [Media Source 'Webcam']: settings:
+18:33:46.062: 	input:                   
+18:33:46.062: 	input_format:            (null)
+18:33:46.062: 	speed:                   100
+18:33:46.062: 	is_looping:              no
+18:33:46.062: 	is_linear_alpha:         no
+18:33:46.062: 	is_hw_decoding:          no
+18:33:46.062: 	is_clear_on_media_end:   yes
+18:33:46.062: 	restart_on_activate:     yes
+18:33:46.062: 	close_when_inactive:     no
+18:33:46.062: 	full_decode:             no
+18:33:46.062: 	ffmpeg_options:          
+18:33:46.064: User added source 'Webcam' (ffmpeg_source) to scene 'Stream Config'
+18:33:57.621: [Media Source 'Webcam']: settings:
+18:33:57.621: 	input:                   udp:192.168.15.38:6642
+18:33:57.621: 	input_format:            
+18:33:57.621: 	speed:                   100
+18:33:57.621: 	is_looping:              no
+18:33:57.621: 	is_linear_alpha:         no
+18:33:57.621: 	is_hw_decoding:          no
+18:33:57.621: 	is_clear_on_media_end:   yes
+18:33:57.621: 	restart_on_activate:     yes
+18:33:57.621: 	close_when_inactive:     no
+18:33:57.621: 	full_decode:             no
+18:33:57.621: 	ffmpeg_options:          
+18:33:57.621: MP: Failed to open media: 'udp:192.168.15.38:6642'
+18:33:57.624: [Media Source 'Webcam']: Disconnected. Reconnecting...
+18:34:03.701: [Media Source 'Webcam']: settings:
+18:34:03.701: 	input:                   rtpp:192.168.15.38:6642
+18:34:03.701: MP: Failed to open media: 'rtpp:192.168.15.38:6642'
+18:34:03.701: 	input_format:            
+18:34:03.701: 	speed:                   100
+18:34:03.701: 	is_looping:              no
+18:34:03.701: 	is_linear_alpha:         no
+18:34:03.701: 	is_hw_decoding:          no
+18:34:03.701: 	is_clear_on_media_end:   yes
+18:34:03.701: 	restart_on_activate:     yes
+18:34:03.701: 	close_when_inactive:     no
+18:34:03.701: 	full_decode:             no
+18:34:03.701: 	ffmpeg_options:          
+18:34:03.701: [Media Source 'Webcam']: Disconnected. Reconnecting...
+18:34:08.974: [Media Source 'Webcam']: settings:
+18:34:08.974: 	input:                   rtp:192.168.15.38:6642
+18:34:08.974: 	input_format:            
+18:34:08.974: 	speed:                   100
+18:34:08.974: 	is_looping:              no
+18:34:08.974: 	is_linear_alpha:         no
+18:34:08.974: 	is_hw_decoding:          no
+18:34:08.974: 	is_clear_on_media_end:   yes
+18:34:08.974: 	restart_on_activate:     yes
+18:34:08.974: 	close_when_inactive:     no
+18:34:08.974: 	full_decode:             no
+18:34:08.974: 	ffmpeg_options:          
+18:34:08.974: MP: Failed to open media: 'rtp:192.168.15.38:6642'
+18:34:09.003: [Media Source 'Webcam']: Disconnected. Reconnecting...
+18:34:19.003: MP: Failed to open media: 'rtp:192.168.15.38:6642'
+18:34:23.957: [Media Source 'Webcam']: settings:
+18:34:23.957: 	input:                   udp://192.168.15.38:6642
+18:34:23.957: 	input_format:            
+18:34:23.957: 	speed:                   100
+18:34:23.957: 	is_looping:              no
+18:34:23.957: 	is_linear_alpha:         no
+18:34:23.957: 	is_hw_decoding:          no
+18:34:23.957: 	is_clear_on_media_end:   yes
+18:34:23.957: 	restart_on_activate:     yes
+18:34:23.957: 	close_when_inactive:     no
+18:34:23.957: 	full_decode:             no
+18:34:23.957: 	ffmpeg_options:          
+18:34:23.957: MP: Failed to open media: 'udp://192.168.15.38:6642'
+18:34:23.962: [Media Source 'Webcam']: Disconnected. Reconnecting...
+18:34:33.963: MP: Failed to open media: 'udp://192.168.15.38:6642'
+18:34:43.975: MP: Failed to open media: 'udp://192.168.15.38:6642'
+18:34:53.982: MP: Failed to open media: 'udp://192.168.15.38:6642'
+18:35:03.984: MP: Failed to open media: 'udp://192.168.15.38:6642'
+18:35:13.993: MP: Failed to open media: 'udp://192.168.15.38:6642'
+18:35:24.022: MP: Failed to open media: 'udp://192.168.15.38:6642'
+18:35:34.038: MP: Failed to open media: 'udp://192.168.15.38:6642'
+18:35:44.041: MP: Failed to open media: 'udp://192.168.15.38:6642'
+18:35:48.807: User Removed source 'Webcam' (ffmpeg_source) from scene 'Stream Config'
+18:36:03.479: User added source ' webam' (ffmpeg_source) to scene 'Stream Config'
+18:36:05.443: User switched to scene 'Stream'
+18:36:07.567: User Removed source ' webam' (ffmpeg_source) from scene 'Stream'
+18:36:09.267: User switched to scene 'Stream Config'
+18:36:10.522: User switched to scene 'Pausa'
+18:36:10.526: User Removed scene 'Stream Config'
+18:36:13.675: xshm-input: Geometry 768x1024 @ 0,0
+18:36:13.676: [Media Source ' webam']: settings:
+18:36:13.676: 	input:                   rtp://192.168.15.38:6640
+18:36:13.676: 	input_format:            
+18:36:13.676: 	speed:                   100
+18:36:13.676: 	is_looping:              no
+18:36:13.676: 	is_linear_alpha:         no
+18:36:13.676: 	is_hw_decoding:          no
+18:36:13.676: 	is_clear_on_media_end:   yes
+18:36:13.676: 	restart_on_activate:     yes
+18:36:13.676: 	close_when_inactive:     no
+18:36:13.676: 	full_decode:             no
+18:36:13.676: 	ffmpeg_options:          
+18:36:13.676: User added scene 'Stream Config'
+18:36:13.676: User added source 'AOC_LIXO' (xshm_input) to scene 'Stream Config'
+18:36:13.676: User added source 'AOC_VELHO' (xshm_input) to scene 'Stream Config'
+18:36:13.676: User added source ' webam' (ffmpeg_source) to scene 'Stream Config'
+18:36:13.681: Switched to scene 'Stream Config'
+18:36:16.644: User Removed source ' webam' (ffmpeg_source) from scene 'Stream Config'
+18:36:16.679: MP: Failed to open media: 'rtp://192.168.15.38:6640'
+18:36:25.532: [Media Source 'Webcam']: settings:
+18:36:25.532: 	input:                   
+18:36:25.532: 	input_format:            (null)
+18:36:25.532: 	speed:                   100
+18:36:25.532: 	is_looping:              no
+18:36:25.532: 	is_linear_alpha:         no
+18:36:25.532: 	is_hw_decoding:          no
+18:36:25.532: 	is_clear_on_media_end:   yes
+18:36:25.532: 	restart_on_activate:     yes
+18:36:25.532: 	close_when_inactive:     no
+18:36:25.532: 	full_decode:             no
+18:36:25.532: 	ffmpeg_options:          
+18:36:25.534: User added source 'Webcam' (ffmpeg_source) to scene 'Stream Config'
+18:36:32.472: [Media Source 'Webcam']: settings:
+18:36:32.472: 	input:                   udp://192.168.15.38:6642
+18:36:32.472: 	input_format:            
+18:36:32.472: 	speed:                   100
+18:36:32.472: 	is_looping:              no
+18:36:32.472: 	is_linear_alpha:         no
+18:36:32.472: 	is_hw_decoding:          no
+18:36:32.472: 	is_clear_on_media_end:   yes
+18:36:32.472: 	restart_on_activate:     yes
+18:36:32.472: 	close_when_inactive:     no
+18:36:32.472: 	full_decode:             no
+18:36:32.472: 	ffmpeg_options:          
+18:36:32.472: MP: Failed to open media: 'udp://192.168.15.38:6642'
+18:36:32.483: [Media Source 'Webcam']: Disconnected. Reconnecting...
+18:36:42.484: MP: Failed to open media: 'udp://192.168.15.38:6642'
+18:36:52.492: MP: Failed to open media: 'udp://192.168.15.38:6642'
+18:38:54.715: User Removed source 'Webcam' (ffmpeg_source) from scene 'Stream Config'
+18:38:59.647: [Media Source 'Fonte de mídia 2']: settings:
+18:38:59.647: 	input:                   
+18:38:59.647: 	input_format:            (null)
+18:38:59.647: 	speed:                   100
+18:38:59.647: 	is_looping:              no
+18:38:59.647: 	is_linear_alpha:         no
+18:38:59.647: 	is_hw_decoding:          no
+18:38:59.647: 	is_clear_on_media_end:   yes
+18:38:59.647: 	restart_on_activate:     yes
+18:38:59.647: 	close_when_inactive:     no
+18:38:59.647: 	full_decode:             no
+18:38:59.647: 	ffmpeg_options:          
+18:38:59.649: User added source 'Fonte de mídia 2' (ffmpeg_source) to scene 'Stream Config'
+18:39:05.790: [Media Source 'Fonte de mídia 2']: settings:
+18:39:05.790: 	input:                   udp://192.168.15.38:6642
+18:39:05.790: 	input_format:            
+18:39:05.790: 	speed:                   100
+18:39:05.790: 	is_looping:              no
+18:39:05.790: 	is_linear_alpha:         no
+18:39:05.790: 	is_hw_decoding:          no
+18:39:05.790: 	is_clear_on_media_end:   yes
+18:39:05.790: 	restart_on_activate:     yes
+18:39:05.790: 	close_when_inactive:     no
+18:39:05.790: 	full_decode:             no
+18:39:05.790: 	ffmpeg_options:          
+18:39:36.583: [Media Source 'Fonte de mídia 2']: settings:
+18:39:36.583: 	input:                   rtp://192.168.15.38:6642
+18:39:36.583: 	input_format:            
+18:39:36.583: 	speed:                   100
+18:39:36.583: 	is_looping:              no
+18:39:36.583: 	is_linear_alpha:         no
+18:39:36.583: 	is_hw_decoding:          no
+18:39:36.583: 	is_clear_on_media_end:   yes
+18:39:36.583: 	restart_on_activate:     yes
+18:39:36.583: 	close_when_inactive:     no
+18:39:36.583: 	full_decode:             no
+18:39:36.583: 	ffmpeg_options:          
+18:45:10.442: [Media Source 'Fonte de mídia 2']: settings:
+18:45:10.442: 	input:                   rtp://192.168.15.38:6642
+18:45:10.442: 	input_format:            
+18:45:10.442: 	speed:                   100
+18:45:10.442: 	is_looping:              no
+18:45:10.442: 	is_linear_alpha:         no
+18:45:10.442: 	is_hw_decoding:          no
+18:45:10.442: 	is_clear_on_media_end:   yes
+18:45:10.442: 	restart_on_activate:     yes
+18:45:10.442: 	close_when_inactive:     no
+18:45:10.442: 	full_decode:             no
+18:45:10.442: 	ffmpeg_options:          
+18:46:20.109: [Media Source 'Fonte de mídia 2']: settings:
+18:46:20.109: 	input:                   rtp://192.168.15.38:6642
+18:46:20.109: 	input_format:            
+18:46:20.109: 	speed:                   100
+18:46:20.109: 	is_looping:              no
+18:46:20.109: 	is_linear_alpha:         no
+18:46:20.109: 	is_hw_decoding:          no
+18:46:20.109: 	is_clear_on_media_end:   yes
+18:46:20.109: 	restart_on_activate:     yes
+18:46:20.109: 	close_when_inactive:     no
+18:46:20.109: 	full_decode:             no
+18:46:20.109: 	ffmpeg_options:          
+18:46:20.115: MP: Failed to open media: 'rtp://192.168.15.38:6642'
+18:46:20.145: [Media Source 'Fonte de mídia 2']: Disconnected. Reconnecting...
+18:46:30.171: MP: Failed to open media: 'rtp://192.168.15.38:6642'
+18:46:40.221: MP: Failed to open media: 'rtp://192.168.15.38:6642'
+18:46:50.343: MP: Failed to open media: 'rtp://192.168.15.38:6642'
+18:47:00.356: MP: Failed to open media: 'rtp://192.168.15.38:6642'
+18:47:10.359: MP: Failed to open media: 'rtp://192.168.15.38:6642'
+18:47:20.382: MP: Failed to open media: 'rtp://192.168.15.38:6642'
+18:47:30.383: MP: Failed to open media: 'rtp://192.168.15.38:6642'
+18:47:40.413: MP: Failed to open media: 'rtp://192.168.15.38:6642'
+18:47:50.442: MP: Failed to open media: 'rtp://192.168.15.38:6642'
+18:48:00.458: MP: Failed to open media: 'rtp://192.168.15.38:6642'
+18:48:10.466: MP: Failed to open media: 'rtp://192.168.15.38:6642'
+18:48:20.474: MP: Failed to open media: 'rtp://192.168.15.38:6642'
+18:48:30.478: MP: Failed to open media: 'rtp://192.168.15.38:6642'
+18:48:40.488: MP: Failed to open media: 'rtp://192.168.15.38:6642'
+18:48:50.497: MP: Failed to open media: 'rtp://192.168.15.38:6642'
+18:49:00.513: MP: Failed to open media: 'rtp://192.168.15.38:6642'
+18:49:10.520: MP: Failed to open media: 'rtp://192.168.15.38:6642'
+18:49:20.630: MP: Failed to open media: 'rtp://192.168.15.38:6642'
+18:49:30.672: MP: Failed to open media: 'rtp://192.168.15.38:6642'
+18:49:40.707: MP: Failed to open media: 'rtp://192.168.15.38:6642'
+18:49:50.742: MP: Failed to open media: 'rtp://192.168.15.38:6642'
+18:50:00.790: MP: Failed to open media: 'rtp://192.168.15.38:6642'
+18:50:10.837: MP: Failed to open media: 'rtp://192.168.15.38:6642'
+18:50:20.883: MP: Failed to open media: 'rtp://192.168.15.38:6642'

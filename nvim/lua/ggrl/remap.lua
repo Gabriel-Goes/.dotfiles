@@ -47,12 +47,10 @@ vim.keymap.set("n", "<leader>ee", "<cmd><bar> exec '!%'<bar><CR>",
 -- Função para executar qgis
 vim.keymap.set("n", "<leader>qq", function()
     vim.cmd("exec '!plugin_CS'")
-
 end, { noremap = true, silent = true })
 
 vim.keymap.set("n", "<leader>qt", function()
     vim.cmd("exec '!plugin_CT'")
-
 end, { noremap = true, silent = true })
 
 -- Função para descompactar o arquivo tar

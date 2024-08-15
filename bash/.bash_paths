@@ -43,7 +43,7 @@ activate_pyenv() {
     eval "$(pyenv init --path)"
     eval "$(pyenv init -)"
     eval "$(pyenv virtualenv-init -)"
-    export PYTHONPATH=$HOME/.pyenv/versions/sismologia/lib/python3.12/site-packages/:$PYTHONPATH
+    export PYTHONPATH=$HOME/.pyenv/versions/geologia/lib/python3.12/site-packages/:$PYTHONPATH
 }
 
 deactivate_pyenv() {
@@ -58,7 +58,7 @@ deactivate_pyenv() {
     # Remover todas as entradas do PYTHONPATH que pertencem ao pyenv
     export PYTHONPATH=$(echo $PYTHONPATH | tr ':' '\n' | grep -v "$HOME/.pyenv" | tr '\n' ':' | sed 's/:$//')
 }
-# activate_pyenv
+activate_pyenv
 
 # ------------------------------- XDGE_PATH --------------------------------- #
 export XDG_CONFIG_HOME=$HOME/.config

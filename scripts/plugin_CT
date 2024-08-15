@@ -6,10 +6,11 @@ then
     pkill qgis
 fi
 
-cp -r $HOME/projetos/PreditorTerra/fonte/plguinQGIS/classificador_terra $HOME/.local/share/QGIS/QGIS3/profiles/Gabriel/python/plugins
+cp -r $HOME/projetos/PreditorTerra/fonte/mapgeo $HOME/.local/share/QGIS/QGIS3/profiles/Gabriel/python/plugins
 
 pushd $HOME
-export PYTHONPATH=$HOME/.pyenv/versions/geologia/lib/python3.14/site-packages:$HOME/.pyenv/versions/geologia/bin/python:$PYTHONPATH
+export PYTHONPATH=$HOME/.pyenv/versions/geologia/lib/python3.12/site-packages:$HOME/.pyenv/versions/geologia/bin/python:$PYTHONPATH
+
 exec qgis
 popd
 
