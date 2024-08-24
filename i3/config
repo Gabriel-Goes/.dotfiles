@@ -1,6 +1,7 @@
 # I3-WM Configuration File
 font pango: opendyslexic 7
 
+
 set $refresh_i3status killall -SIGUSR1 i3status
 
 exec --no-startup-id nvidia-settings --load-config-only
@@ -13,6 +14,9 @@ for_window [class="farejador.py"] floating enable
 for_window [class="Preditorterra"] floating enable
 for_window [class="feh"] floating enable
 for_window [title="Seletor de Eventos, Redes e Estações"] floating enable
+for_window [class="Firefox"] floating enable
+for_window [class="Firefox"] fullscreen global
+for_window [class="Firefox"] fullscreen enable
 
 gaps inner 3
 gaps outer 3
@@ -121,6 +125,7 @@ for_window [class="discord"] move container to workspace $ws18
 for_window [class="Spotify"] move container to workspace $ws18
 for_window [class="PreditorTerra"] move container to workspace $ws20
 for_window [class="QGIS"] move container to workspace $ws8
+for_window [class="steam"] move container to workspace $ws10
 
 bindsym $mod+1 workspace number 1; rename workspace to $ws1
 bindsym $mod+2 workspace number $ws2
