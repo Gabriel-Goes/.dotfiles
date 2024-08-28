@@ -10,7 +10,7 @@ if [[ -z $DOTFILES ]]; then
 fi
 
 if [[ -z $CONFIG_FOLDERS ]]; then
-    CONFIG_FOLDERS="alacritty i3 nvim picom tmux"
+    CONFIG_FOLDERS="alacritty i3 nvim tmux"
 fi
 
 CONFIG_FOLDERS=$CONFIG_FOLDERS DOTFILES=$DOTFILES $DOTFILES/install

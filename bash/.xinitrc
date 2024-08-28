@@ -19,4 +19,6 @@ gif_lofi_girl &
 core_temp &
 r_monitor &
 obs_init &
+spotifyd &
+picom &
 i3

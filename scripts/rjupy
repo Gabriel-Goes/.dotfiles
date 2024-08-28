@@ -11,7 +11,7 @@
 TERM_TITLE="JupyterLab"
 SESSION_NAME="JupyterLabSession"
 PROJECT_DIR="/home/ggrl/projetos/geologist/"
-JUPYTER_PORT=8887
+JUPYTER_PORT=8554
 
 # Função para checar se jupyter-lab está rodando em uma porta específica
 is_jupyter_running(){
@@ -25,19 +25,20 @@ if tmux has-session -t $SESSION_NAME 2>/dev/null; then
     if ! tmux list-sessions -F '#{session_name}:#{session_attached}' | grep -q "^${SESSION_NAME}:1$"; then
         # Se TestPreditorTerra não estiver attached, attach à sessão e executa o script Python
         alacritty -title $TERM_TITLE -e tmux attach-session -t $SESSION_NAME
+        firefox &
     else
-        brave &
+        firefox &
     fi
 else
     # Checa se jupyter-lab está rodando
     if is_jupyter_running; then
         echo " 2.1 Jupyter Lab is already running on port $JUPYTER_PORT"
-        brave &
+        firefox &
     else
         # Abre uma tmux new session com $SESSION_NAME e executa comandos
         tmux new-session -s $SESSION_NAME -d -c "$PROJECT_DIR" && \
-        tmux send-keys -t $SESSION_NAME 'geo' C-m && \
+        tmux send-keys -t $SESSION_NAME 'pyenv activate sismologia' C-m && \
         tmux send-keys -t $SESSION_NAME 'jupyter-lab --no-browser --port 8887 &' C-m && \
-        tmux send-keys -t $SESSION_NAME 'brave &' C-m
+        firefox &
     fi
 fi

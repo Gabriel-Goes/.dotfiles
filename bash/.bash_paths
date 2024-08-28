@@ -5,38 +5,32 @@
 # Data: 2024-03-28
 # Modificado: 2024-05-12
 # Versão: 0.4.1
-
-
 # -------------------------------- PATHS ------------------------------------ #
 # ----- BIN
 export PATH=/bin/
 # ----- USER
-# export PATH=/usr/bin/vendor_perl/:$PATH
-# export PATH=/usr/bin/site_perl/:$PATH
-# export PATH=/usr/bin/core_perl_/:$PATH
-# export PATH=/usr/lib/jvm/default/bin/:$PATH
-# export PATH=/usr/lib/ccache/bin/:$PATH
+export PATH=/usr/bin/vendor_perl/:$PATH
+export PATH=/usr/bin/site_perl/:$PATH
+export PATH=/usr/bin/core_perl_/:$PATH
+export PATH=/usr/lib/jvm/default/bin/:$PATH
+export PATH=/usr/lib/ccache/bin/:$PATH
 export PATH=/usr/bin/:$PATH
 export PATH=/usr/local/bin/:$PATH
 # ----- LOCAL
 export PATH=$HOME/.local/bin/:$PATH
 export PATH=$HOME/.local/share/:$PATH
-# export PATH=$HOME/.local/share/applications/:$PATH
+export PATH=$HOME/.local/share/applications/:$PATH
 # ----- APPS
-# export PATH=$HOME/apps/jdk-21.0.2/bin/:$PATH
-
+export PATH=$HOME/apps/jdk-21.0.2/bin/:$PATH
 # ---------------------------- LD_LIBRARY_PATH------------------------------- #
 export LD_LIBRARY_PATH=/usr/local/lib/
 export LD_LIBRARY_PATH=/usr/lib/:$LD_LIBRARY_PATH
-
 # ---------------------- QT_QPA_PLATFORM-THEME ------------------------------ #
 export QT_QPA_PLATFORM_PLUGIN_PATH=/usr/lib/qt/plugins
-export QT_DEBUG_PLUGINS=1
+# export QT_DEBUG_PLUGINS=1
 export QT_QPA_PLATFORMTHEME=qt5ct
-
 # ---------------------------- PKG_CONFIG_PATH ------------------------------ #
 export PKG_CONFIG_PATH=/usr/local/lib/pkgconfig/:$PKG_CONFIG_PATH
-
 # ------------------------------- PYENV ------------------------------------- #
 activate_pyenv() {
     export PATH="$PATH:$HOME/.pyenv/bin"
@@ -44,11 +38,10 @@ activate_pyenv() {
     eval "$(pyenv init -)"
     eval "$(pyenv virtualenv-init -)"
 }
-
+activate_pyenv
 # ------------------------------- XDGE_PATH --------------------------------- #
 export XDG_CONFIG_HOME=$HOME/.config
 export XDG_CACHE_HOME=$HOME/.cache
-
 # -------------------------------- Languages -------------------------------- #
 export LC_ALL=pt_BR.UTF-8
 export LANG=pt_BR.UTF-8

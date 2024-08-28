@@ -1,5 +1,13 @@
 #!/bin/bash
-DATE=$(date +%Y-%m-%d_%H-%M-%S)
-mkdir -p ~/img/screenshots
-FILE="${HOME}/img/screenshots/${DATE}_screenshot.png"
+
+ANO="$(date +%Y)"
+MES="$(date +%m)"
+DIA="$(date +%d)"
+TIME="$(date +%H%M%S)"
+
+DATE="${ANO}${MES}${DIA}T${TIME}"
+echo $DATE
+
+mkdir -p ~/img/screenshots/${ANO}/${MES}/${DIA}/
+FILE="${HOME}/img/screenshots/${ANO}/${MES}/${DIA}/${DATE}_shot.png"
 xfce4-screenshooter -r -s "$FILE" && xclip -selection clipboard -t image/png -i "$FILE"

@@ -1,3 +1,4 @@
+#
 #!/bin/bash
 # Script para executar a interface do Projeto Preditor Terra com python3 e tmux no terminal alacritty com o pyenv geo
 # Entra no diretório do Projeto Preditor Terra

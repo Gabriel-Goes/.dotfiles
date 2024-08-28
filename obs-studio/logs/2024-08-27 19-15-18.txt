@@ -1,0 +1,219 @@
+19:15:18.683: Using EGL/X11
+19:15:18.683: CPU Name: AMD Ryzen 5 3600X 6-Core Processor
+19:15:18.683: CPU Speed: 3669.645MHz
+19:15:18.684: Physical Cores: 6, Logical Cores: 12
+19:15:18.684: Physical Memory: 40059MB Total, 5968MB Free
+19:15:18.684: Kernel Version: Linux 6.10.6-arch1-1
+19:15:18.684: Distribution: "Arch Linux" Unknown
+19:15:18.684: Session Type: tty
+19:15:18.684: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.21.1
+19:15:18.685: Qt Version: 6.7.2 (runtime), 6.7.2 (compiled)
+19:15:18.685: Portable mode: false
+19:15:18.724: OBS 30.2.1-1 (linux)
+19:15:18.724: ---------------------------------
+19:15:18.724: ---------------------------------
+19:15:18.724: audio settings reset:
+19:15:18.724: 	samples per sec: 48000
+19:15:18.724: 	speakers:        2
+19:15:18.724: 	max buffering:   960 milliseconds
+19:15:18.724: 	buffering type:  dynamically increasing
+19:15:18.729: ---------------------------------
+19:15:18.729: Initializing OpenGL...
+19:15:18.831: Loading up OpenGL on adapter NVIDIA Corporation NVIDIA GeForce GTX 1650 SUPER/PCIe/SSE2
+19:15:18.831: OpenGL loaded successfully, version 3.3.0 NVIDIA 555.58.02, shading language 3.30 NVIDIA via Cg compiler
+19:15:18.859: ---------------------------------
+19:15:18.859: video settings reset:
+19:15:18.859: 	base resolution:   1920x1080
+19:15:18.859: 	output resolution: 1920x1080
+19:15:18.859: 	downscale filter:  Bicubic
+19:15:18.859: 	fps:               24000/1001
+19:15:18.859: 	format:            NV12
+19:15:18.859: 	YUV mode:          sRGB/Full
+19:15:18.860: NV12 texture support enabled
+19:15:18.860: P010 texture support not available
+19:15:18.861: Audio monitoring device:
+19:15:18.861: 	name: Padrão
+19:15:18.861: 	id: default
+19:15:18.861: ---------------------------------
+19:15:18.870: Failed to load 'en-US' text for module: 'decklink-captions.so'
+19:15:18.879: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+19:15:18.887: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+19:15:18.887: Failed to initialize module 'decklink.so'
+19:15:19.042: [pipewire] No capture sources available
+19:15:19.064: v4l2loopback not installed, virtual camera not registered
+19:15:19.072: [linux-vkcapture] plugin loaded successfully (version 1.5.0)
+19:15:19.131: NVENC supported
+19:15:19.131: VAAPI: Failed to initialize display in vaapi_device_h264_supported
+19:15:19.131: FFmpeg VAAPI H264 encoding not supported
+19:15:19.131: VAAPI: Failed to initialize display in vaapi_device_av1_supported
+19:15:19.131: FFmpeg VAAPI AV1 encoding not supported
+19:15:19.131: VAAPI: Failed to initialize display in vaapi_device_hevc_supported
+19:15:19.131: FFmpeg VAAPI HEVC encoding not supported
+19:15:19.243: ---------------------------------
+19:15:19.243:   Loaded Modules:
+19:15:19.243:     text-freetype2.so
+19:15:19.243:     rtmp-services.so
+19:15:19.243:     obs-x264.so
+19:15:19.243:     obs-webrtc.so
+19:15:19.243:     obs-vst.so
+19:15:19.243:     obs-transitions.so
+19:15:19.243:     obs-qsv11.so
+19:15:19.243:     obs-outputs.so
+19:15:19.243:     obs-libfdk.so
+19:15:19.243:     obs-filters.so
+19:15:19.243:     obs-ffmpeg.so
+19:15:19.243:     linux-vkcapture.so
+19:15:19.243:     linux-v4l2.so
+19:15:19.243:     linux-pulseaudio.so
+19:15:19.243:     linux-pipewire.so
+19:15:19.243:     linux-jack.so
+19:15:19.243:     linux-capture.so
+19:15:19.243:     linux-alsa.so
+19:15:19.243:     image-source.so
+19:15:19.243:     frontend-tools.so
+19:15:19.243:     decklink-output-ui.so
+19:15:19.243:     decklink-captions.so
+19:15:19.243: ---------------------------------
+19:15:19.243: ---------------------------------
+19:15:19.243: Available Encoders:
+19:15:19.243:   Video Encoders:
+19:15:19.243: 	- ffmpeg_svt_av1 (SVT-AV1)
+19:15:19.243: 	- ffmpeg_aom_av1 (AOM AV1)
+19:15:19.243: 	- jim_nvenc (NVIDIA NVENC H.264)
+19:15:19.243: 	- jim_hevc_nvenc (NVIDIA NVENC HEVC)
+19:15:19.243: 	- jim_av1_nvenc (NVIDIA NVENC AV1)
+19:15:19.243: 	- obs_x264 (x264)
+19:15:19.243:   Audio Encoders:
+19:15:19.243: 	- ffmpeg_aac (FFmpeg AAC)
+19:15:19.243: 	- ffmpeg_opus (FFmpeg Opus)
+19:15:19.243: 	- ffmpeg_pcm_s16le (FFmpeg PCM (16-bit))
+19:15:19.243: 	- ffmpeg_pcm_s24le (FFmpeg PCM (24-bit))
+19:15:19.243: 	- ffmpeg_pcm_f32le (FFmpeg PCM (32-bit float))
+19:15:19.243: 	- ffmpeg_alac (FFmpeg ALAC (24-bit))
+19:15:19.243: 	- ffmpeg_flac (FFmpeg FLAC (16-bit))
+19:15:19.243: 	- libfdk_aac (libfdk AAC)
+19:15:19.243: ==== Startup complete ===============================================
+19:15:19.279: All scene data cleared
+19:15:19.279: ------------------------------------------------
+19:15:19.283: pulse-input: Server name: 'PulseAudio (on PipeWire 1.2.3) 15.0.0'
+19:15:19.283: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+19:15:19.283: pulse-input: Started recording from 'alsa_output.pci-0000_09_00.4.analog-stereo.monitor'
+19:15:19.283: [Loaded global audio device]: 'Áudio do desktop'
+19:15:19.283: pulse-input: Server name: 'PulseAudio (on PipeWire 1.2.3) 15.0.0'
+19:15:19.283: pulse-input: Audio format: s16le, 48000 Hz, 2 channels
+19:15:19.283: pulse-input: Started recording from 'alsa_input.usb-3142_fifine_Microphone-00.analog-stereo'
+19:15:19.284: [Loaded global audio device]: 'Mic/Aux'
+19:15:19.284:     - filter: 'Supressão de ruídos' (noise_suppress_filter_v2)
+19:15:19.284:     - filter: 'Filtro de ruídos' (noise_gate_filter)
+19:15:19.311: xshm-input: Geometry 1440x900 @ 768,0
+19:15:19.358: xshm-input: Geometry 768x1024 @ 0,0
+19:15:19.359: [Media Source 'webcam']: settings:
+19:15:19.359: 	input:                   rtsp://192.168.15.38:8554/stream
+19:15:19.359: 	input_format:            
+19:15:19.359: 	speed:                   100
+19:15:19.359: 	is_looping:              no
+19:15:19.359: 	is_linear_alpha:         no
+19:15:19.359: 	is_hw_decoding:          no
+19:15:19.359: 	is_clear_on_media_end:   yes
+19:15:19.359: 	restart_on_activate:     no
+19:15:19.359: 	close_when_inactive:     no
+19:15:19.359: 	full_decode:             no
+19:15:19.359: 	ffmpeg_options:          
+19:15:19.359: obs-data.c: [obs_data_create_from_json] Failed reading json string (1): '[' or '{' expected near end of file
+19:15:19.359: obs-data.c: [obs_data_create_from_json] Failed reading json string (1): '[' or '{' expected near end of file
+19:15:19.359: MP: Failed to open media: 'rtsp://192.168.15.38:8554/stream'
+19:15:19.360: pulse-input: Server name: 'PulseAudio (on PipeWire 1.2.3) 15.0.0'
+19:15:19.360: pulse-input: An error occurred while getting the source info!
+19:15:19.360: [Media Source 'webcam']: Disconnected. Reconnecting...
+19:15:19.382: Switched to scene 'Stream Config'
+19:15:19.382: ------------------------------------------------
+19:15:19.382: Loaded scenes:
+19:15:19.382: - scene 'Stream':
+19:15:19.382:     - source: 'Marte' (image_source)
+19:15:19.382:     - source: 'AOC_LIXO' (xshm_input)
+19:15:19.382:     - source: 'lua' (image_source)
+19:15:19.382:     - source: 'webcam' (ffmpeg_source)
+19:15:19.382:         - filter: 'Color Key' (color_key_filter_v2)
+19:15:19.382:     - source: 'Dispositivo de Saída de Áudio (PulseAudio)' (pulse_output_capture)
+19:15:19.382: - scene 'Stream Config':
+19:15:19.382:     - source: 'AOC_LIXO' (xshm_input)
+19:15:19.382:     - source: 'AOC_VELHO' (xshm_input)
+19:15:19.382:     - source: 'lua' (image_source)
+19:15:19.382:     - source: 'webcam' (ffmpeg_source)
+19:15:19.382:         - filter: 'Color Key' (color_key_filter_v2)
+19:15:19.382: - scene 'WebCam':
+19:15:19.382:     - source: 'lua de sangue' (image_source)
+19:15:19.382:     - source: 'webcam' (ffmpeg_source)
+19:15:19.382:         - filter: 'Color Key' (color_key_filter_v2)
+19:15:19.382:     - source: 'Dispositivo de captura de vídeo (PipeWire) (BETA)' (pipewire-camera-source)
+19:15:19.382:     - source: 'Dispositivo de Saída de Áudio (PulseAudio)' (pulse_output_capture)
+19:15:19.382: - scene 'Pausa':
+19:15:19.382:     - source: 'Marte' (image_source)
+19:15:19.382: ------------------------------------------------
+19:15:19.855: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Áudio do desktop)
+19:15:19.855: 
+19:15:19.919: adding 42 milliseconds of audio buffering, total audio buffering is now 64 milliseconds (source: Mic/Aux)
+19:15:19.919: 
+19:15:21.899: [camera-portal] Error accessing camera: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Nenhuma interface “org.freedesktop.portal.Camera” no objeto no caminho /org/freedesktop/portal/desktop
+19:15:33.262: [obs-nvenc: 'simple_video_recording'] settings:
+19:15:33.262: 	codec:        H264
+19:15:33.262: 	rate_control: CQP
+19:15:33.262: 	bitrate:      0
+19:15:33.262: 	cqp:          23
+19:15:33.262: 	keyint:       250
+19:15:33.262: 	preset:       p5
+19:15:33.262: 	tuning:       hq
+19:15:33.262: 	multipass:    qres
+19:15:33.262: 	profile:      high
+19:15:33.262: 	width:        1920
+19:15:33.262: 	height:       1080
+19:15:33.262: 	b-frames:     2
+19:15:33.262: 	lookahead:    false
+19:15:33.262: 	psycho_aq:    true
+19:15:33.262: 
+19:15:33.332: libfdk_aac encoder created
+19:15:33.332: libfdk_aac bitrate: 192, channels: 2
+19:15:33.436: ==== Recording Start ===============================================
+19:15:33.436: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/ggrl/vidia/obs/2024-08-27_19-15-32.mkv'...
+19:15:33.439: Failed to inhibit: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Nenhuma interface “org.freedesktop.portal.Inhibit” no objeto no caminho /org/freedesktop/portal/desktop
+19:16:54.533: User switched to scene 'Stream'
+19:18:39.361: User switched to scene 'Stream Config'
+19:20:11.695: adding 128 milliseconds of audio buffering, total audio buffering is now 192 milliseconds (source: Mic/Aux)
+19:20:11.695: 
+19:44:55.933: User switched to scene 'WebCam'
+20:01:36.182: User switched to scene 'Stream Config'
+21:33:31.387: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/ggrl/vidia/obs/2024-08-27_19-15-32.mkv' stopped
+21:33:31.387: Output 'simple_file_output': stopping
+21:33:31.387: Output 'simple_file_output': Total frames output: 198242
+21:33:31.387: Output 'simple_file_output': Total drawn frames: 197822 (198472 attempted)
+21:33:31.387: Output 'simple_file_output': Number of lagged frames due to rendering lag/stalls: 650 (0.3%)
+21:33:31.387: Video stopped, number of skipped frames due to encoding lag: 665/198471 (0.3%)
+21:33:31.387: ==== Recording Stop ================================================
+21:33:31.649: libfdk_aac encoder destroyed
+22:19:18.650: [obs-nvenc: 'simple_video_recording'] settings:
+22:19:18.650: 	codec:        H264
+22:19:18.650: 	rate_control: CQP
+22:19:18.650: 	bitrate:      0
+22:19:18.650: 	cqp:          23
+22:19:18.650: 	keyint:       250
+22:19:18.650: 	preset:       p5
+22:19:18.650: 	tuning:       hq
+22:19:18.650: 	multipass:    qres
+22:19:18.650: 	profile:      high
+22:19:18.650: 	width:        1920
+22:19:18.650: 	height:       1080
+22:19:18.650: 	b-frames:     2
+22:19:18.650: 	lookahead:    false
+22:19:18.650: 	psycho_aq:    true
+22:19:18.650: 
+22:19:18.715: libfdk_aac encoder created
+22:19:18.715: libfdk_aac bitrate: 192, channels: 2
+22:19:18.718: ==== Recording Start ===============================================
+22:19:18.718: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/ggrl/vidia/obs/2024-08-27_22-19-18.mkv'...
+22:19:18.720: Failed to inhibit: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Nenhuma interface “org.freedesktop.portal.Inhibit” no objeto no caminho /org/freedesktop/portal/desktop
+10:19:27.313: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/ggrl/vidia/obs/2024-08-27_22-19-18.mkv' stopped
+10:19:27.313: Output 'simple_file_output': stopping
+10:19:27.313: Output 'simple_file_output': Total frames output: 1035958
+10:19:27.313: Output 'simple_file_output': Total drawn frames: 1035971
+10:19:27.313: ==== Recording Stop ================================================
+10:19:27.763: libfdk_aac encoder destroyed
