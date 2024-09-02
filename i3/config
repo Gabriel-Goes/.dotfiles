@@ -93,20 +93,20 @@ set $ws18 "18: 󱀞 Multimídia"
 set $ws19 "19: 󰑋 OBStudio"
 set $ws20 "20: 󰇧 Preditor Terra"
 
-workspace $ws1 output DVI-D-0
-workspace $ws2 output DVI-D-0
-workspace $ws3 output DVI-D-0
-workspace $ws4 output DVI-D-0
-workspace $ws5 output DVI-D-0
-workspace $ws6 output DVI-D-0
-workspace $ws7 output DVI-D-0
-workspace $ws8 output DVI-D-0
-workspace $ws9 output DVI-D-0
+workspace $ws1 output HDMI-A-0
+workspace $ws2 output HDMI-A-0
+workspace $ws3 output HDMI-A-0
+workspace $ws4 output HDMI-A-0
+workspace $ws5 output HDMI-A-0
+workspace $ws6 output HDMI-A-0
+workspace $ws7 output HDMI-A-0
+workspace $ws8 output HDMI-A-0
+workspace $ws9 output HDMI-A-0
 
-workspace $ws10 output DP-0
-workspace $ws18 output DP-0
-workspace $ws19 output DP-0
-workspace $ws20 output DP-0
+workspace $ws10 output DisplayPort-1
+workspace $ws18 output DisplayPort-1
+workspace $ws19 output DisplayPort-1
+workspace $ws20 output DisplayPort-1
 
 for_window [title="Preditor󰇧"] move container to workspace $ws1
 for_window [title="󰇧Test"] move container to workspace $ws1
@@ -152,6 +152,7 @@ bindsym $mod+Shift+c reload
 bindsym $mod+Shift+r restart
 bindsym $mod+Shift+e exec "i3-msg exit"
 bindsym $mod+Shift+period exec systemctl suspend
+
 mode "resize" {
         bindsym h resize shrink width 5 px
         bindsym j resize grow height 5 px
@@ -162,6 +163,7 @@ mode "resize" {
         bindsym $mod+r mode "default"
 }
 bindsym $mod+r mode "resize"
+
 bar {
         font pango: opendyslexic 7
         status_command i3status -c ~/.config/i3/i3status/primary_config
