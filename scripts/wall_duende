@@ -1,0 +1,3 @@
+#/bin/bash
+
+exec xwallpaper --focus ~/rice/wallpapers/img/duende.jpg

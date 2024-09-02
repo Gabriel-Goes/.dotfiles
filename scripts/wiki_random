@@ -20,8 +20,8 @@ wiki_random() {
     paragraph=$(echo "$content" | \
                 awk '{
                     if ($0 ~ /<p>/ && $0 !~ /<p>\s*<\/p>/ && $0 !~ /<p class="mw-empty-elt">/) {
-                        sub(/.*<p>/, "<p>"); 
-                        print; 
+                        sub(/.*<p>/, "<p>");
+                        print;
                         exit
                     }
                 }' | \
@@ -41,6 +41,6 @@ wiki_random() {
 
 # Executa a função a cada 10 minutos
 while true; do
-    wiki_random > /tmp/wiki_random.txt 
+    wiki_random > /tmp/wiki_random.txt
     sleep 600
 done

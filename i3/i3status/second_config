@@ -17,16 +17,19 @@ order += "memory"
 order += "volume master"
 order += "tztime local"
 
+
 cpu_temperature 0 {
         format = " %degrees°C"
         path = "/tmp/cpu_temp.txt"
 }
 ethernet _first_ {
-        format_up = "樂 (%speed)"
-        format_down = "樂 down"
+        format_up = "E  %ip (%speed)"
+        format_down = " down"
+# Ethernet symbol
+#       format_up = " %ip (%speed)"
 }
 disk "/" {
-        format = " pr0n %avail"
+        format = " Disco %avail"
 }
 memory {
         format = " %available"

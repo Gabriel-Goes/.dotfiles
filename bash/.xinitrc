@@ -14,7 +14,7 @@ fi
 
 source ~/.bash_profile
 xbindkeys &
-gif_lofi_girl &
+wall_duende &
 core_temp &
 monitor &
 i3
