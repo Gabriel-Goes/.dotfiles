@@ -217,3 +217,4 @@
 10:19:27.313: Output 'simple_file_output': Total drawn frames: 1035971
 10:19:27.313: ==== Recording Stop ================================================
 10:19:27.763: libfdk_aac encoder destroyed
+15:54:28.521: The X11 connection broke: I/O error (code 1)

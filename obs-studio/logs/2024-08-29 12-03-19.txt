@@ -1,0 +1,164 @@
+12:03:19.285: [Safe Mode] Unclean shutdown detected!
+12:52:28.783: [Safe Mode] User has launched in Safe Mode.
+12:52:28.783: Using EGL/X11
+12:52:28.783: CPU Name: AMD Ryzen 5 3600X 6-Core Processor
+12:52:28.783: CPU Speed: 4169.834MHz
+12:52:28.784: Physical Cores: 6, Logical Cores: 12
+12:52:28.784: Physical Memory: 40059MB Total, 14699MB Free
+12:52:28.784: Kernel Version: Linux 6.10.6-arch1-1
+12:52:28.784: Distribution: "Arch Linux" Unknown
+12:52:28.784: Session Type: tty
+12:52:28.784: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.21.1
+12:52:28.785: Qt Version: 6.7.2 (runtime), 6.7.2 (compiled)
+12:52:28.785: Portable mode: false
+12:52:28.785: Safe Mode enabled.
+12:52:28.807: OBS 30.2.1-1 (linux)
+12:52:28.807: ---------------------------------
+12:52:28.807: ---------------------------------
+12:52:28.807: audio settings reset:
+12:52:28.807: 	samples per sec: 48000
+12:52:28.807: 	speakers:        2
+12:52:28.807: 	max buffering:   960 milliseconds
+12:52:28.807: 	buffering type:  dynamically increasing
+12:52:28.812: ---------------------------------
+12:52:28.812: Initializing OpenGL...
+12:52:28.923: Loading up OpenGL on adapter NVIDIA Corporation NVIDIA GeForce GTX 1650 SUPER/PCIe/SSE2
+12:52:28.923: OpenGL loaded successfully, version 3.3.0 NVIDIA 555.58.02, shading language 3.30 NVIDIA via Cg compiler
+12:52:28.947: ---------------------------------
+12:52:28.947: video settings reset:
+12:52:28.947: 	base resolution:   1920x1080
+12:52:28.947: 	output resolution: 1920x1080
+12:52:28.947: 	downscale filter:  Bicubic
+12:52:28.947: 	fps:               24000/1001
+12:52:28.947: 	format:            NV12
+12:52:28.947: 	YUV mode:          sRGB/Full
+12:52:28.948: NV12 texture support enabled
+12:52:28.948: P010 texture support not available
+12:52:28.949: Audio monitoring device:
+12:52:28.949: 	name: Padrão
+12:52:28.949: 	id: default
+12:52:28.949: ---------------------------------
+12:52:28.957: Failed to load 'en-US' text for module: 'decklink-captions.so'
+12:52:28.966: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+12:52:28.974: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+12:52:28.974: Failed to initialize module 'decklink.so'
+12:52:28.982: Skipping module 'frontend-tools', not on safe list
+12:52:29.047: [pipewire] No capture sources available
+12:52:29.068: v4l2loopback not installed, virtual camera not registered
+12:52:29.075: Skipping module 'linux-vkcapture', not on safe list
+12:52:29.136: NVENC supported
+12:52:29.136: VAAPI: Failed to initialize display in vaapi_device_h264_supported
+12:52:29.136: FFmpeg VAAPI H264 encoding not supported
+12:52:29.136: VAAPI: Failed to initialize display in vaapi_device_av1_supported
+12:52:29.136: FFmpeg VAAPI AV1 encoding not supported
+12:52:29.136: VAAPI: Failed to initialize display in vaapi_device_hevc_supported
+12:52:29.136: FFmpeg VAAPI HEVC encoding not supported
+12:52:29.233: ---------------------------------
+12:52:29.233:   Loaded Modules:
+12:52:29.233:     text-freetype2.so
+12:52:29.233:     rtmp-services.so
+12:52:29.233:     obs-x264.so
+12:52:29.233:     obs-webrtc.so
+12:52:29.233:     obs-vst.so
+12:52:29.233:     obs-transitions.so
+12:52:29.233:     obs-qsv11.so
+12:52:29.233:     obs-outputs.so
+12:52:29.233:     obs-libfdk.so
+12:52:29.233:     obs-filters.so
+12:52:29.233:     obs-ffmpeg.so
+12:52:29.233:     linux-v4l2.so
+12:52:29.233:     linux-pulseaudio.so
+12:52:29.233:     linux-pipewire.so
+12:52:29.233:     linux-jack.so
+12:52:29.233:     linux-capture.so
+12:52:29.233:     linux-alsa.so
+12:52:29.233:     image-source.so
+12:52:29.233:     decklink-output-ui.so
+12:52:29.233:     decklink-captions.so
+12:52:29.233: ---------------------------------
+12:52:29.233: ---------------------------------
+12:52:29.233: Available Encoders:
+12:52:29.233:   Video Encoders:
+12:52:29.233: 	- ffmpeg_svt_av1 (SVT-AV1)
+12:52:29.233: 	- ffmpeg_aom_av1 (AOM AV1)
+12:52:29.233: 	- jim_nvenc (NVIDIA NVENC H.264)
+12:52:29.233: 	- jim_hevc_nvenc (NVIDIA NVENC HEVC)
+12:52:29.233: 	- jim_av1_nvenc (NVIDIA NVENC AV1)
+12:52:29.233: 	- obs_x264 (x264)
+12:52:29.233:   Audio Encoders:
+12:52:29.233: 	- ffmpeg_aac (FFmpeg AAC)
+12:52:29.233: 	- ffmpeg_opus (FFmpeg Opus)
+12:52:29.233: 	- ffmpeg_pcm_s16le (FFmpeg PCM (16-bit))
+12:52:29.233: 	- ffmpeg_pcm_s24le (FFmpeg PCM (24-bit))
+12:52:29.233: 	- ffmpeg_pcm_f32le (FFmpeg PCM (32-bit float))
+12:52:29.233: 	- ffmpeg_alac (FFmpeg ALAC (24-bit))
+12:52:29.233: 	- ffmpeg_flac (FFmpeg FLAC (16-bit))
+12:52:29.233: 	- libfdk_aac (libfdk AAC)
+12:52:29.233: ==== Startup complete ===============================================
+12:52:29.298: All scene data cleared
+12:52:29.298: ------------------------------------------------
+12:52:29.301: pulse-input: Server name: 'PulseAudio (on PipeWire 1.2.3) 15.0.0'
+12:52:29.301: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+12:52:29.302: pulse-input: Started recording from 'alsa_output.pci-0000_09_00.4.analog-stereo.monitor'
+12:52:29.302: [Loaded global audio device]: 'Áudio do desktop'
+12:52:29.302: pulse-input: Server name: 'PulseAudio (on PipeWire 1.2.3) 15.0.0'
+12:52:29.302: pulse-input: Audio format: s16le, 48000 Hz, 2 channels
+12:52:29.302: pulse-input: Started recording from 'alsa_input.usb-3142_fifine_Microphone-00.analog-stereo'
+12:52:29.304: [Loaded global audio device]: 'Mic/Aux'
+12:52:29.304:     - filter: 'Supressão de ruídos' (noise_suppress_filter_v2)
+12:52:29.304:     - filter: 'Filtro de ruídos' (noise_gate_filter)
+12:52:29.305: xshm-input: Geometry 1440x900 @ 768,0
+12:52:29.372: xshm-input: Geometry 768x1024 @ 0,0
+12:52:29.373: [Media Source 'webcam']: settings:
+12:52:29.373: 	input:                   rtsp://192.168.15.38:8554/stream
+12:52:29.373: 	input_format:            
+12:52:29.373: 	speed:                   100
+12:52:29.373: 	is_looping:              no
+12:52:29.373: 	is_linear_alpha:         no
+12:52:29.373: 	is_hw_decoding:          no
+12:52:29.373: 	is_clear_on_media_end:   yes
+12:52:29.373: 	restart_on_activate:     no
+12:52:29.373: 	close_when_inactive:     no
+12:52:29.373: 	full_decode:             no
+12:52:29.373: 	ffmpeg_options:          
+12:52:29.373: MP: Failed to open media: 'rtsp://192.168.15.38:8554/stream'
+12:52:29.373: obs-data.c: [obs_data_create_from_json] Failed reading json string (1): '[' or '{' expected near end of file
+12:52:29.373: obs-data.c: [obs_data_create_from_json] Failed reading json string (1): '[' or '{' expected near end of file
+12:52:29.374: pulse-input: Server name: 'PulseAudio (on PipeWire 1.2.3) 15.0.0'
+12:52:29.374: pulse-input: Audio format: s16le, 48000 Hz, 2 channels
+12:52:29.374: pulse-input: Started recording from 'alsa_output.usb-C-Media_Electronics_Inc._USB_PnP_Sound_Device-00.analog-stereo-output.monitor'
+12:52:29.375: [Media Source 'webcam']: Disconnected. Reconnecting...
+12:52:29.381: Switched to scene 'Stream Config'
+12:52:29.381: ------------------------------------------------
+12:52:29.381: Loaded scenes:
+12:52:29.381: - scene 'Stream':
+12:52:29.381:     - source: 'Marte' (image_source)
+12:52:29.381:     - source: 'AOC_LIXO' (xshm_input)
+12:52:29.381:     - source: 'lua' (image_source)
+12:52:29.381:     - source: 'webcam' (ffmpeg_source)
+12:52:29.381:         - filter: 'Color Key' (color_key_filter_v2)
+12:52:29.381:     - source: 'Dispositivo de Saída de Áudio (PulseAudio)' (pulse_output_capture)
+12:52:29.381: - scene 'Stream Config':
+12:52:29.381:     - source: 'AOC_LIXO' (xshm_input)
+12:52:29.381:     - source: 'AOC_VELHO' (xshm_input)
+12:52:29.381:     - source: 'lua' (image_source)
+12:52:29.381:     - source: 'webcam' (ffmpeg_source)
+12:52:29.381:         - filter: 'Color Key' (color_key_filter_v2)
+12:52:29.381: - scene 'WebCam':
+12:52:29.381:     - source: 'lua de sangue' (image_source)
+12:52:29.381:     - source: 'webcam' (ffmpeg_source)
+12:52:29.381:         - filter: 'Color Key' (color_key_filter_v2)
+12:52:29.381:     - source: 'Dispositivo de captura de vídeo (PipeWire) (BETA)' (pipewire-camera-source)
+12:52:29.381:     - source: 'Dispositivo de Saída de Áudio (PulseAudio)' (pulse_output_capture)
+12:52:29.381: - scene 'Pausa':
+12:52:29.381:     - source: 'Marte' (image_source)
+12:52:29.381: ------------------------------------------------
+12:52:29.525: [camera-portal] Error accessing camera: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Nenhuma interface “org.freedesktop.portal.Camera” no objeto no caminho /org/freedesktop/portal/desktop
+12:52:29.917: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Áudio do desktop)
+12:52:29.917: 
+12:52:29.938: adding 42 milliseconds of audio buffering, total audio buffering is now 64 milliseconds (source: Mic/Aux)
+12:52:29.938: 
+13:11:25.725: adding 106 milliseconds of audio buffering, total audio buffering is now 170 milliseconds (source: Mic/Aux)
+13:11:25.725: 
+16:28:15.346: adding 21 milliseconds of audio buffering, total audio buffering is now 192 milliseconds (source: Mic/Aux)
+16:28:15.346: 

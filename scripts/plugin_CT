@@ -11,7 +11,7 @@ cp -r $HOME/projetos/PreditorTerra/fonte/mapgeo $HOME/.local/share/QGIS/QGIS3/pr
 pushd $HOME
 export PYTHONPATH=$HOME/.pyenv/versions/geologia/lib/python3.12/site-packages:$HOME/.pyenv/versions/geologia/bin/python:$PYTHONPATH
 
-exec qgis
+exec qgis &
 popd
 
 echo "Classificador Terra instalado com sucesso!"
