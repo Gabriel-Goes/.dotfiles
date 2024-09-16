@@ -38,10 +38,10 @@ activate_pyenv() {
     eval "$(pyenv init -)"
     eval "$(pyenv virtualenv-init -)"
 }
-activate_pyenv
 # ------------------------------- XDGE_PATH --------------------------------- #
 export XDG_CONFIG_HOME=$HOME/.config
 export XDG_CACHE_HOME=$HOME/.cache
 # -------------------------------- Languages -------------------------------- #
 export LC_ALL=pt_BR.UTF-8
 export LANG=pt_BR.UTF-8
+activate_pyenv

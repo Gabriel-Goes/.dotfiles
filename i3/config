@@ -104,12 +104,12 @@ workspace $ws6 output DVI-D-0
 workspace $ws7 output DVI-D-0
 workspace $ws8 output DVI-D-0
 workspace $ws9 output DVI-D-0
+workspace $ws20 output DVI-D-0
 
 workspace $ws10 output DP-0
 workspace $ws17 output DP-0
 workspace $ws18 output DP-0
 workspace $ws19 output DP-0
-workspace $ws20 output DP-0
 
 for_window [title="Preditor󰇧"] move container to workspace $ws1
 for_window [title="󰇧Test"] move container to workspace $ws1

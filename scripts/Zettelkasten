@@ -14,7 +14,10 @@ SESSION_NAME="Zettelkasten"
 TERM_TITLE="Zettelkasten"
 
 # Entra no diretório do Projeto Predito Terra
-cd /home/ggrl/docs/TempestaCerebralis/
+sudo mount /dev/sdb /home/ggrl/vidia/
+cd /home/ggrl/vidia/docs/TempestaCerebralis/
+
+
 # Checa se existe sessão chamada $SESSION_NAME
 if tmux has-session -t $SESSION_NAME 2>/dev/null; then
     # Se existir, anexa a sessão
