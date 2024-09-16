@@ -1,4 +1,5 @@
 #!/bin/bash
-exec xrandr --output DisplayPort-1 --mode 1920x1080 --left-of HDMI-A-0 --mode 1920x1080 --rotation left
+#exec xrandr --output DisplayPort-1 --mode 1920x1080 --left-of HDMI-A-0 --mode 1920x1080 --rotation left
+exec xrandr --output HDMI-A-0 --mode 1920x1080
 exit
 

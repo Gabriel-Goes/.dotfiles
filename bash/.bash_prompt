@@ -1,4 +1,3 @@
-#
 #!/bin/bash
 #
 # Autor: Gabriel Góes Rocha de Lima (ggrl)
@@ -11,7 +10,7 @@ echo ""
 echo "$USER! Bem-vindo ao seu ambiente de trabalho!"
 echo "São $(date +%H:%M) $(date +%A), $(date +%d) de $(date +%B) de $(date +%Y)."
 echo ""
-cat /tmp/wiki_random.txt
+#cat /tmp/wiki_random.txt
 echo ""
 if [ -f /usr/share/bash-completion/bash_completion ]; then
     . /usr/share/bash-completion/bash_completion
