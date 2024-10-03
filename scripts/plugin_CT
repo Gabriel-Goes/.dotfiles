@@ -6,6 +6,7 @@ then
     pkill qgis
 fi
 
+rm -rf $HOME/.local/share/QGIS/QGIS3/profiles/Gabriel/python/plugins/mapgeo
 cp -r $HOME/projetos/PreditorTerra/fonte/mapgeo $HOME/.local/share/QGIS/QGIS3/profiles/Gabriel/python/plugins
 
 pushd $HOME

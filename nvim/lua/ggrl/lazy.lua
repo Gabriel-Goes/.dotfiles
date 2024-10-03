@@ -110,7 +110,7 @@ local plugins = {
     'javiorfo/nvim-nyctophilia',
     'aklt/plantuml-syntax',
 -- ZettelVim
-   'Gabriel-Goes/ZettelVim',
+  -- 'Gabriel-Goes/ZettelVim',
 --  File Explorer
     -- 'nvim-tree/nvim-tree.lua',
     -- 'nvim-tree/nvim-web-devicons',

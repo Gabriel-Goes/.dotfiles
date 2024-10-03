@@ -6,6 +6,22 @@
 # Modificado: 2024-05-12
 # Versão: 0.4.1
 # -------------------------------- PATHS ------------------------------------ #
+#
+# Activate SISMOLOGIA BIN
+activate_sismologia() {
+    # Save old PATH
+    export OLD_PATH=$PATH
+    export PATH=$HOME/apps/sismologia/bin/:$PATH
+}
+# Deactivate SISMOLOGIA BIN
+deactivate_sismologia() {
+    # Unset SISMOLOGIA variables
+    unset SISMOLOGIA_ROOT
+    # Restore old PATH
+    export PATH=$OLD_PATH
+    unset OLD_PATH
+}
+
 # ----- BIN
 export PATH=/bin/
 # ----- USER
@@ -33,10 +49,18 @@ export QT_QPA_PLATFORMTHEME=qt5ct
 export PKG_CONFIG_PATH=/usr/local/lib/pkgconfig/:$PKG_CONFIG_PATH
 # ------------------------------- PYENV ------------------------------------- #
 activate_pyenv() {
+    export OLD_PATH=$PATH
     export PATH="$PATH:$HOME/.pyenv/bin"
     eval "$(pyenv init --path)"
     eval "$(pyenv init -)"
     eval "$(pyenv virtualenv-init -)"
+}
+deactivate_pyenv() {
+    # Unset pyenv variables
+    unset PYENV_ROOT
+    unset PYENV_SHELL
+    # Restore old PATH
+    export PATH=$OLD_PATH
 }
 # ------------------------------- XDGE_PATH --------------------------------- #
 export XDG_CONFIG_HOME=$HOME/.config
